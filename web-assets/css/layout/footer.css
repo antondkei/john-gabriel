@@ -1,0 +1,228 @@
+/* =========================
+   FOOTER
+========================= */
+
+#yjg-foundation .yjg-footer {
+  background: var(--color-gradient);
+  color: #ffffff;
+  padding: 50px 0 30px;
+  font-family: inherit; /* Pastikan menggunakan font global Anda */
+}
+
+/* GRID */
+#yjg-foundation .footer-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1.2fr; /* Kolom CTA sedikit diperlebar */
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* =========================
+   BRAND
+========================= */
+
+#yjg-foundation .footer-logo {
+  width: 250px;
+  margin-bottom: 25px;
+}
+
+#yjg-foundation .footer-brand p {
+  color: rgba(255,255,255,0.8);
+  line-height: 1.7;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+/* =========================
+   TITLES
+========================= */
+
+#yjg-foundation .footer-col h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff; /* Pada desain, judulnya putih, bukan sekunder emas */
+}
+
+/* =========================
+   LIST (DENGAN BULLET POINTS)
+========================= */
+
+#yjg-foundation .footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#yjg-foundation .footer-col ul li {
+  position: relative;
+  padding-left: 18px; /* Ruang untuk bullet */
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.5;
+}
+
+/* Bullet Point Custom */
+#yjg-foundation .footer-col ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px; /* Sesuaikan dengan tinggi teks */
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5); /* Warna bullet abu-abu transparan */
+}
+
+#yjg-foundation .footer-col ul li a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#yjg-foundation .footer-col ul li a:hover {
+  color: var(--color-secondary, #e0c49f);
+}
+
+/* =========================
+   CTA FOOTER & BUTTONS
+========================= */
+
+#yjg-foundation .footer-action p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.8);
+}
+
+#yjg-foundation .footer-action .btn {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  text-align: center;
+  border-radius: 30px; /* Bentuk kapsul sesuai desain */
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#yjg-foundation .footer-action .btn-secondary {
+  background: var(--color-secondary, #e0c49f);
+  color: var(--color-primary, #191a53);
+  border: 1px solid var(--color-secondary, #e0c49f);
+}
+
+#yjg-foundation .footer-action .btn-secondary:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+#yjg-foundation .footer-action .btn-outline {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+#yjg-foundation .footer-action .btn-outline:hover {
+  border-color: var(--color-secondary, #e0c49f);
+  color: var(--color-secondary, #e0c49f) !important;
+}
+
+/* =========================
+   BOTTOM
+========================= */
+
+#yjg-foundation .footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Jarak aman jika turun ke baris baru di mobile */
+}
+
+#yjg-foundation .footer-bottom p {
+  font-size: 13px;
+line-height:1.5;
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+}
+
+/* Container Kanan (Links & Socials) */
+#yjg-foundation .footer-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Links */
+#yjg-foundation .footer-links a {
+  margin-left: 15px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#yjg-foundation .footer-links a:hover {
+  color: var(--color-secondary, #e0c49f);
+}
+
+/* Social Icons (Sesuai Gambar: Bulat Putih, Ikon Navy) */
+#yjg-foundation .footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+#yjg-foundation .footer-social a {
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #ffffff; /* Latar bulat putih */
+  fill: var(--color-primary, #191a53); /* Warna icon navy */
+  transition: all 0.3s ease;
+}
+
+#yjg-foundation .footer-social a:hover {
+  background: var(--color-secondary, #e0c49f);
+  fill: #ffffff;
+  transform: translateY(-3px); /* Efek mengambang kecil */
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 992px) {
+  #yjg-foundation .footer-grid {
+    grid-template-columns: 1fr 1fr; /* Jadi 2 kolom */
+  }
+}
+
+@media (max-width: 768px) {
+  #yjg-foundation .footer-grid {
+    grid-template-columns: 1fr; /* Jadi 1 kolom bersusun */
+  }
+  
+  #yjg-foundation .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #yjg-foundation .footer-bottom-right {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #yjg-foundation .footer-links a {
+    margin: 0 10px;
+  }
+}

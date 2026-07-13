@@ -1,0 +1,287 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM ROOT
+   ========================================================================== */
+:root {
+  /* --- Original Colors --- */
+  --color-primary: #191a53;
+  --color-secondary: #e0c49f;
+  --color-accent: #48020c;
+  
+  --color-bg-light: #f9f8f7;
+  --color-bg-light-gold: #f2efeb;
+  --color-text-primary: #191a53;
+  --color-text-secondary: #555555;
+  --color-text-light: #ffffff;
+  --color-white:#ffffff;
+  --color-gradient: linear-gradient(135deg, #03203e 0%, #191a53 20%, #4748a1 100%);
+
+  /* ========================================= */
+  /* --- BARU: Primary (Navy Blue) Variants --- */
+  /* ========================================= */
+  --color-primary-light: #32348c; /* Cocok untuk hover pada tombol primary */
+  --color-primary-dark: #0a0b29;  /* Cocok untuk state 'active' atau border */
+
+  /* ========================================= */
+  /* --- BARU: Secondary (Gold/Beige) Variants --- */
+  /* ========================================= */
+  --color-secondary-light: #f0eadb; /* Cream sangat lembut, cocok untuk background elemen kecil */
+  --color-secondary-dark: #b89a71;  /* Emas tua kecoklatan, bagus untuk teks/border sekunder */
+
+  /* ========================================= */
+  /* --- BARU: Accent (Maroon/Burgundy) Variants --- */
+  /* ========================================= */
+  --color-accent-light: #820b1b;    /* Merah maroon yang lebih menyala, bagus untuk highlight/notifikasi */
+  --color-accent-dark: #240005;     /* Merah sangat gelap (hampir hitam), elegan untuk bayangan/footer */
+
+    
+      /* Typography Scale */
+    --fs-display: clamp(3rem, 5vw, 4.5rem);
+    --fs-h1: clamp(2.25rem, 4vw, 3rem);
+    --fs-h2: clamp(1.75rem, 3vw, 2.25rem);
+    --fs-h3: clamp(1.25rem, 2vw, 1.5rem);
+    --fs-h4: clamp(1.125rem, 1.5vw, 1.25rem);
+    --fs-lead: 1.125rem;
+    --fs-body: 1rem;
+    --fs-small: .875rem;
+    --lh-tight: 1.2;
+    --lh-normal: 1.7;
+
+    /* Premium Shadow Layering */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-premium: 0 10px 30px -10px rgba(15, 23, 42, 0.3);
+    --shadow-premium-hover: 0 20px 40px -15px rgba(15, 23, 42, 0.45);
+    
+    /* Shimmer Effect Variables */
+    --btn-shine-bg: rgba(255, 255, 255, 0.25);
+    --btn-shine-bg-dark: rgba(15, 23, 42, 0.1);
+
+    /* Smooth Transitions */
+    --transition-premium: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    --transition-fast: all 0.15s ease;
+
+    /* Layout Spacing */
+    --gutter: 24px;
+    --space-xs: 4px;
+    --space-sm: 12px;
+    --space-md: 24px;
+    --space-lg: 48px;
+    --space-xl: 80px;
+
+    --container-sm: 768px;
+    --container-md: 1024px;
+    --container-lg: 1280px;
+    --container-xl: 1440px;
+    --container-xxl: 1600px;
+
+    /* Corner Radius */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-full: 9999px;
+
+      /* ==========================
+     DURATION
+  ========================== */
+
+  --motion-fast: .25s;
+  --motion-normal: .45s;
+  --motion-slow: .75s;
+  --motion-cinematic: 1s;
+
+  /* ==========================
+     DELAY
+  ========================== */
+
+  --motion-delay-xs: .03s;
+  --motion-delay-sm: .06s;
+  --motion-delay-md: .1s;
+
+  /* ==========================
+     EASING
+     (lebih halus daripada ease)
+  ========================== */
+
+  --ease-smooth: cubic-bezier(.25,.46,.45,.94);
+
+  /* seperti Apple */
+  --ease-cinematic: cubic-bezier(.22,1,.36,1);
+
+  /* terasa sedikit "mengambang" */
+  --ease-floating: cubic-bezier(.16,1,.3,1);
+
+  /* untuk elemen premium */
+  --ease-luxury: cubic-bezier(.19,1,.22,1);
+
+  /* ==========================
+     TRANSFORM
+  ========================== */
+
+  --hover-scale: 1.03;
+  --hover-lift: -6px;
+  --hover-rotate: .5deg;
+
+  /* ==========================
+     BLUR
+  ========================== */
+
+  --blur-soft: 2px;
+  --blur-medium: 4px;
+}
+
+/* ==========================================================================
+   RESET & BASE STYLES
+   ========================================================================== */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-text);
+    font-family: var(--font-main);
+    font-size: var(--fs-body);
+    line-height: var(--lh-normal);
+    scroll-behavior: smooth;
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; 
+    transition: var(--transition-fast); 
+}
+
+ul { 
+    list-style: none !important; 
+}
+
+button { 
+    cursor: pointer; 
+    border: none; 
+    font-family: inherit; 
+}
+
+/* ==========================================================================
+   TYPOGRAPHY SYSTEM
+   ========================================================================== */
+.display-lg { font-family: var(--font-header); font-size: var(--fs-display); line-height: var(--lh-tight); font-weight: 800; color: var(--color-primary); }
+.headline-lg { font-family: var(--font-header); font-size: var(--fs-h1); line-height: var(--lh-tight); font-weight: 700; color: var(--color-primary); }
+.headline-md { font-family: var(--font-header); font-size: var(--fs-h2); line-height: var(--lh-tight); font-weight: 600; }
+.headline-sm { font-family: var(--font-header); font-size: var(--fs-h3); line-height: var(--lh-tight); font-weight: 600; }
+.body-lg { font-family: var(--font-main); font-size: var(--fs-lead); line-height: var(--lh-normal); color: var(--color-text-soft); }
+.body-md { font-family: var(--font-main); font-size: var(--fs-body); line-height: var(--lh-normal); color: var(--color-text-soft); }
+.body-sm { font-family: var(--font-main); font-size: var(--fs-small); line-height: var(--lh-tight); color: var(--color-text-soft); }
+.label-md { font-family: var(--font-main); font-size: var(--fs-small); line-height: var(--lh-tight); font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; }
+
+/* Margin Utilities */
+.mb-xs { margin-bottom: var(--space-xs); }
+.mb-sm { margin-bottom: var(--space-sm); }
+.mb-md { margin-bottom: var(--space-md); }
+.mb-lg { margin-bottom: var(--space-lg); }
+.mb-xl { margin-bottom: var(--space-xl); }
+
+/* ==========================================================================
+   LAYOUT UTILITIES
+   ========================================================================== */
+.container { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--gutter); width: 100%; }
+.section-padding { padding: var(--space-xl) 0; }
+.flex { display: flex; }
+.grid { display: grid; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
+.text-center { text-align: center; }
+
+/* =========================
+   GRID SYSTEM
+========================= */
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* =========================
+   GRID 2
+========================= */
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+/* =========================
+   GRID 3
+========================= */
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 992px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+/* =========================
+   GRID 4
+========================= */
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 992px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+/* =========================
+   GRID 5
+========================= */
+
+.grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 992px) {
+  .grid-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-5 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-5 {
+    grid-template-columns: 1fr;
+  }
+}

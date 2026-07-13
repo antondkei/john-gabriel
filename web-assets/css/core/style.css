@@ -1,0 +1,1789 @@
+/* =========================
+   HERO SECTION & OVERLAY
+========================= */
+#yjg-foundation .yjg-hero {
+  position: relative;
+  padding-top: 200px; 
+  padding-bottom: 250px; 
+  display: flex;
+  align-items: flex-start;
+  color: #ffffff;
+}
+
+
+/* Overlay Biru Gelap (Navy) dengan Gradient */
+#yjg-foundation .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(25, 26, 83, 0.95) 0%, rgba(25, 26, 83, 0.70) 40%, rgba(25, 26, 83, 0.50) 80%, rgba(25, 26, 83, 0.30) 100%);
+  z-index: 1;
+}
+
+/* Content wrapper */
+#yjg-foundation .hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+#yjg-foundation .hero-tagline {
+  color: var(--color-text-light);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+#yjg-foundation .hero-title-gold {
+  color: var(--color-secondary);
+  letter-spacing: -0.5px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+#yjg-foundation .hero-title-white {
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 40px;
+}
+
+#yjg-foundation .hero-subtitle {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  line-height:1.3;
+}
+
+/* CTA */
+#yjg-foundation .hero-cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top:24px;
+}
+
+/* =========================
+   HERO SLIDER
+========================= */
+
+#yjg-foundation .hero-bg-slider {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+#yjg-foundation .hero-bg-slider .slide {
+  position: absolute;
+  inset: 0;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0;
+  transition: opacity 1.5s ease;
+
+  image-rendering: auto;
+}
+
+#yjg-foundation .hero-bg-slider .slide.active {
+  opacity: 1;
+}
+
+/* =========================
+   HERO CARDS (BOTTOM) & SVG ICONS
+========================= */
+
+#yjg-foundation .hero-cards-section {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transform: translateY(50%); /* Efek menimpa */
+  box-sizing: border-box;
+}
+
+#yjg-foundation .value-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 35px 25px 30px;
+  text-align: center;
+  box-shadow:0px 3px 4px 0px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+#yjg-foundation .value-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--color-secondary);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* hover effect */
+#yjg-foundation .value-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+#yjg-foundation .value-card:hover::before {
+  opacity: 1;
+}
+
+#yjg-foundation .card-icon {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling Khusus SVG */
+#yjg-foundation .card-icon svg {
+  width: 44px;
+  height: 44px;
+  transition: 0.3s ease;
+  fill: var(--color-primary); /* Mengikuti warna navy otomatis */
+}
+
+/* icon hover */
+#yjg-foundation .value-card:hover .card-icon svg {
+  transform: scale(1.1);
+  fill: var(--color-secondary);
+}
+
+#yjg-foundation .card-title {
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#yjg-foundation .card-desc {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* CTA subtle animation */
+#yjg-foundation .btn {
+  position: relative;
+  overflow: hidden;
+}
+
+#yjg-foundation .btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#yjg-foundation .btn:hover::after {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #yjg-foundation .container {
+  padding: 0 24px;
+}
+
+  #yjg-foundation .yjg-hero {
+    padding-top: 150px; 
+    padding-bottom: 40px; 
+    display: block;
+  }
+
+  #yjg-foundation .hero-inner {
+    text-align: center;
+    margin: 0 auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Penyesuaian Tipografi */
+  #yjg-foundation .hero-title-gold,
+  #yjg-foundation .hero-title-white {
+    font-size: 32px; 
+    margin-bottom: 15px; 
+  }
+  
+  #yjg-foundation .hero-subtitle {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  /* Pusatkan Tombol CTA */
+  #yjg-foundation .hero-cta {
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  #yjg-foundation .hero-cards-section {
+    position: relative;
+    bottom: auto;
+    transform: none;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  #yjg-foundation .value-card {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 30px 20px; 
+  }
+
+  #yjg-foundation .value-card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+/* =========================
+   QUOTE SECTION (REFINED)
+========================= */
+
+#yjg-foundation .yjg-quote {
+  background: var(--color-bg-light-gold);
+  position: relative;
+  padding-top:150px;
+  /* Tidak ada padding-bottom agar gambar bisa menempel di bar bawah */
+}
+
+/* Layout */
+#yjg-foundation .quote-wrapper {
+  display: grid;
+  grid-template-columns: 35% 65%; /* Proporsi disesuaikan dengan desain */
+  align-items: end; /* KUNCI: Memaksa gambar turun ke dasar container */
+  gap: 50px;
+}
+
+/* Image */
+#yjg-foundation .quote-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#yjg-foundation .quote-image img {
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  object-fit: contain;
+  object-position: bottom; /* Memastikan potongan bawah gambar presisi di garis */
+}
+
+/* Content */
+#yjg-foundation .quote-content {
+  position: relative;
+  padding-bottom: 90px; /* Mengangkat teks agar tidak menempel ke bawah */
+  padding-top: 20px;
+  max-width:750px;
+}
+
+/* Quote Icon */
+#yjg-foundation .quote-icon {
+  margin-bottom: 15px;
+}
+
+#yjg-foundation .quote-icon svg {
+  width: 55px; /* Disesuaikan agar proporsional */
+  height: 60px;
+  fill: var(--color-secondary, #e0c49f);
+}
+
+/* Main Text */
+#yjg-foundation .quote-text {
+  font-size: 19px;
+  line-height: 1.6;
+  color: #444444; /* Abu-abu gelap agar lebih nyaman dibaca daripada hitam pekat */
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  padding: 0;
+  border: none;
+}
+
+/* Highlight Text */
+#yjg-foundation .quote-highlight {
+  font-size: 32px;
+  font-weight: 800; /* Ekstra tebal sesuai desain */
+  line-height: 1.35;
+  color: var(--color-primary, #191a53);
+  margin-bottom: 35px;
+  letter-spacing: -0.5px; /* Efek modern/rapat pada teks besar */
+}
+
+/* Author */
+#yjg-foundation .quote-author {
+  margin-top: 10px;
+}
+
+#yjg-foundation .author-line {
+  display: block;
+  width: 50px; /* Dibuat lebih pendek dan tipis (Premium feel) */
+  height: 2px;
+  background: var(--color-secondary, #e0c49f);
+  margin-bottom: 15px;
+}
+
+#yjg-foundation .author-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary, #191a53);
+  margin-bottom: 8px;
+}
+
+#yjg-foundation .author-role {
+  font-size: 11px;
+  color: #666666;
+  line-height: 1.5;
+  text-transform: uppercase; /* Gaya modern untuk jabatan */
+}
+
+/* Bottom Bar */
+#yjg-foundation .quote-bottom-bar {
+  width: 100%;
+  height: 25px; /* Sedikit ditebalkan sesuai gambar */
+  background: var(--color-gradient);
+}
+
+/* Responsive Tablet & Mobile */
+@media (max-width: 992px) {
+  #yjg-foundation .quote-wrapper {
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+  }
+  #yjg-foundation .quote-highlight { font-size: 24px; }
+  #yjg-foundation .quote-text { font-size: 17px; }
+}
+
+@media (max-width: 768px) {
+#yjg-foundation .yjg-quote{
+padding-top:60px;
+}
+  #yjg-foundation .quote-wrapper {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  #yjg-foundation .quote-content {
+    order: 1; /* Teks naik ke atas saat di HP */
+    padding-bottom: 40px;
+  }
+  #yjg-foundation .quote-image {
+    order: 2; /* Gambar di bawah teks */
+  }
+  #yjg-foundation .quote-image img {
+    max-width: 320px;
+  }
+}
+
+/* =========================
+   TIMELINE SECTION BASE
+========================= */
+
+#yjg-foundation.yjg-timeline-section {
+  position: relative;
+  padding: 80px 0 80px;
+  background: var(--color-bg-light);
+}
+
+/* =========================
+   TIMELINE WRAPPER & GRID
+========================= */
+#yjg-foundation .timeline-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Kolom */
+  column-gap: 30px;
+  row-gap: 30px; /* Jarak presisi antar baris */
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Memetakan Posisi Item (Visual Zig-Zag) */
+#yjg-foundation .item-1 { grid-column: 1; grid-row: 1; }
+#yjg-foundation .item-2 { grid-column: 2; grid-row: 1; }
+#yjg-foundation .item-3 { grid-column: 3; grid-row: 1; }
+#yjg-foundation .item-4 { grid-column: 3; grid-row: 2; } /* Item ke-4 di kanan bawah */
+#yjg-foundation .item-5 { grid-column: 2; grid-row: 2; }
+#yjg-foundation .item-6 { grid-column: 1; grid-row: 2; }
+
+#yjg-foundation .timeline-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================
+   HEADER TITIK (NODE)
+========================= */
+#yjg-foundation .track-head {
+  position: relative;
+  height: 56px; /* Tinggi statis agar posisi garis selalu akurat */
+  margin-bottom: 15px;
+}
+
+#yjg-foundation .year {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-accent, #631414);
+}
+
+#yjg-foundation .node {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 4px solid var(--color-accent, #631414);
+  z-index: 2;
+}
+
+/* =========================
+   LOGIKA GARIS (S-CURVE)
+========================= */
+#yjg-foundation .line-segment {
+  position: absolute;
+  top: 47px; /* Berada tepat di tengah node */
+  height: 2px;
+  background: var(--color-secondary, #e0c49f);
+  z-index: 1;
+}
+
+/* Menyambungkan garis dari kiri ke kanan */
+#yjg-foundation .item-1 .line-segment { left: 28px; width: calc(100% - 28px + 15px); }
+#yjg-foundation .item-2 .line-segment { left: -15px; width: calc(100% + 30px); }
+#yjg-foundation .item-3 .line-segment { left: -15px; width: 43px; }
+
+/* Menyambungkan garis dari kanan ke kiri (Baris Bawah) */
+#yjg-foundation .item-4 .line-segment { left: -15px; width: 43px; }
+#yjg-foundation .item-5 .line-segment { left: -15px; width: calc(100% + 30px); }
+#yjg-foundation .item-6 .line-segment { left: 0; width: calc(100% - 28px + 60px); }
+
+/* LENGKUNGAN S-CURVE (Turun dari Item 3 ke Item 4) */
+#yjg-foundation .item-3 .curve-segment {
+  position: absolute;
+  top: 47px;
+  left: 28px;
+  width: calc(100% - 28px + 20px);
+  height: calc(100% + 30px); /* 100% tinggi item + 30px row gap. Sangat akurat! */
+  border-top: 2px solid var(--color-secondary, #e0c49f);
+  border-right: 2px solid var(--color-secondary, #e0c49f);
+  border-bottom: 2px solid var(--color-secondary, #e0c49f);
+  border-radius: 0 40px 40px 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Panah Akhir di Kiri Bawah */
+#yjg-foundation .item-6 .arrow-left {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 10px solid var(--color-accent, #631414);
+  z-index: 3;
+}
+
+#yjg-foundation .item-1 .arrow-right {
+  position: absolute;
+  top: 42px;
+  left: 200px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 10px solid var(--color-accent, #631414);
+  z-index: 3;
+}
+
+#yjg-foundation .item-3 .arrow-down{
+  position: absolute;
+  top: 200px;
+  right:-25px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid var(--color-accent, #631414);
+  z-index: 3;
+}
+
+/* =========================
+   CARD PREMIUM REFINEMENT
+========================= */
+
+#yjg-foundation .timeline-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 26px 24px;
+  border: 1px solid rgba(224, 196, 159, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  position: relative;
+  z-index: 3;
+
+  transition: all 0.35s ease;
+}
+
+
+/* hover state */
+#yjg-foundation .timeline-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+}
+
+#yjg-foundation .timeline-card:hover::before {
+  opacity: 1;
+}
+
+/* header */
+#yjg-foundation .card-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* =========================
+   ICON (KEY UPGRADE)
+========================= */
+
+#yjg-foundation .tl-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--color-primary);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+
+  transition: all 0.35s ease;
+}
+
+/* subtle inner glow */
+#yjg-foundation .tl-icon::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.15), transparent);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* SVG */
+#yjg-foundation .tl-icon svg {
+  width: 25px;
+  fill: white;
+  transition: all 0.35s ease;
+}
+
+/* HOVER ICON */
+#yjg-foundation .timeline-card:hover .tl-icon {
+  transform: scale(1.08);
+  background: var(--color-secondary);
+}
+
+#yjg-foundation .timeline-card:hover .tl-icon::after {
+  opacity: 1;
+}
+
+#yjg-foundation .timeline-card:hover .tl-icon svg {
+  transform: scale(1.1);
+}
+
+/* =========================
+   TEXT
+========================= */
+
+#yjg-foundation .timeline-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+}
+
+#yjg-foundation .timeline-card p {
+  font-size: 14px;
+  color: #5a5a5a;
+  line-height: 1.5;
+  margin-bottom: 22px;
+  flex: 1;
+}
+
+/* CTA */
+#yjg-foundation .btn-selengkapnya {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--color-primary);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+
+  position: relative;
+  padding: 0;
+}
+
+#yjg-foundation .btn-selengkapnya:hover {
+  color:var(--color-secondary);
+}
+
+/* underline animation */
+#yjg-foundation .btn-selengkapnya::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--color-secondary);
+  transition: 0.3s;
+  margin-top: 4px;
+}
+
+#yjg-foundation .btn-selengkapnya:hover::after {
+  width: 100%;
+}
+
+/* =========================================
+   MEMBUAT CARD MENJADI CLICKABLE
+========================================= */
+.timeline-card {
+  cursor: pointer; /* Mengubah kursor menjadi bentuk tangan */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Opsional: Memberikan efek terangkat sedikit saat kursor menyorot kartu */
+.timeline-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Mematikan fungsi klik terpisah pada tombol agar tidak bentrok dengan klik kartu */
+.timeline-card .btn-selengkapnya {
+  pointer-events: none; 
+}
+
+/* =========================
+   MODAL PREMIUM
+========================= */
+
+#yjg-foundation .yjg-modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(33, 33, 59, 0.7);
+  backdrop-filter: blur(15px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease;
+}
+
+#yjg-foundation .yjg-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* box */
+#yjg-foundation .yjg-modal-content {
+  background: #ffffff;
+  width: 90%;
+  max-width: 640px;
+
+  border-radius: 28px;
+  border: 2px solid var(--color-secondary);
+
+  padding: 45px 40px;
+  position: relative;
+
+  box-shadow: 0 30px 80px rgba(0,0,0,0.12);
+
+  transform: translateY(30px) scale(0.98);
+  opacity: 0;
+
+  transition: all 0.35s ease;
+}
+
+#yjg-foundation .yjg-modal-overlay.active .yjg-modal-content {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* =========================
+   CLOSE BUTTON (SVG)
+========================= */
+
+#yjg-foundation .close-modal {
+  position: absolute;
+  top: -18px;
+  right: -18px;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  border: 2px solid var(--color-secondary);
+
+  background: #fff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+/* SVG styling */
+#yjg-foundation .close-modal svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--color-secondary);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+#yjg-foundation .close-modal:hover {
+  background: var(--color-secondary);
+  transform: rotate(90deg) scale(1.05);
+}
+
+#yjg-foundation .close-modal:hover svg {
+  stroke: #ffffff;
+}
+
+/* header */
+#yjg-foundation .modal-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+/* icon */
+#yjg-foundation .modal-icon-container {
+  width: 64px;
+  height: 64px;
+  background: var(--color-primary);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+/* glow */
+#yjg-foundation .modal-icon-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.15), transparent);
+}
+
+/* svg */
+#yjg-foundation .modal-icon-container svg {
+  width: 30px;
+  fill:#ffffff;
+}
+
+/* title */
+#yjg-foundation .modal-header h3 {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1.3;
+}
+
+/* body */
+#yjg-foundation .modal-body p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5a5a5a;
+}
+
+/* =========================================
+   RESPONSIVE MOBILE: MODAL
+========================================= */
+@media screen and (max-width: 768px) {
+  
+  /* 1. Perbaiki Box Modal (Ruang dalam lebih proporsional) */
+  #yjg-foundation .yjg-modal-content {
+    width: 92%;
+    padding: 30px 20px; /* Kurangi padding kiri-kanan agar teks lebih lega */
+    border-radius: 20px; /* Sedikit perkecil lengkungan sudutnya */
+  }
+
+  /* 2. Amankan Header & Kunci Ikon */
+  #yjg-foundation .modal-header {
+    align-items: flex-start; /* Ubah ke atas jika teks jadi 2 baris */
+    gap: 15px; /* Jarak ikon dan teks sedikit dirapatkan */
+    margin-bottom: 20px;
+  }
+
+  #yjg-foundation .modal-icon-container {
+    width: 50px; /* Ukuran ikon disesuaikan untuk HP */
+    height: 50px;
+    flex-shrink: 0; /* INI KUNCINYA: Mencegah ikon terkompres/gepeng */
+  }
+
+  #yjg-foundation .modal-icon-container svg {
+    width: 24px; /* Sesuaikan ukuran SVG di dalamnya */
+  }
+
+  /* 3. Sesuaikan Tipografi */
+  #yjg-foundation .modal-header h3 {
+    font-size: 20px; /* Perkecil judul agar rapi */
+    margin-top: 5px; /* Menyelaraskan teks dengan ikon baru */
+  }
+
+  #yjg-foundation .modal-body p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* 4. Amankan Tombol Close (Agar tidak terpotong di luar layar) */
+  #yjg-foundation .close-modal {
+    width: 36px; /* Perkecil sedikit ukuran tombolnya */
+    height: 36px;
+    top: -12px;
+    right: -2px; /* Tarik lebih ke dalam agar tidak out-of-bounds */
+  }
+
+  #yjg-foundation .close-modal svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* =========================
+   RESPONSIVE (MOBILE)
+========================= */
+@media (max-width: 900px) {
+  #yjg-foundation .timeline-wrapper {
+    grid-template-columns: 1fr; /* Jadi 1 kolom */
+    row-gap: 20px;
+  }
+  
+  /* Header node jadi horizontal */
+  #yjg-foundation .track-head {
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 14px;
+    padding-left: 0;
+  }
+
+  /* Tahun pindah ke kanan node */
+  #yjg-foundation .year {
+    position: relative;
+    top: auto;
+    left: auto;
+
+    margin-left: 42px;
+
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  /* Node tetap di kiri */
+  #yjg-foundation .node {
+    top: 50%;
+    left: 20px;
+
+    transform: translateY(-50%);
+  }
+
+  /* Kembalikan urutan sesuai HTML asli untuk Mobile */
+  #yjg-foundation .item-1, #yjg-foundation .item-2, #yjg-foundation .item-3, 
+  #yjg-foundation .item-4, #yjg-foundation .item-5, #yjg-foundation .item-6 {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+  
+  /* Sembunyikan garis S-Curve rumit di HP */
+  #yjg-foundation .line-segment, 
+  #yjg-foundation .curve-segment, 
+  #yjg-foundation .arrow-left,
+  #yjg-foundation .arrow-right,
+  #yjg-foundation .arrow-down{ display: none !important; }
+
+  /* Buat satu garis lurus vertikal ke bawah */
+  #yjg-foundation .timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 27px; /* Sejajar dengan tengah node */
+    width: 2px;
+    background: var(--color-secondary, #e0c49f);
+    z-index: 0;
+  }
+}
+
+/* =========================
+   STORY SECTION REFINED
+========================= */
+
+#yjg-foundation .yjg-story {
+  width: 100%;
+  background: var(--color-gradient);
+  overflow: hidden;
+  position: relative;
+}
+
+/* subtle texture overlay (optional premium feel) */
+#yjg-foundation .yjg-story::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 40%, rgba(255,255,255,0.05), transparent 40%);
+  pointer-events: none;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+
+#yjg-foundation .story-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* =========================
+   LEFT CONTENT
+========================= */
+
+#yjg-foundation .story-content {
+  flex: 1.2;
+  min-width: 320px;
+
+  padding: 90px 70px 90px 90px;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* TITLE */
+#yjg-foundation .story-content h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  color: var(--color-secondary);
+  font-weight: 800;
+
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+
+  max-width: 500px;
+}
+
+/* SEPARATOR */
+#yjg-foundation .title-separator {
+  width: 70px;
+  height: 3px;
+  background: var(--color-secondary);
+  margin-bottom: 30px;
+}
+
+/* TEXT */
+#yjg-foundation .story-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.9);
+
+  margin-bottom: 24px;
+
+  max-width: 500px;
+}
+
+/* CTA BUTTON IMPROVE */
+#yjg-foundation .story-content .btn {
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+/* hover lebih modern */
+#yjg-foundation .story-content .btn:hover {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   RIGHT IMAGE
+========================= */
+
+#yjg-foundation .story-image {
+  flex: 1;
+  min-width: 320px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+/* gradient blend ke kiri */
+#yjg-foundation .story-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to left,
+    rgba(25,26,83,0) 40%,
+    rgba(25,26,83,0.35) 100%
+  );
+  z-index: 2;
+}
+
+#yjg-foundation .story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  transition: transform 0.6s ease;
+}
+
+/* subtle zoom effect */
+#yjg-foundation .story-image:hover img {
+  transform: scale(1.05);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+  #yjg-foundation .story-content {
+    padding: 60px 30px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #yjg-foundation .story-content h2 {
+    font-size: 32px;
+  }
+
+  #yjg-foundation .title-separator {
+    margin: 0 auto 25px;
+  }
+
+  #yjg-foundation .story-image {
+    min-height: 380px;
+  }
+}
+
+/* =========================
+   STATS SECTION
+========================= */
+
+#yjg-foundation .yjg-stats {
+  padding: 100px 0;
+  background: var(--color-bg-light-gold);
+  text-align: center;
+}
+
+/* header */
+#yjg-foundation .section-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+#yjg-foundation .section-header p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 60px;
+  line-height:1.3;
+}
+
+/* grid */
+#yjg-foundation .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+/* card */
+#yjg-foundation .stat-item {
+  background: var(--color-bg-light-gold);
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* hover */
+#yjg-foundation .stat-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+
+/* number */
+#yjg-foundation .stat-item h3 {
+  font-size: 46px;
+  font-weight: 900;
+  color: var(--color-primary);
+  margin: 0;
+  display: inline-block;
+}
+
+/* plus */
+#yjg-foundation .stat-item .plus {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+/* animasi masuk */
+#yjg-foundation .stat-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+#yjg-foundation .stat-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* label */
+#yjg-foundation .stat-item p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* footer */
+#yjg-foundation .stats-footer {
+  margin-top: 70px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+
+/* =========================
+   STATS ADVANCED ANIMATION
+========================= */
+
+/* initial state */
+#yjg-foundation .stat-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+/* masuk */
+#yjg-foundation .stat-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* efek saat selesai */
+#yjg-foundation .stat-item.done {
+  animation: statPulse 0.6s ease;
+}
+
+/* glow subtle */
+@keyframes statPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(224,196,159,0);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(224,196,159,0.35);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  }
+}
+
+/* angka lebih hidup */
+#yjg-foundation .stat-item h3 {
+  transition: color 0.3s ease;
+}
+
+/* highlight saat selesai */
+#yjg-foundation .stat-item.done h3 {
+  color: var(--color-primary);
+}
+
+#yjg-foundation .stat-item {
+  transition: color 0.3s ease;
+}
+
+#yjg-foundation .stat-item.done {
+  background: #ffffff;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 992px) {
+  #yjg-foundation .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #yjg-foundation .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   LEADERS SECTION
+========================= */
+#yjg-foundation .yjg-leaders {
+  background: var(--color-primary, #191a53);
+  padding: 80px 0 80px; /* Padding atas lebih besar untuk ruang bernapas */
+  overflow: visible;
+}
+
+/* Header */
+#yjg-foundation .yjg-leaders .section-header {
+  text-align: center;
+  margin-bottom: 90px; /* Jarak dijauhkan agar kartu yang melayang tidak menabrak teks */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#yjg-foundation .yjg-leaders h2 {
+  color: var(--color-secondary, #e0c49f);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+#yjg-foundation .yjg-leaders p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color:white;
+  line-height: 1.5;
+}
+
+/* Garis pemanis di bawah teks header */
+#yjg-foundation .title-separator-center {
+  width: 50px;
+  height: 3px;
+  background-color: var(--color-secondary, #e0c49f);
+  border-radius: 2px;
+}
+
+/* =========================
+   SLIDER & ANIMATION (UPDATED FOR JS)
+========================= */
+#yjg-foundation .leaders-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* FIX: Memberikan ruang kosong di atas dan bawah agar avatar & shadow tidak terpotong */
+  padding-top: 80px; 
+  padding-bottom: 50px; 
+}
+
+#yjg-foundation .leaders-track {
+  display: flex;
+  flex-wrap: nowrap; /* Wajib: Mencegah kartu jatuh ke bawah */
+  gap: 80px;
+  width: max-content;
+  /* Animasi CSS 'scrollMarquee' dan efek ':hover' dihapus karena sudah di-handle oleh JavaScript */
+}
+
+/* =========================
+   CARD STYLES (PREMIUM)
+========================= */
+#yjg-foundation .leader-card {
+  width: 400px;
+  flex-shrink: 0; /* Wajib: Mencegah kartu menyusut/gepeng saat digeser JS */
+  
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 35px 35px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  z-index: 1;
+}
+
+#yjg-foundation .leader-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Foto Mengambang - Kini Aman dari Potongan */
+#yjg-foundation .leader-photo {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+#yjg-foundation .leader-photo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffffff; 
+  box-shadow: 0 0 0 3px var(--color-secondary, #e0c49f), 0 10px 20px rgba(0,0,0,0.1); 
+  background-color: #fff;
+}
+
+/* SVG Background Tanda Kutip */
+#yjg-foundation .quote-bg-svg {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 80px;
+  height: 80px;
+  fill: var(--color-secondary, #e0c49f);
+  opacity: 0.15;
+  z-index: 1; /* Berada di bawah teks */
+  transition: opacity 0.4s ease;
+  pointer-events: none; /* Agar tidak menghalangi klik/blok teks */
+}
+
+#yjg-foundation .leader-card:hover .quote-bg-svg {
+  opacity: 0.3; /* Menyala saat di-hover */
+}
+
+/* FIX: Area Teks Quote */
+#yjg-foundation .quote-content-lead {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2; /* Mengunci posisi teks agar selalu di atas SVG */
+  margin-top:10px;
+}
+
+#yjg-foundation .quote-lead {
+  font-size: 16px !important;
+  line-height: 1.5;
+  color: #444444 !important; /* Memastikan warna teks kontras */
+  text-align: center;
+  font-style: italic;
+  margin: 0;
+  width: 100%;
+}
+
+/* Meta Data (Nama & Jabatan) */
+#yjg-foundation .leader-meta {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#yjg-foundation .leader-meta h4 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-primary, #191a53);
+  margin: 0 0 6px 0;
+}
+
+#yjg-foundation .leader-meta span {
+  font-size: 13px;
+  color: #888888;
+  font-weight: 500;
+  display: block;
+}
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 1400px) {
+#yjg-foundation .leader-card {
+    width: 360px;
+  }
+#yjg-foundation .leaders-track {
+  gap: 60px;
+}
+
+}
+
+@media (max-width: 768px) {
+#yjg-foundation .leader-card {
+    width: 340px; /* Lebar kartu di mobile */
+    padding: 50px 25px 25px;
+  }
+  
+  #yjg-foundation .leaders-track {
+    gap: 20px; /* Opsional: Perkecil jarak antar kartu di layar mobile agar lebih padat */
+  }
+
+  #yjg-foundation .yjg-leaders h2 {
+    font-size: 32px;
+  }
+}
+
+/* =========================
+   PARTNERS SECTION
+========================= */
+
+#yjg-foundation .yjg-partners {
+  padding: 80px 0 30px;
+  background: var(--color-bg-light);
+  text-align: center;
+}
+
+/* header */
+#yjg-foundation .yjg-partners h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+#yjg-foundation .yjg-partners p {
+  color: #666;
+  margin-bottom: 60px;
+}
+
+/* =========================
+   GRID
+========================= */
+
+#yjg-foundation .partners-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  justify-items: center;
+  padding: 0 10%;
+}
+
+/* =========================
+   CARD LOGO
+========================= */
+
+#yjg-foundation .partner-item {
+  width: 150px;
+  height: 150px;
+
+  background: #ffffff;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(224,196,159,0.3);
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+
+  transition: all 0.3s ease;
+}
+
+/* logo */
+#yjg-foundation .partner-item img {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+
+  filter: grayscale(100%);
+  opacity: 0.7;
+
+  transition: all 0.3s ease;
+}
+
+/* hover */
+#yjg-foundation .partner-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+#yjg-foundation .partner-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* =========================================
+   RESPONSIVE MOBILE: PARTNERS SECTION
+========================================= */
+
+/* Penyesuaian untuk Tablet (Layar menengah) */
+@media screen and (max-width: 991px) {
+  #yjg-foundation .partners-grid {
+    grid-template-columns: repeat(3, 1fr); /* Susutkan menjadi 3 kolom */
+    padding: 0 5%; /* Kurangi padding kiri-kanan yang tadinya 10% */
+    gap: 20px;
+  }
+}
+
+/* Penyesuaian untuk Smartphone (Layar kecil) */
+@media screen and (max-width: 768px) {
+  
+  /* 1. Kurangi Padding Section & Sesuaikan Tipografi */
+  #yjg-foundation .yjg-partners {
+    padding: 60px 0 30px; 
+  }
+
+  #yjg-foundation .yjg-partners h2 {
+    font-size: 28px; /* Perkecil judul agar pas di HP */
+  }
+
+  #yjg-foundation .yjg-partners p {
+    font-size: 14px;
+    margin-bottom: 40px;
+    padding: 0 15px; /* Beri batas agar teks tidak menyentuh ujung layar */
+  }
+
+  /* 2. Tata Letak Grid (Menjadi 2 Kolom) */
+  #yjg-foundation .partners-grid {
+    grid-template-columns: repeat(2, 1fr); /* Susutkan menjadi 2 kolom rapi */
+    gap: 15px; /* Jarak antar kotak sedikit dirapatkan */
+    padding: 0 15px; 
+  }
+
+  /* 3. Fleksibilitas Kartu Logo */
+  #yjg-foundation .partner-item {
+    width: 100%; /* Lebarnya akan otomatis menyesuaikan ruang grid */
+    max-width: 150px; /* Tapi tetap kita batasi agar tidak membesar raksasa */
+    height: 120px; /* Kurangi sedikit tingginya agar tidak makan banyak ruang vertikal (scroll) */
+  }
+
+  /* Sedikit memperbesar logo di dalam kotak agar lebih terbaca di layar HP */
+  #yjg-foundation .partner-item img {
+    max-width: 75%;
+    max-height: 75%;
+  }
+}
+
+/* (Opsional) Penyesuaian Ekstra untuk HP Layar Sangat Kecil / Jadul (misal: iPhone SE) */
+@media screen and (max-width: 380px) {
+  #yjg-foundation .partners-grid {
+    gap: 10px;
+  }
+  #yjg-foundation .partner-item {
+    height: 100px; /* Box lebih pendek lagi agar muat di layar sempit */
+  }
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+
+#yjg-foundation .yjg-cta {
+  padding: 50px 0 100px;
+  background: var(--color-bg-light);
+  text-align: center;
+  position: relative;
+}
+
+/* subtle glow background */
+#yjg-foundation .yjg-cta::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(224,196,159,0.15), transparent 70%);
+  z-index: 0;
+}
+
+/* content */
+#yjg-foundation .cta-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* title */
+#yjg-foundation .cta-content h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+
+/* paragraph */
+#yjg-foundation .cta-content p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+/* =========================
+   BUTTON GROUP
+========================= */
+
+#yjg-foundation .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+/* primary button upgrade */
+#yjg-foundation .cta-buttons .btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 12px;
+
+  padding: 14px 32px;
+
+  box-shadow: 0 12px 25px rgba(25,26,83,0.25);
+
+  transition: all 0.3s ease;
+}
+
+#yjg-foundation .cta-buttons .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 35px rgba(25,26,83,0.35);
+}
+
+/* outline button upgrade */
+#yjg-foundation .cta-buttons .btn-outline {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 12px;
+
+  padding: 14px 32px;
+
+  transition: all 0.3s ease;
+}
+
+#yjg-foundation .cta-buttons .btn-outline:hover {
+  background: var(--color-primary);
+  color: #fff !important;
+  transform: translateY(-3px);
+}
+#yjg-foundation .cta-buttons .btn {
+  position: relative;
+  overflow: hidden;
+}
+
+#yjg-foundation .cta-buttons .btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+#yjg-foundation .cta-buttons .btn:hover::after {
+  opacity: 1;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  #yjg-foundation .cta-content h2 {
+    font-size: 28px;
+  }
+
+  #yjg-foundation .cta-content p {
+    font-size: 15px;
+  }
+
+  #yjg-foundation .cta-buttons {
+    flex-direction: column;
+  }
+}
+
+/* --- CSS Back To Top --- */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  color: #191a53; /* Warna Navy */
+  border-radius: 15%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 9999;
+  opacity: 20% !important;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#btn-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#btn-back-to-top:hover {
+  background-color: #191a53;
+  color: #e0c49f;
+}
+
+#btn-back-to-top svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}

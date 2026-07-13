@@ -1,0 +1,343 @@
+/* =========================
+   HEADER / NAVBAR (PREMIUM)
+========================= */
+#yjg-foundation .yjg-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 30px 0;
+  background: transparent;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#yjg-foundation .yjg-header.is-sticky {
+  padding: 12px 0;
+  background: rgba(25, 26, 83, 0.85); /* Navy yang lebih elegan */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px); /* Dukungan Safari */
+}
+
+#yjg-foundation .header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* --- PERBAIKAN LOGO --- */
+#yjg-foundation .logo-img {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#yjg-foundation .logo-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Tambahkan 2 baris ini agar animasi hover mulus */
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              filter 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  will-change: transform, filter; /* Optimasi performa render */
+}
+
+
+#yjg-foundation .logo-img:hover img {
+  transform: scale(1.02) translateY(-3px); 
+  filter: drop-shadow(0 8px 15px rgba(224, 196, 159, 0.3)); 
+}
+
+#yjg-foundation .yjg-header.is-sticky .logo-img {
+  width: 155px;
+}
+
+/* --- NAVIGASI UTAMA --- */
+#yjg-foundation .header-nav {
+  display: flex;
+  gap: 35px;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+
+#yjg-foundation .nav-item {
+  position: relative;
+  /* Padding vertikal agar hover dropdown tidak terputus saat kursor turun */
+  padding: 20px 0; 
+}
+
+#yjg-foundation .nav-item > a {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px; /* Sedikit diperbesar agar proporsional */
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+/* 1. Paksa background muncul dari awal jika bukan di homepage */
+#yjg-foundation .yjg-header.is-not-home {
+  background: var(--color-gradient) !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 2. Pastikan teks navigasi tetap terbaca (Putih di atas background Navy) */
+#yjg-foundation .yjg-header.is-not-home .nav-item > a {
+  color: #ffffff !important;
+}
+
+#yjg-foundation .yjg-header.is-sticky .nav-item > a {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Animasi Ikon Panah Dropdown */
+#yjg-foundation .dropdown-icon {
+  transition: transform 0.3s ease;
+}
+#yjg-foundation .nav-item:hover .dropdown-icon {
+  transform: rotate(180deg); /* Panah berputar saat di-hover */
+  stroke: var(--color-secondary, #e0c49f);
+}
+
+/* Animasi Garis Bawah (Hover Utama) */
+#yjg-foundation .nav-item > a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: var(--color-secondary, #e0c49f); /* Warna emas */
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#yjg-foundation .nav-item:hover > a::after {
+  width: 100%;
+}
+
+#yjg-foundation .nav-item:hover > a {
+  color: var(--color-secondary, #e0c49f);
+}
+
+
+/* --- DROPDOWN MENU PREMIUM --- */
+#yjg-foundation .dropdown-menu {
+  position: absolute;
+  top: 100%; /* Muncul persis di bawah padding item menu */
+  left: -20px; /* Sedikit menjorok ke kiri agar teks sejajar */
+  background: #ffffff;
+  min-width: 240px;
+  border-radius: 12px;
+  padding: 12px 0;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+  
+  /* Efek awal: Tak terlihat dan agak bergeser ke bawah */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Memunculkan Dropdown saat Induk di-hover */
+#yjg-foundation .nav-item.has-dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Gaya Teks di dalam Dropdown */
+#yjg-foundation .dropdown-menu a {
+  display: block;
+  color: #333333;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Efek Hover Dropdown: Background dan teks geser halus */
+#yjg-foundation .dropdown-menu a:hover {
+  color: var(--color-primary, #191a53);
+  padding-left: 32px; /* Teks agak bergeser ke kanan (indikator visual) */
+  background: rgba(224, 196, 159, 0.15); /* Hint warna emas transparan di background */
+}
+
+/* =========================================
+   RESPONSIVE MOBILE MENU (MAX-WIDTH: 991px)
+========================================= */
+
+/* Sembunyikan tombol hamburger di layar Desktop */
+#yjg-foundation .mobile-menu-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+#yjg-foundation .container{
+  padding:0 16px;
+}
+  
+  /* --- PENYESUAIAN LOGO --- */
+  #yjg-foundation .logo-img {
+    width: 150px; /* Ukuran logo lebih kecil di HP */
+  }
+  #yjg-foundation .yjg-header.is-sticky .logo-img {
+    width: 130px;
+  }
+
+  /* --- TOMBOL HAMBURGER --- */
+  #yjg-foundation .mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001; /* Harus lebih tinggi dari z-index menu agar selalu bisa diklik */
+  }
+
+  #yjg-foundation .mobile-menu-toggle .bar {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-secondary, #e0c49f); /* Warna Emas */
+    border-radius: 3px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Animasi Hamburger Berubah Menjadi Silang (X) */
+  #yjg-foundation .mobile-menu-toggle.is-active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  #yjg-foundation .mobile-menu-toggle.is-active .bar:nth-child(2) {
+    opacity: 0; /* Garis tengah menghilang */
+  }
+  #yjg-foundation .mobile-menu-toggle.is-active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  /* --- PANEL MENU MUNCUL DARI KANAN --- */
+#yjg-foundation .header-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  transform: translateX(100%);
+
+  width: 80%;
+  max-width: 320px;
+  height: 100vh;
+
+  box-sizing: border-box;
+
+  background-color: var(--color-primary, #191a53);
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 100px 30px 30px;
+
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  overflow-y: auto;
+
+  z-index: 999;
+}
+
+  /* Class pemicu menu muncul */
+  #yjg-foundation .header-nav.is-active {
+  transform: translateX(0);
+  }
+
+  /* --- GAYA ITEM MENU DI DALAM PANEL --- */
+  #yjg-foundation .nav-item {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(224, 196, 159, 0.1); /* Garis batas samar */
+  }
+  
+  #yjg-foundation .nav-item > a {
+    font-size: 14px;
+    justify-content: space-between; /* Pisahkan teks dan ikon panah ke ujung */
+    width: 100%;
+  }
+
+  /* Hilangkan efek garis bawah hover di versi mobile */
+  #yjg-foundation .nav-item > a::after {
+    display: none; 
+  }
+
+  /* --- PENYESUAIAN DROPDOWN UNTUK MOBILE --- */
+  /* Di mobile, dropdown tidak melayang (absolute), tapi menumpuk ke bawah (accordion) */
+  #yjg-foundation .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin-top: 0;
+    max-height: 0; /* Default tertutup */
+    overflow: hidden; /* Sembunyikan isinya */
+    transition: max-height 0.4s ease;
+  }
+
+  /* Mematikan hover bawaan desktop */
+  #yjg-foundation .nav-item.has-dropdown:hover .dropdown-menu {
+    transform: none;
+  }
+
+  /* Tampilan list di dalam dropdown mobile */
+  #yjg-foundation .dropdown-menu a {
+    color: #ffffff;
+    padding: 12px 15px 12px 20px;
+    font-size: 14px;
+    border-left: 2px solid var(--color-secondary, #e0c49f);
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  
+  #yjg-foundation .dropdown-menu a:hover {
+    background: rgba(224, 196, 159, 0.15);
+    opacity: 1;
+	color:#ffffff !important;
+  }
+}
+
+/* =========================================
+   HEADER SCROLL FIX
+========================================= */
+
+#yjg-foundation .yjg-header {
+  overflow: visible;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+#yjg-foundation .header-inner {
+  overflow: visible;
+}
+
+#yjg-foundation .header-nav {
+  overflow:visible;
+}
+
+#yjg-foundation .nav-item {
+  padding: 12px 0;
+}
