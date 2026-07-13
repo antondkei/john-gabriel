@@ -149,7 +149,6 @@
 .btn-sm {
   padding: 6px 14px;
   font-size: 13px;
-  border-radius: calc(var(--btn-radius) - 2px);
 }
 
 .btn-md {
