@@ -88,3 +88,53 @@ html {
 #yjg-foundation a {
   text-decoration: none;
 }
+
+  /* ===================================================
+     RESET TOTAL UNTUK LANDING PAGE FULL-WIDTH
+     =================================================== */
+  body.yjg-fullwidth #post-wrap,
+  body.yjg-fullwidth #wrapper,
+  body.yjg-fullwidth #content-wrapper,
+  body.yjg-fullwidth .content-wrapper,
+  body.yjg-fullwidth .outer-wrapper,
+  body.yjg-fullwidth #main-wrapper,
+  body.yjg-fullwidth .main .widget,
+  body.yjg-fullwidth .main-wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  body.yjg-fullwidth .post,
+  body.yjg-fullwidth .post-body,
+  body.yjg-fullwidth .entry-content,
+  body.yjg-fullwidth .main-inner,
+  body.yjg-fullwidth #main,
+  body.yjg-fullwidth .article {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  body.yjg-fullwidth #footer-wrapper,
+  body.yjg-fullwidth .footer-wrapper,
+  body.yjg-fullwidth footer,
+  body.yjg-fullwidth #footer {
+    margin-top: 0 !important;
+  }
+
+  body.yjg-fullwidth #comments,
+  body.yjg-fullwidth .comments,
+  body.yjg-fullwidth .post-footer,
+  body.yjg-fullwidth .post-share-buttons,
+  body.yjg-fullwidth #blog-pager,
+  body.yjg-fullwidth .breadcrumbs {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 0 !important;
+    visibility: hidden;
+  }
+  
