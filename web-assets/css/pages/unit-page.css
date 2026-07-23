@@ -39,6 +39,7 @@
     font-weight: 800;
     line-height: 1.05;
     letter-spacing: -3px;
+    color:var(--color-primary);
 }
 
 .school-hero p{
