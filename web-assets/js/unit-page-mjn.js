@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. ELEMEN DOM & FUNGSI RENDER
     // ==========================================
     const navigation = document.getElementById("school-navigation");
-    const content = document.getElementById("school-content");
+    const content = document.getElementById("school-content-unit");
 
     // Fungsi Render Sidebar Menu (Otomatis Dikelompokkan)
     function renderSidebar() {

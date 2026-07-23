@@ -134,7 +134,7 @@
    CONTENT
 ========================================================== */
 
-.school-content {
+.school-content-unit {
     min-height: 650px;
     min-width: 0; /* KUNCI UTAMA: Mencegah elemen grid melebar keluar layar */
     width: 100%;
