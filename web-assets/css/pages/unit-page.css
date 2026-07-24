@@ -71,18 +71,17 @@
     top:110px;
 }
 
-.sidebar-header{
-    margin-bottom:25px;
-}
-
 .sidebar-header h3{
     color:var(--color-primary);
     font-size:1.2rem;
     font-weight:700;
+    text-transform:uppercase;
 
 }
 
-
+.nav-group-title{
+    margin-top:12px;
+}
 /* ==========================================================
    NAVIGATION
 ========================================================== */
