@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             logo: "https://i.ibb.co.com/SH942zv/TK-Mojoagung.jpg",
             image: "https://i.ibb.co.com/Y4LLpGDY/TK-Wijana-Mojoagung.jpg",
             description: "TK Wijana Mojoagung merupakan salah satu sekolah Katolik yang berada dalam naungan St. John Gabriel Foundation, yang berdiri sejak tahun 1973. Melalui berbagai program pendidikan dan kegiatan sekolah, sekolah ini membangun lingkungan belajar yang mendukung perkembangan intelektual, spiritual, dan sosial anak. ",
+            programs: "",
             address: "Jl. Raya 226 Mojoagung, Jombang",
             phone: "(0321) 495330",
             email: "tkwijanamojoagung@gmail.com",
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             logo: "https://i.ibb.co.com/C3YsD4XM/SDK-Mojoagung.jpg",
             image: "https://i.ibb.co.com/hF4F4LzF/SDK-Wijana-Mojoagung.jpg",
             description: "SDK Wijana Mojoagung merupakan salah satu sekolah Katolik yang berada dalam naungan St. John Gabriel Foundation, yang berdiri sejak tahun 1973. Melalui berbagai program pendidikan dan kegiatan sekolah, sekolah ini membangun lingkungan belajar yang mendukung perkembangan intelektual, spiritual, dan sosial anak. ",
+            programs: "SDK Wijana Mojoagung berfokus untuk mengembangkan potensi anak melalui pengalaman belajar yang menyenangkan dan bermakna, guna mempersiapkan anak untuk siap hidup, melalui program-program pembentukan karakter, antara lain: Life Study Camp, Cooking Day, Life Skill, Good Habits, Market Day, dan masih banyak yang lainnya.",
             address: "Jl. Raya 226 Mojoagung, Jombang",
             phone: "(0321) 495330",
             email: "sdkwijanamojoagung@gmail.com",
@@ -359,7 +361,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="school-description">
                     <p>${school.description}</p>
                 </div>
-
+                <section class="school-programs">
+                    <h3>Program Unggulan</h3>
+                    <p>${school.programs}</p>  
+                </section>                
                 <section class="school-contact">
                     <h3>Kontak & Lokasi</h3>
                     <div class="contact-list">
