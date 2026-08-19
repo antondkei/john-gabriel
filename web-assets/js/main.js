@@ -345,420 +345,173 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /* =========================================================
    YJG FOUNDATION
-   DYNAMIC BLOGGER NEWS
+   DYNAMIC BLOGGER NEWS (FIXED)
 ========================================================= */
 
-(function () {
+// Menggunakan DOMContentLoaded agar script menunggu HTML selesai dimuat
+document.addEventListener('DOMContentLoaded', function () {
 
-  const newsContainer =
-    document.getElementById('yjg-news-feed');
-
+  const newsContainer = document.getElementById('yjg-news-feed');
   if (!newsContainer) return;
-
 
   /* =======================================================
      CONFIG
   ======================================================= */
-
-  const BLOG_URL =
-    'https://www.johngabriel.org';
-
+  const BLOG_URL = 'https://www.johngabriel.org';
   const POST_LIMIT = 3;
-
-
-  const FEED_URL =
-    BLOG_URL +
-    '/feeds/posts/default' +
-    '?alt=json' +
-    '&max-results=' +
-    POST_LIMIT;
-
+  const FEED_URL = `${BLOG_URL}/feeds/posts/default?alt=json&max-results=${POST_LIMIT}`;
 
   /* =======================================================
      DATE FORMAT
   ======================================================= */
-
   function formatDate(dateString) {
-
-    const date =
-      new Date(dateString);
-
-    return new Intl.DateTimeFormat(
-      'id-ID',
-      {
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric'
-      }
-    ).format(date);
-
+    const date = new Date(dateString);
+    return new Intl.DateTimeFormat('id-ID', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    }).format(date);
   }
-
 
   /* =======================================================
      GET IMAGE
   ======================================================= */
-
   function getPostImage(entry) {
-
-    /*
-     * Blogger thumbnail
-     */
-
-    if (
-      entry.media$thumbnail &&
-      entry.media$thumbnail.url
-    ) {
-
-      return entry.media$thumbnail.url
-        .replace(
-          '/s72-c/',
-          '/s1200/'
-        );
-
+    // 1. Coba ambil dari thumbnail Blogger
+    if (entry.media$thumbnail && entry.media$thumbnail.url) {
+      return entry.media$thumbnail.url.replace('/s72-c/', '/s1200/');
     }
 
-
-    /*
-     * Fallback: search image
-     * inside post content
-     */
-
-    if (
-      entry.content &&
-      entry.content.$t
-    ) {
-
-      const imageMatch =
-        entry.content.$t.match(
-          /<img[^>]+src=["']([^"']+)["']/i
-        );
-
-      if (imageMatch) {
-
-        return imageMatch[1];
-
-      }
-
+    // 2. Fallback: cari tag <img> di dalam konten artikel
+    if (entry.content && entry.content.$t) {
+      const imageMatch = entry.content.$t.match(/<img[^>]+src=["']([^"']+)["']/i);
+      if (imageMatch) return imageMatch[1];
     }
 
-
-    /*
-     * Default image
-     */
-
+    // 3. Gambar default jika artikel tidak punya gambar
     return 'https://i.ibb.co.com/TMbTnMNW/Hero-5.avif';
-
   }
-
 
   /* =======================================================
-     GET EXCERPT
+     GET EXCERPT (DIPERBAIKI)
   ======================================================= */
-
   function getExcerpt(entry) {
+    // Gunakan summary jika ada, jika tidak gunakan content penuh
+    const rawHtml = (entry.summary && entry.summary.$t) || (entry.content && entry.content.$t) || '';
+    if (!rawHtml) return '';
 
-    if (
-      !entry.summary ||
-      !entry.summary.$t
-    ) {
+    const temp = document.createElement('div');
+    temp.innerHTML = rawHtml;
+    
+    // Ambil hanya teks murni
+    let text = temp.textContent || temp.innerText || '';
+    text = text.replace(/\s+/g, ' ').trim();
 
-      return '';
-
-    }
-
-
-    const temp =
-      document.createElement('div');
-
-    temp.innerHTML =
-      entry.summary.$t;
-
-
-    return temp.textContent
-      .replace(/\s+/g, ' ')
-      .trim();
-
+    // Batasi hingga 120 karakter agar layout card tidak rusak
+    return text.length > 120 ? text.substring(0, 120) + '...' : text;
   }
-
 
   /* =======================================================
      GET CATEGORY
   ======================================================= */
-
   function getCategory(entry) {
-
-    if (
-      entry.category &&
-      entry.category.length
-    ) {
-
+    if (entry.category && entry.category.length) {
       return entry.category[0].term;
-
     }
-
     return 'Berita';
-
   }
-
 
   /* =======================================================
      GET POST URL
   ======================================================= */
-
   function getPostUrl(entry) {
-
     if (!entry.link) return '#';
-
-
-    const alternate =
-      entry.link.find(
-        link =>
-          link.rel === 'alternate'
-      );
-
-
-    return alternate
-      ? alternate.href
-      : '#';
-
+    const alternate = entry.link.find(link => link.rel === 'alternate');
+    return alternate ? alternate.href : '#';
   }
-
 
   /* =======================================================
      CREATE NEWS CARD
   ======================================================= */
+  function createNewsCard(entry, index) {
+    const title = entry.title?.$t || 'Tanpa Judul';
+    const image = getPostImage(entry);
+    const excerpt = getExcerpt(entry);
+    const category = getCategory(entry);
+    const url = getPostUrl(entry);
+    const date = formatDate(entry.published.$t);
 
-  function createNewsCard(
-    entry,
-    index
-  ) {
-
-    const title =
-      entry.title?.$t ||
-      'Tanpa Judul';
-
-
-    const image =
-      getPostImage(entry);
-
-
-    const excerpt =
-      getExcerpt(entry);
-
-
-    const category =
-      getCategory(entry);
-
-
-    const url =
-      getPostUrl(entry);
-
-
-    const date =
-      formatDate(
-        entry.published.$t
-      );
-
-
-    const card =
-      document.createElement('article');
-
-
-    card.className =
-      index === 0
-        ? 'news-card news-card-featured reveal reveal-up'
-        : 'news-card reveal reveal-up';
-
+    const card = document.createElement('article');
+    card.className = index === 0
+      ? 'news-card news-card-featured reveal reveal-up'
+      : 'news-card reveal reveal-up';
 
     card.innerHTML = `
-
-      <div
-        class='news-card-image'
-        style='background-image:url("${image}")'
-      ></div>
-
-
+      <div class='news-card-image' style='background-image:url("${image}")'></div>
       <div class='news-card-overlay'></div>
-
-
       <div class='news-card-content'>
-
-        <span class='news-card-category'>
-          ${category}
-        </span>
-
-
-        <h3 class='news-card-title'>
-          ${title}
-        </h3>
-
-
+        <span class='news-card-category'>${category}</span>
+        <h3 class='news-card-title'>${title}</h3>
         ${
           index === 0 && excerpt
-            ? `
-              <p class='news-card-excerpt'>
-                ${excerpt}
-              </p>
-            `
+            ? `<p class='news-card-excerpt'>${excerpt}</p>`
             : ''
         }
-
-
         <div class='news-card-meta'>
-
-          <span>
-            ${date}
-          </span>
-
-
+          <span>${date}</span>
           <span class='news-card-meta-dot'></span>
-
-
-          <span>
-            Baca selengkapnya
-          </span>
-
+          <span>Baca selengkapnya</span>
         </div>
-
       </div>
-
-
-      <a
-        class='news-card-link'
-        href='${url}'
-        aria-label='Baca ${title}'
-      ></a>
-
+      <a class='news-card-link' href='${url}' aria-label='Baca ${title}'></a>
     `;
 
-
     return card;
-
   }
-
 
   /* =======================================================
      LOAD NEWS
   ======================================================= */
-
   async function loadNews() {
-
     try {
-
-      const response =
-        await fetch(
-          FEED_URL,
-          {
-            method: 'GET',
-            cache: 'no-store'
-          }
-        );
-
+      const response = await fetch(FEED_URL);
 
       if (!response.ok) {
-
-        throw new Error(
-          'Blogger Feed tidak dapat diakses.'
-        );
-
+        throw new Error('Blogger Feed tidak dapat diakses.');
       }
 
-
-      const data =
-        await response.json();
-
-
-      const posts =
-        data.feed?.entry || [];
-
+      const data = await response.json();
+      const posts = data.feed?.entry || [];
 
       /* No posts */
-
       if (!posts.length) {
-
-        newsContainer.innerHTML = `
-
-          <div class='news-empty'>
-
-            Belum ada tulisan terbaru.
-
-          </div>
-
-        `;
-
+        newsContainer.innerHTML = `<div class='news-empty'>Belum ada tulisan terbaru.</div>`;
         return;
-
       }
 
-
-      /* Clear loading */
-
+      /* Clear loading state */
       newsContainer.innerHTML = '';
 
+      /* Render latest posts */
+      posts.slice(0, POST_LIMIT).forEach((entry, index) => {
+        const card = createNewsCard(entry, index);
+        newsContainer.appendChild(card);
+      });
 
-      /* Render 3 latest posts */
-
-      posts
-        .slice(0, POST_LIMIT)
-        .forEach(
-          (entry, index) => {
-
-            const card =
-              createNewsCard(
-                entry,
-                index
-              );
-
-            newsContainer.appendChild(card);
-
-          }
-        );
-
-
-      /*
-       * Re-initialize reveal animation
-       * jika main.js menyediakan fungsi tersebut.
-       */
-
-      if (
-        typeof window.initRevealAnimations ===
-        'function'
-      ) {
-
+      /* Re-initialize reveal animation (jika ada) */
+      if (typeof window.initRevealAnimations === 'function') {
         window.initRevealAnimations();
-
       }
 
+    } catch (error) {
+      console.error('[YJG NEWS]', error);
+      newsContainer.innerHTML = `<div class='news-empty'>Belum dapat memuat tulisan terbaru.</div>`;
     }
-
-    catch (error) {
-
-      console.error(
-        '[YJG NEWS]',
-        error
-      );
-
-
-      newsContainer.innerHTML = `
-
-        <div class='news-empty'>
-
-          Belum dapat memuat tulisan terbaru.
-
-        </div>
-
-      `;
-
-    }
-
   }
-
 
   /* =======================================================
      INITIALIZE
   ======================================================= */
-
   loadNews();
 
-})();
+});
