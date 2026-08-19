@@ -1838,6 +1838,11 @@ text-align: center;
 /* =========================================================
    ARTICLE CARD
 ========================================================= */
+#yjg-news .news-card {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+}
 
 #yjg-foundation .news-card {
 
