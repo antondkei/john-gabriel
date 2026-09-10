@@ -198,28 +198,99 @@
 
 
 /* ==========================================================
-   IMAGE / COVER
+   SLIDER PREMIUM (Menggantikan .school-cover)
 ========================================================== */
-.school-cover {
-    display: block; /* Menghindari bug margin bawaan inline */
-    width: 100%; /* Wajib untuk responsivitas */
-    max-width: 100%;
-    overflow: hidden;
+.slider-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/8; /* Konsisten dengan desain awal */
     border-radius: 20px;
+    overflow: hidden;
     margin-bottom: 35px;
-    aspect-ratio: 16/8;
     background: #ececec;
+    box-shadow: var(--shadow-sm);
 }
 
-.school-cover img {
+.slides-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: var(--transition-premium);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.05); /* Sedikit zoom saat tersembunyi */
+    transition: opacity 0.6s ease-in-out, visibility 0.6s, transform 0.8s ease-in-out;
 }
 
-.school-card:hover img {
-    transform: scale(1.04);
+/* Gambar yang sedang aktif */
+.slide-image.active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/* Efek hover pada card untuk gambar aktif */
+.school-card:hover .slide-image.active {
+    transform: scale(1.02);
+}
+
+/* Tombol Navigasi Premium bergaya Kaca (Glassmorphism) */
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0; /* Sembunyikan panah saat tidak di-hover */
+    transition: all 0.3s ease;
+    font-size: 18px;
+    z-index: 10;
+}
+
+/* Panah muncul saat kontainer gambar disentuh kursor */
+.slider-container:hover .slider-btn {
+    opacity: 1; 
+}
+
+.slider-btn:hover {
+    background: white;
+    color: var(--color-primary);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.prev-slide { left: 15px; }
+.next-slide { right: 15px; }
+
+/* Responsif untuk Layar HP */
+@media(max-width: 768px) {
+    .slider-container {
+        aspect-ratio: 16/10; /* Menyesuaikan style HP yang ada di CSS Anda */
+    }
+    .slider-btn {
+        opacity: 1; /* Di HP panah selalu tampil karena tidak ada efek hover kursor */
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
 }
 
 /*==========================================================

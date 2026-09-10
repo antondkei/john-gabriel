@@ -94,19 +94,19 @@ document.addEventListener("DOMContentLoaded", () => {
             id: 5,
             level: "SD",
             name: "SD Katolik Untung Suropati 1",
-            logo: "https://i.ibb.co.com/tTC8mqys/KB-TK-Kristus-Raja-II.jpg",
+            logo: "https://i.ibb.co.com/N6CjwwNN/SD-Unsur-1.jpg",
             image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
-            programs: "",
+            description: "SD Katolik Untung Suropati 1 Sidoarjo merupakan lembaga pendidikan Katolik di bawah naungan Yayasan Yohannes Gabriel Perwakilan Sidoarjo yang didirikan pada 1 Januari 1973. Berawal dari kebutuhan warga Katolik akan pendidikan berlandaskan iman, sekolah telah berpindah lokasi hingga menetap di Jl. Monginsidi No. 31, Sidoklumpuk, Sidoarjo sejak 2005 dan kini berakreditasi A. Dengan visi membentuk pribadi berkarakter, cerdas, dan berintegritas, sekolah mengembangkan pendidikan berbasis kasih melalui pembelajaran yang kreatif dan inovatif, penguatan iman melalui perayaan Ekaristi, serta pengembangan potensi peserta didik melalui beragam kegiatan ekstrakurikuler. Kemampuan bahasa juga diperkuat melalui Bahasa Mandarin, Inggris, dan Jawa, termasuk pembiasaan penggunaan bahasa dalam kegiatan sekolah dan doa Angelus.<br/><br/>Dalam membentuk generasi yang “HEBAT, CERDAS, dan BERINTEGRITAS”, SD Katolik Untung Suropati 1 menerapkan budaya 5S (Senyum, Salam, Sapa, Sopan, Santun) dan 7 Kebiasaan Anak Indonesia Hebat melalui keteladanan, pembiasaan, pendampingan, dan kolaborasi dengan orang tua. Nilai disiplin, kemandirian, kesehatan, kepedulian, iman, dan integritas ditanamkan dalam kehidupan sehari-hari agar menjadi karakter yang melekat pada peserta didik. Sekolah juga terus berupaya mengembangkan kepedulian terhadap lingkungan dengan mengoptimalkan ruang terbuka hijau yang terbatas, sehingga anak belajar mencintai, menjaga, dan menghargai alam sebagai bagian dari perwujudan kasih terhadap sesama dan seluruh ciptaan.",
+            programs: "Sebagai wujud pendidikan yang berlandaskan kasih dan pembentukan karakter, SD Katolik Untung Suropati 1 Sidoarjo menghadirkan berbagai program unggulan yang mengintegrasikan iman, nasionalisme, kesehatan, literasi, dan pengembangan potensi peserta didik. Program tersebut meliputi pembiasaan 5S, Bina Iman Legio Maria, ibadah bulanan, saat teduh, serta doa dalam tiga bahasa, disertai pembiasaan nasionalisme melalui upacara dan lagu Indonesia Raya. Sekolah juga mendukung pola hidup sehat melalui senam dan makanan bergizi, mengembangkan kemampuan bahasa melalui Bahasa Inggris dan Mandarin, serta memperkuat literasi, karakter, dan kepedulian sosial melalui Gerakan Literasi, penyuluhan, bakti sosial, Sinau Wisata, Guru Tamu, dan Kedai Unsur sebagai ruang berbagi pengetahuan. Keseluruhan program dirancang untuk membentuk peserta didik yang beriman, sehat, cerdas, berkarakter, peduli, dan berintegritas.",
             address: "Jl. Monginsidi No. 31 Sidoarjo",
-            phone: "",
-            email: "",
+            phone: "031-8961636",
+            email: "grade5unsur1@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            instagram: "https://www.instagram.com/sdkunsur1",
+            facebook: "https://www.facebook.com/sdkuntung.suropatisatu",
+            youtube: "https://www.youtube.com/@sdkatolikuntungsuropati1",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.7927930137553!2d112.7242002!3d-7.449780399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e6c82ccfb2d5%3A0xfbb054d136aa39d0!2sJl.%20Monginsidi%20No.31%2C%20Sidoklumpuk%2C%20Sidokumpul%2C%20Kec.%20Sidoarjo%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur%2061218!5e1!3m2!1sid!2sid!4v1788416185157!5m2!1sid!2sid"
         },
         {
             id: 6,
@@ -114,17 +114,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "SDK Untung Suropati II",
             logo: "https://i.ibb.co.com/NnS0bCMd/SD-Unsur-II.jpg",
             image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
-            programs: "",
+            description: "SDK Untung Suropati II berdiri pada 29 September 1997 sebagai pemekaran dari SDK Untung Suropati I dan berlokasi di Jl. Tennis III, Gajah Magersari, Sidoarjo. Pada awal berdirinya, sekolah berada dalam satu kompleks dengan TKK Santa Maria dan SMPK Untung Suropati, sehingga menjadi bagian dari pusat pendidikan yang membangun suasana kekeluargaan dan kebersamaan. Sejak perkembangannya, SDK Untung Suropati II terus tumbuh sebagai lembaga pendidikan yang mengedepankan semangat pelayanan dan pengabdian.<br/><br/>Selama lebih dari dua dekade, SDK Untung Suropati II dikenal dengan lingkungan belajar yang inklusif, disiplin, dan penuh kebersamaan, dengan fokus membentuk peserta didik yang berintegritas, kreatif, penuh kasih, cerdas, dan santun. Pembelajaran diperkaya melalui berbagai kegiatan pengembangan minat dan bakat di bidang seni, olahraga, kerohanian, serta pembelajaran renang. Didukung tenaga pendidik yang profesional dan berdedikasi, sekolah terus berkomitmen menjadi ruang tumbuh yang menyeluruh untuk membentuk generasi yang cerdas, beriman, berkarakter, dan rendah hati.",
+            programs: "Sebagai bagian dari komitmen membentuk peserta didik yang cerdas, beriman, berkarakter, dan mampu mengembangkan potensi diri, SDK Untung Suropati II menghadirkan berbagai program unggulan melalui Pramuka Garuda, penguatan akademik bidang Matematika, serta pengembangan bakat nonakademik dalam Seni Tari, Karate, dan Futsal. Pembelajaran renang juga menjadi salah satu kekhasan sekolah yang mendukung perkembangan keterampilan, kesehatan, kemandirian, dan kepercayaan diri peserta didik secara menyeluruh.",
             address: "Jl. Tenis III Gajah, Magersari, Sidoarjo",
-            phone: "",
-            email: "",
+            phone: "031-8953325",
+            email: "sdkuntungsurapati2sda@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/sdkuntungsuropati2",
             facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            youtube: "https://www.youtube.com/@sdkuntungsuropatiiisidoarj2825",
+            maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12507.401175441255!2d112.7040277!3d-7.4417182!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e1497de0c127%3A0x349183cbf7cea0c!2sSMP%20Katolik%20Untung%20Suropati%20Sidoarjo!5e1!3m2!1sid!2sid!4v1788417662792!5m2!1sid!2sid"
         },
         {
             id: 7,
@@ -132,17 +132,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "SD Katolik Santo Yusup",
             logo: "https://i.ibb.co.com/mV7tgKhF/SD-Tropodo.jpg",
             image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
+            description: "SDK Santo Yusup Tropodo merupakan lembaga pendidikan dasar Katolik yang berkomitmen memberikan pendidikan berkualitas berlandaskan nilai-nilai Pancasila, ajaran Kristiani, kasih, dan persaudaraan. Pembelajaran berpusat pada peserta didik dengan suasana yang aktif, kreatif, menyenangkan, dan bermakna, sekaligus mengembangkan kemampuan literasi, numerasi, berpikir kritis, kreativitas, kerja sama, dan potensi peserta didik secara optimal.<br/><br/>Sebagai sekolah Katolik, SDK Santo Yusup Tropodo menghidupi nilai kasih, kejujuran, disiplin, tanggung jawab, kepedulian, pelayanan, dan persaudaraan dalam keseharian, serta menanamkan nasionalisme, kepedulian lingkungan, dan penghargaan terhadap keberagaman. Didukung kolaborasi antara sekolah, orang tua, yayasan, gereja, dan masyarakat, sekolah berkomitmen mewujudkan semangat “Mendidik dengan Kasih, Bertumbuh dalam Karakter, dan Berprestasi” untuk membentuk pribadi yang beriman, cerdas, mandiri, bertanggung jawab, dan bermanfaat bagi sesama.",
             programs: "",
             address: "Jl. Brantas Wisma Tropodo Waru-Sidoarjo",
-            phone: "",
-            email: "",
+            phone: "031-8661746",
+            email: "santoyusuptropodosdk@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            instagram: "https://www.instagram.com/sdksanyutropodo",
+            facebook: "https://www.facebook.com/sanyu.tropodo.3",
+            youtube: "https://www.youtube.com/@sdksantoyusuptropodo8008",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.465307826435!2d112.75573120000001!3d-7.354937400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e519a298e593%3A0xb107d5cd074b49ed!2sSDK%20Santo%20Yusup%20Tropodo!5e1!3m2!1sid!2sid!4v1788417035945!5m2!1sid!2sid"
         },
         {
             id: 8,
@@ -150,17 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "SMP Katolik Untung Suropati Sidoarjo",
             logo: "https://i.ibb.co.com/mCycH922/SMP-Untung-Suropati.jpg",
             image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
-            programs: "",
+            description: "SMP Katolik Untung Suropati Sidoarjo merupakan lembaga pendidikan Katolik yang telah melayani masyarakat Sidoarjo sejak 1960 dan berada di bawah naungan Yayasan Yohannes Gabriel Perwakilan Sidoarjo. Berdasarkan profil resmi, sekolah berdiri pada 1 Agustus 1960, berawal dari gedung yang dibangun pada akhir 1959 dengan fungsi sebagai kapel sekaligus sekolah. Setelah diresmikan oleh Mgr. J. Klooster, CM, Uskup Surabaya, gedung tersebut mulai digunakan sebagai tempat kegiatan Gereja dan Sekolah Menengah Pertama Katolik dengan nama SMPK Untung Suropati.<br/><br/>Dalam perkembangannya, SMPK Untung Suropati terus bertumbuh dan melakukan pembenahan sebagai lembaga pendidikan yang semakin mandiri. Kekhasan sekolah terletak pada perpaduan antara pengembangan kecerdasan, pembentukan karakter, dan penghayatan nilai-nilai Kristiani. Melalui pendidikan yang berlandaskan integritas, kasih, tanggung jawab, dan kesantunan, sekolah mendampingi peserta didik untuk mengembangkan potensi dan bakatnya, berprestasi secara akademik, serta tumbuh menjadi pribadi yang peduli terhadap sesama dan siap menghadapi tantangan kehidupan.",
+            programs: "Sebagai bagian dari komitmen membentuk peserta didik yang cerdas, berkarakter, dan berlandaskan nilai-nilai Kristiani, SMP Katolik Untung Suropati Sidoarjo menghadirkan berbagai program pengembangan secara menyeluruh. Program tersebut meliputi penguatan akademik melalui pembelajaran, pendampingan, dan kompetisi; pengembangan bakat dan minat melalui berbagai kegiatan nonakademik; serta pembinaan prestasi untuk membangun pengalaman berkompetisi, kepercayaan diri, dan semangat juang. Pendidikan juga diperkuat melalui program Katolisitas serta kegiatan OSIS yang menjadi wadah pengembangan iman, karakter, kepemimpinan, tanggung jawab, kerja sama, dan kemampuan berorganisasi, didukung beragam kegiatan olahraga, seni, dan kreativitas sesuai potensi peserta didik.",
             address: "Jl. Tenis III Gajah, Magersari, Sidoarjo",
-            phone: "",
-            email: "",
-            website: "",
+            phone: "031-8966141 ",
+            email: "smpkuntungsuropati@gmail.com",
+            website: "https://www.smpkunsur.sch.id",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/smpk_unsur",
             facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            youtube: "https://www.youtube.com/@smpkuntungsuropati8767",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.8123249387013!2d112.70993419999999!3d-7.4470428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e1497de0c127%3A0x349183cbf7cea0c!2sSMP%20Katolik%20Untung%20Suropati%20Sidoarjo!5e1!3m2!1sid!2sid!4v1788419540904!5m2!1sid!2sid"
         },
         {
             id: 9,
@@ -168,17 +168,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "SMP Katolik Santo Yusup",
             logo: "https://i.ibb.co.com/F4NvH3Fn/SMP-Tropodo.jpg",
             image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
-            programs: "",
+            description: "SMPK Santo Yusup Tropodo didirikan atas permohonan umat Salib Suci dan para orang tua siswa SDK Santo Yusup Tropodo sebagai tempat melanjutkan pendidikan anak-anak mereka. Pada tahun pelajaran 1996/1997, sekolah memulai kegiatan dengan 82 siswa dalam dua kelas dan menggunakan gedung SDK Santo Yusup Tropodo pada siang hari. Pada awal 1998, SMPK Santo Yusup Tropodo mulai menyelenggarakan pembelajaran pagi di gedung sendiri yang saat itu memiliki enam ruang kelas. Dalam perkembangannya, sekolah menjadi bagian dari St. John Gabriel Foundation Perwakilan I Surabaya dan terus meningkatkan sarana-prasarana serta kualitas pendidikan untuk mendukung prestasi peserta didik.<br/><br/>Kekhasan SMPK Santo Yusup Tropodo terletak pada penguatan karakter melalui nilai kasih, kejujuran, tanggung jawab, disiplin, dan nasionalisme yang diterapkan dalam pembelajaran, doa bersama, ibadat Jumat, dan upacara bendera. Sekolah juga memberikan ruang pengembangan minat dan bakat melalui ekstrakurikuler khas seperti Floorball dan Karawitan. Selain menjadi wadah pengembangan potensi, Floorball telah menghasilkan prestasi, di antaranya Juara II tim putri dan Juara III tim putra pada PORKAB Sidoarjo 2026.",
+            programs: "Sebagai bagian dari komitmen membentuk peserta didik yang berkarakter, beriman, mandiri, dan siap menghadapi perkembangan zaman, SMPK Santo Yusup Tropodo mengembangkan berbagai program unggulan yang memadukan teknologi, pengalaman belajar, pembinaan iman, kepemimpinan, serta pengembangan bakat. Pembelajaran diperkuat melalui Smart Classroom & AI-Integrated Learning dan Outdoor Learning, sementara Character Building Retreat dan Faith in Action menumbuhkan spiritualitas serta penghayatan nilai-nilai Katolik melalui tindakan nyata. Pengembangan kepemimpinan dan kompetensi warga sekolah dilakukan melalui Student Leadership & Character Academy serta Educator Coaching & Peer Mentoring, dilengkapi program Cyber-Ethics dan Sharing Career untuk membekali siswa menghadapi tantangan sosial, digital, dan dunia kerja. Dukungan terhadap potensi nonakademik diwujudkan melalui Sports & Art Center, sedangkan kolaborasi dengan orang tua dan mitra diperkuat melalui Parent-Teacher Association (PTA) Grant Program untuk mendukung penyediaan sarana dan beasiswa.",
             address: "Jl. Brantas Wisma Tropodo Waru-Sidoarjo",
-            phone: "",
-            email: "",
-            website: "",
+            phone: "(031) 99004878",
+            email: "santoyusuptropodo.jhs@gmail.com",
+            website: "https://www.smpksanyu.sch.id",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/smpksantoyusuptropodo",
             facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            youtube: "https://www.youtube.com/@smpkst.yusup-tropodo8675",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.4653458729176!2d112.75588239999999!3d-7.354932000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e4d0c53b76ad%3A0x15fe8acb049a6d1b!2sSMP%20Katolik%20Santo%20Yusup%20Tropodo!5e1!3m2!1sid!2sid!4v1788420326711!5m2!1sid!2sid"
         },
         {
             id: 10,
@@ -391,10 +391,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = document.querySelector(".school-nav button.active");
+        const currentActive = navigation.querySelector("button.active");
         if (currentActive && Number(currentActive.dataset.id) === id) return;
 
         activateButton(id);
+
+        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
+        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         content.animate([
             { opacity: 1, transform: "translateY(0)" },

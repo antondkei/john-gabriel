@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB St. Maria Pare",
             logo: "https://i.ibb.co.com/2Y64RCQR/TK-St-Maria-Pare.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Letjend. Sutoyo 78 Pare-Kediri",
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK St. Maria Pare",
             logo: "https://i.ibb.co.com/2Y64RCQR/TK-St-Maria-Pare.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Letjend. Sutoyo 78 Pare-Kediri",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK Yohannes Gabriel Puhsarang",
             logo: "https://i.ibb.co.com/mVhNvn0T/TKK-Yoga-Puhsarang.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Raya Pohsarang No. 157 Semen-Kediri",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",   
             name: "TK St. Yoseph 1",
             logo: "https://i.ibb.co.com/8gY77qp4/TKK-St-Yoseph-I.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Hasanudin No.35 Kediri",
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK St. Yoseph 2",
             logo: "https://i.ibb.co.com/XfN9J2jx/TK-St-Yoseph-II.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Sriwijaya No. 43 B Kediri",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK St. Katarina Manyaran",
             logo: "https://i.ibb.co.com/ksgrjs7H/TKK-St-Katarina.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Dusun Sumberbentis - Desa Manyaran-Banyakan Kediri",
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Yohanes Gabriel",
             logo: "https://i.ibb.co.com/8LvYZ8hc/SDK-Yoga-Puhsarang.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Raya Puhsarang Desa Puhsarang-Semen-Kediri",
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Santa Maria",
             logo: "https://i.ibb.co.com/k2D1mRCC/SDK-St-Maria-Pare.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Letjen Sutoyo No. 78 Pare Kediri",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Frateran II",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Jaksa Agung Suprapto No. 10 Mojoroto Kediri",
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Santo Yosef",
             logo: "https://i.ibb.co.com/4ZLmvgHH/SDK-St-Yoseph-I.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Hasanudin No. 35 Kediri",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Yohannes Gabriel Pare",
             logo: "https://i.ibb.co.com/8LpYM64X/SMP-Yoga-Pare.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Letjen Sutoyo No. 78 Pare Kediri",
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMA Katolik Santo Augustinus",
             logo: "https://i.ibb.co.com/zhxnwgdG/SMAK-St-Agustinus.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Veteran No. 3 Kediri",
@@ -303,12 +303,39 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     }
 
+    let currentSlide = 0;
+    
     // Fungsi Render Konten Sekolah
     function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
+        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
+
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
+
+        // --- SCRIPT BARU UNTUK SLIDER ---
+        let sliderHTML = "";
+        if (school.images && school.images.length > 0) {
+            // Hapus gaya inline style, gantikan dengan class active untuk gambar pertama
+            const imagesHTML = school.images.map((img, index) => `
+                <img src="${img}" class="slide-image ${index === 0 ? 'active' : ''}">
+            `).join('');
+
+            // Hapus gaya inline style pada tombol, gunakan class slider-btn
+            sliderHTML = `
+                <div class="slider-container">
+                    <div class="slides-wrapper">
+                        ${imagesHTML}
+                    </div>
+                    ${school.images.length > 1 ? `
+                        <button class="slider-btn prev-slide">&#10094;</button>
+                        <button class="slider-btn next-slide">&#10095;</button>
+                    ` : ''}
+                </div>
+            `;
+        }
+        // --------------------------------
 
         content.innerHTML = `
             <article class="school-card">
@@ -326,13 +353,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
 
-                <figure class="school-cover skeleton" id="cover-wrapper">
-                    <img 
-                        src="${school.image}" 
-                        alt="${school.name}"
-                        class="img-lazy"
-                        onload="document.getElementById('cover-wrapper').classList.remove('skeleton'); this.classList.add('loaded')">
-                </figure>
+                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                ${sliderHTML}
 
                 <div class="school-description">
                     <p>${school.description}</p>
@@ -391,10 +413,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = document.querySelector(".school-nav button.active");
+        const currentActive = navigation.querySelector("button.active");
         if (currentActive && Number(currentActive.dataset.id) === id) return;
 
         activateButton(id);
+
+        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
+        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         content.animate([
             { opacity: 1, transform: "translateY(0)" },
@@ -421,6 +446,27 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!button) return;
         const id = Number(button.dataset.id);
         changeSchool(id);
+    });
+
+// Logika Navigasi Slider Foto
+    content.addEventListener("click", (e) => {
+        if (e.target.classList.contains("prev-slide") || e.target.classList.contains("next-slide")) {
+            const slides = content.querySelectorAll(".slide-image");
+            if (!slides.length) return;
+
+            // 1. Hapus class 'active' dari gambar saat ini (memicu animasi pudar menghilang)
+            slides[currentSlide].classList.remove("active");
+
+            // 2. Hitung indeks gambar berikutnya
+            if (e.target.classList.contains("prev-slide")) {
+                currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+            } else {
+                currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+            }
+
+            // 3. Tambahkan class 'active' ke gambar baru (memicu animasi muncul & zoom)
+            slides[currentSlide].classList.add("active");
+        }
     });
 
     // ==========================================
