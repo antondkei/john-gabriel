@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB Kasih Ngantru Trenggalek",
             logo: "https://i.ibb.co.com/tPwrpH9s/PAUD-Kasih.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Yos Sudarso No. 2 Ngantru Trenggalek",
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB St. Paulus Sidodadi",
             logo: "https://i.ibb.co.com/vCk4Xbrm/KB-St-Paulus.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Gereja RT.04/RW.01 Sidodadi Garum Blitar",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB K Yos Sudarso",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Cepaka No. 08 Sukorejo-Blitar",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",   
             name: "TK K Yos Sudarso",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Cepaka No. 08 Sukorejo-Blitar",
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK Kasih Ngantru Trenggalek",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Yos Sudarso No. 2 Ngantru Trenggalek",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK St. Paulus Sidodadi",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Gereja RT.04/RW.01 Sidodadi Garum Blitar",
@@ -131,25 +131,25 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK Santa Maria Wlingi",
             logo: "",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
-            description: "",
-            programs: "",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "TK Santa Maria Wlingi didirikan atas prakarsa dan semangat pelayanan anggota Wanita Katolik Republik Indonesia (WKRI) Stasi Santo Kristoporus, wilayah pelayanan pastoral Paroki Santo Yusuf Blitar. Gagasan pendirian sekolah berawal dari musyawarah WKRI yang kemudian dilanjutkan oleh Ibu Marcella Swantiti bersama sejumlah tokoh dan umat setempat. Setelah melalui proses persiapan, TK Santa Maria Wlingi resmi berdiri pada 28 Juli 1980 dan beralamat di Jalan Mastrip No. 9 Wlingi. Sekolah pada awalnya berada di bawah Yayasan Dharma Ibu, kemudian dikelola Yayasan Widya Sasana, hingga selanjutnya berada di bawah naungan St. John Gabriel Foundation yang berpusat di Surabaya.<br/><br/>TK Santa Maria Wlingi memiliki kekhasan dalam menghadirkan pendidikan anak usia dini yang berlandaskan kasih, kepedulian, kebersamaan, pelayanan, dan penghargaan terhadap setiap pribadi anak. Pembelajaran berpusat pada anak melalui kegiatan bermain yang ramah, menyenangkan, dan bermakna dengan memperhatikan tahap perkembangan, minat, kebutuhan, serta keunikan setiap peserta didik. Nilai iman dan moral, kemandirian, tanggung jawab, kreativitas, kepedulian, serta penghargaan terhadap keberagaman ditanamkan melalui keteladanan dan pembiasaan sehari-hari. Dengan semangat tersebut, sekolah berkomitmen mendampingi anak tumbuh dan berkembang secara optimal dalam suasana kasih, kebersamaan, dan pelayanan.",
+            programs: "Sejalan dengan kekhasan TK Santa Maria Wlingi dalam menghadirkan pendidikan yang berlandaskan kasih, menyenangkan, dan berpusat pada anak, berbagai program dikembangkan untuk mendukung pertumbuhan anak secara utuh. Character Building dan Bina Iman Anak menanamkan nilai iman, kemandirian, tanggung jawab, kepedulian, serta sikap saling menghargai melalui pembiasaan yang sesuai dengan dunia anak. Fun Gym mendukung perkembangan motorik dan kebugaran, sementara Fun English Time mengenalkan kemampuan berbahasa Inggris melalui kegiatan yang menyenangkan. Outing Class memberikan pengalaman belajar secara langsung di lingkungan sekitar sehingga anak dapat bereksplorasi, berinteraksi, dan membangun kepercayaan diri. Melalui rangkaian program tersebut, anak didampingi untuk tumbuh menjadi pribadi yang aktif, mandiri, kreatif, beriman, dan peduli terhadap sesama.",
             address: "Jl. Mastrip No. 09 Wlingi Blitar",
-            phone: "",
-            email: "",
+            phone: "0342-694425",
+            email: "tkksantamaria.wlingi01@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/tksantamariawlingi",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.132252099828!2d112.33061199999999!3d-8.0766694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78917fc822e2af%3A0xd7cf231c3365783a!2sTK%20Santa%20Maria!5e1!3m2!1sid!2sid!4v1789452193071!5m2!1sid!2sid"
         },
         {
             id: 8,
             level: "TK",
             name: "TK Pancasila Blitar",
             logo: "https://i.ibb.co.com/C34nv6VW/TK-Pancasila.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Karya Barat No. 03 Sananwetan-Blitar",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Yohanes Gabriel",
             logo: "https://i.ibb.co.com/TDrTZDMm/SDK-Yoga-Slorok.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Gereja No. 05 Slorok-Garum Blitar",
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Yos Sudarso",
             logo: "https://i.ibb.co.com/WWzxJDS4/SDK-Yos-Blitar.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Cempaka No. 8 Sukorejo Blitar",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Yohanes Gabriel Kesamben",
             logo: "https://i.ibb.co.com/TM2Mhtt6/SMPK-Kesamben.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Raya No. 182 A Kesamben-Blitar",
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMPK Pancasila Wates",
             logo: "https://i.ibb.co.com/bjvWXbyf/SMPK-Pancasila.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Raya No.150 Mojorejo-Wates-Blitar",
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Yos Soedarso 3 Blitar",
             logo: "https://i.ibb.co.com/jvn8FMJv/SMPK-3-Yos.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Cempaka No. 6 Sukorejo Blitar",
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Yohanes Gabriel",
             logo: "https://i.ibb.co.com/mVKrxgTk/SMPK-Yoga-Blitar.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Diponegoro No.38 Sananwetan Kota Blitar",
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik Diponegoro",
             logo: "https://i.ibb.co.com/SwCzHHrD/SMAK-Dipo.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Diponegoro No. 32 Sananwetan Blitar",
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik St Thomas Aquino",
             logo: "https://i.ibb.co.com/4ZQ6sCvd/SMAK-Thomas-TA.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Dr. Wahidin Sudiro Husodo No. 83 Kedungwaru Tulungagung",
@@ -311,7 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik Seminari Garum",
             logo: "https://i.ibb.co.com/PsYRxP9n/SMAK-Seminari.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Merdeka Timur No. 4 - 6 Garum Blitar",
@@ -393,12 +393,43 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     }
 
+    let currentSlide = 0;
+    
     // Fungsi Render Konten Sekolah
     function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
+        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
+
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
+
+        // --- SCRIPT BARU UNTUK SLIDER ---
+        let sliderHTML = "";
+        if (school.images && school.images.length > 0) {
+            // Tambahkan atribut onload pada tag img
+            const imagesHTML = school.images.map((img, index) => `
+                <img 
+                    src="${img}" 
+                    class="slide-image ${index === 0 ? 'active' : ''}"
+                    onload="this.closest('.slider-container').classList.remove('skeleton')"
+                >
+            `).join('');
+
+            // Tambahkan class 'skeleton' pada div slider-container
+            sliderHTML = `
+                <div class="slider-container skeleton">
+                    <div class="slides-wrapper">
+                        ${imagesHTML}
+                    </div>
+                    ${school.images.length > 1 ? `
+                        <button class="slider-btn prev-slide">&#10094;</button>
+                        <button class="slider-btn next-slide">&#10095;</button>
+                    ` : ''}
+                </div>
+            `;
+        }
+        // --------------------------------
 
         content.innerHTML = `
             <article class="school-card">
@@ -416,13 +447,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
 
-                <figure class="school-cover skeleton" id="cover-wrapper">
-                    <img 
-                        src="${school.image}" 
-                        alt="${school.name}"
-                        class="img-lazy"
-                        onload="document.getElementById('cover-wrapper').classList.remove('skeleton'); this.classList.add('loaded')">
-                </figure>
+                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                ${sliderHTML}
 
                 <div class="school-description">
                     <p>${school.description}</p>
@@ -481,10 +507,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = document.querySelector(".school-nav button.active");
+        const currentActive = navigation.querySelector("button.active");
         if (currentActive && Number(currentActive.dataset.id) === id) return;
 
         activateButton(id);
+
+        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
+        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         content.animate([
             { opacity: 1, transform: "translateY(0)" },
@@ -511,6 +540,27 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!button) return;
         const id = Number(button.dataset.id);
         changeSchool(id);
+    });
+
+// Logika Navigasi Slider Foto
+    content.addEventListener("click", (e) => {
+        if (e.target.classList.contains("prev-slide") || e.target.classList.contains("next-slide")) {
+            const slides = content.querySelectorAll(".slide-image");
+            if (!slides.length) return;
+
+            // 1. Hapus class 'active' dari gambar saat ini (memicu animasi pudar menghilang)
+            slides[currentSlide].classList.remove("active");
+
+            // 2. Hitung indeks gambar berikutnya
+            if (e.target.classList.contains("prev-slide")) {
+                currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+            } else {
+                currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+            }
+
+            // 3. Tambahkan class 'active' ke gambar baru (memicu animasi muncul & zoom)
+            slides[currentSlide].classList.add("active");
+        }
     });
 
     // ==========================================

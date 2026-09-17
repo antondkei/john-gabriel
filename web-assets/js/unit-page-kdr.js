@@ -20,204 +20,132 @@ document.addEventListener("DOMContentLoaded", () => {
     const schools = [
         {
             id: 1,
-            level: "KB",
-            name: "KB St. Maria Pare",
+            level: "TK",
+            name: "TK St. Maria Pare",
             logo: "https://i.ibb.co.com/2Y64RCQR/TK-St-Maria-Pare.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            images: ["https://i.ibb.co.com/FjYcLx2/Foto-Sekolah-1-TKPare.webp","https://i.ibb.co.com/R4j2rwWR/Foto-Sekolah-2-TKPare.webp","https://i.ibb.co.com/hFqskQ6X/Foto-Sekolah-3-TKPare.webp"],
+            description: "TK Katolik Santa Maria Pare telah berdiri sejak tahun 1950 sebagai salah satu sekolah Katolik awal di Kota Pare, yang pada awalnya hadir untuk memberikan pendidikan dasar bagi anak-anak Katolik sekaligus menjadi sarana pewartaan Gereja Katolik. Dalam perjalanannya, sekolah berkembang melalui berbagai keterbatasan dan tantangan, termasuk persaingan dengan bertambahnya sekolah di Pare pada tahun 1980-an. Dukungan para donatur dan alumni melalui Hopes turut membantu pengembangan sekolah. Sejak tahun 2000, sekolah memperluas layanan dengan membuka Kelompok Bermain, kemudian layanan anak usia 2 tahun dan kelompok toddler pada tahun 2015. Hingga kini, TK Santa Maria Pare terus berkembang dan mampu memenuhi target peserta didik serta mempersiapkan lulusan untuk melanjutkan pendidikan ke jenjang berikutnya.<br/><br/>TK Katolik Santa Maria Pare berada di kawasan pinggiran Kota Pare, Kabupaten Kediri, dengan lingkungan masyarakat yang plural, baik dari segi agama maupun kondisi sosial ekonomi. Peserta didik berasal dari berbagai latar belakang, dengan mayoritas beragama Kristen, disusul Katolik dan agama lainnya. Dalam penyelenggaraan pendidikan, sekolah menerapkan Kurikulum Merdeka dengan mengintegrasikan nilai-nilai Katolisitas dalam setiap pembelajaran serta mengembangkan keterampilan hidup sesuai tahap perkembangan anak. Dengan lingkungan belajar yang inklusif dan beragam, sekolah berkomitmen mendampingi anak agar berkembang secara utuh, memiliki karakter positif, keterampilan hidup, serta kesiapan untuk melanjutkan pendidikan ke jenjang berikutnya.",
+            programs: "Program unggulan TK Katolik Santa Maria Pare dirancang untuk mendukung tumbuh kembang anak secara utuh melalui penguatan kemandirian, karakter, kreativitas, iman, dan kesiapan belajar. Program Pisah Asuh menjadi sarana melatih kemandirian, kemampuan bersosialisasi, kepercayaan diri, serta tanggung jawab anak, sementara Program Seni dan Musik melalui angklung, tari, melukis, fashion show, dan paduan suara memberikan ruang bagi anak untuk mengembangkan bakat dan minatnya. Nilai-nilai Katolisitas diwujudkan melalui Program Peduli Kasih yang menanamkan bela rasa, kepedulian, dan semangat saling menolong. Untuk mempersiapkan anak menuju jenjang sekolah dasar, Calistung Asyik dikembangkan khusus bagi kelompok TK B, dilengkapi dengan pembelajaran komputer dan English Day sebagai bekal keterampilan serta wawasan anak dalam menghadapi perkembangan zaman.",
             address: "Jl. Letjend. Sutoyo 78 Pare-Kediri",
-            phone: "",
-            email: "",
+            phone: "(0354)397189",
+            email: "tkksantamariapare@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
+            instagram: "https://www.instagram.com/paudsantamaria_pare",
+            facebook: "http://facebook.com/paudsantamaria.pare",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d554.6555808574988!2d112.19871149802815!3d-7.7754348943447615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1789198262799!5m2!1sid!2sid"
         },
         {
             id: 2,
             level: "TK",
-            name: "TK St. Maria Pare",
-            logo: "https://i.ibb.co.com/2Y64RCQR/TK-St-Maria-Pare.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Jl. Letjend. Sutoyo 78 Pare-Kediri",
+            name: "TK Yohannes Gabriel Puhsarang",
+            logo: "https://i.ibb.co.com/mVhNvn0T/TKK-Yoga-Puhsarang.jpg",
+            images: ["https://i.ibb.co.com/6RJQtpq6/Foto-Sekolah-1-TKPuhsarang.webp","https://i.ibb.co.com/1Jrz2twg/Foto-Sekolah-2-TKPuhsarang.webp","https://i.ibb.co.com/5xvfn6CV/Foto-Sekolah-3-TKPuhsarang.webp"],
+            description: "TK Katolik Yohanes Gabriel Puhsarang merupakan lembaga pendidikan anak usia dini swasta yang berlokasi di Jl. Raya Puhsarang No. 157, Desa Puhsarang, Kecamatan Semen, Kabupaten Kediri, dan berada di bawah naungan St. John Gabriel Foundation Perwakilan Kediri Kota–Kabupaten. Sekolah ini resmi didirikan pada 1 Agustus 1985 dan memiliki akreditasi B. Kehadirannya ditujukan untuk memenuhi kebutuhan pendidikan anak usia dini yang bermutu di wilayah Puhsarang. Dalam perkembangannya, sekolah terus bertahan dan bertransformasi di tengah keterbatasan fasilitas dengan berkomitmen memberikan layanan pendidikan yang berpihak pada tumbuh kembang anak secara utuh.<br/><br/>Kekhasan TK Katolik Yohanes Gabriel Puhsarang terletak pada lokasinya yang dekat dengan kawasan Gereja dan Goa Maria Lourdes Puhsarang, sehingga lingkungan rohani dan kehidupan masyarakat sekitar menjadi bagian dari pengalaman belajar anak. Sekolah juga memiliki karakter yang inklusif dengan peserta didik dari beragam latar belakang agama, suku, dan kondisi sosial ekonomi. Pembelajaran menerapkan pendekatan deep learning berbasis bermain yang menstimulasi aspek kognitif, motorik, bahasa, serta sosial-emosional anak, sekaligus mengangkat kearifan lokal Jawa melalui budaya, cerita rakyat Kediri, lagu daerah, dan permainan tradisional. Dengan demikian, sekolah menjadi ruang belajar yang kontekstual, humanis, toleran, dan mendukung setiap anak untuk berkembang sesuai potensinya.",
+            programs: "Program pengembangan bakat non-akademik menjadi bagian dari upaya TK Katolik Yohanes Gabriel Puhsarang dalam mendampingi anak bertumbuh secara utuh. Melalui kegiatan ekstrakurikuler Menari dan Melukis yang dilaksanakan setiap hari Sabtu, anak diberikan ruang untuk mengeksplorasi kreativitas, mengembangkan keterampilan motorik, membangun rasa percaya diri, serta mengekspresikan diri secara positif. Kegiatan ini juga menjadi sarana untuk menumbuhkan apresiasi dan kecintaan terhadap seni serta budaya Nusantara sejak usia dini, sejalan dengan pembelajaran yang kontekstual dan berakar pada kearifan lokal.",
+            address: "Jl. Raya Pohsarang No. 157 Semen-Kediri",
             phone: "",
-            email: "",
+            email: "tkkgabrielpuhsarang@gmail.com",
             website: "",
             // Data Sosmed Baru:
             instagram: "",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.5918190397056!2d111.9505813!3d-7.8329515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7855e91cb4d1c9%3A0x1a7a32b407719005!2sTKK%20YOHANES%20GABRIEL!5e0!3m2!1sid!2sid!4v1789210664947!5m2!1sid!2sid"
         },
         {
             id: 3,
             level: "TK",
-            name: "TK Yohannes Gabriel Puhsarang",
-            logo: "https://i.ibb.co.com/mVhNvn0T/TKK-Yoga-Puhsarang.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Jl. Raya Pohsarang No. 157 Semen-Kediri",
-            phone: "",
-            email: "",
+            name: "TK St. Katarina Manyaran",
+            logo: "https://i.ibb.co.com/ksgrjs7H/TKK-St-Katarina.jpg",
+            images: ["https://i.ibb.co.com/fYJzb86w/Foto-Sekolah-1-TKKatarina-Kdr.webp","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "TK Katolik Yohanes Gabriel Puhsarang didirikan pada 1 Agustus 1985 sebagai bagian dari karya pendidikan Katolik di wilayah Puhsarang. Berada di bawah naungan St. John Gabriel Foundation, sekolah ini hadir untuk memenuhi kebutuhan pendidikan anak usia dini yang bermutu dan berpihak pada tumbuh kembang anak. Letaknya yang berdekatan dengan Gereja dan Goa Maria Lourdes Puhsarang memberikan kekhasan tersendiri, karena lingkungan sekolah menjadi ruang belajar yang kaya akan pengalaman sosial dan spiritual. Meskipun memiliki keterbatasan lahan dan fasilitas, sekolah terus bertransformasi dengan mengoptimalkan lingkungan sekitar sebagai bagian dari pengalaman belajar anak.<br/><br/>TK Katolik Yohanes Gabriel Puhsarang memiliki karakteristik lingkungan yang inklusif dan heterogen, dengan peserta didik berasal dari berbagai latar belakang agama, sosial, dan ekonomi. Pembelajaran dikembangkan melalui pendekatan deep learning berbasis bermain yang berpusat pada anak, dengan menstimulasi aspek kognitif, motorik, bahasa, serta sosial-emosional secara menyeluruh. Kekhasan lainnya adalah pengintegrasian kearifan lokal Jawa dan budaya Kediri melalui cerita rakyat, lagu daerah, permainan tradisional, serta berbagai pengalaman kontekstual. Dengan demikian, sekolah berkomitmen mendampingi setiap anak untuk tumbuh secara utuh dalam suasana belajar yang menyenangkan, toleran, dan kaya nilai.",
+            programs: "Sebagai bagian dari komitmen mendampingi anak bertumbuh secara utuh, TK Katolik Yohanes Gabriel Puhsarang mengembangkan berbagai program yang memadukan kesiapan belajar, kemandirian, karakter, iman, serta keterampilan motorik. Gerakan Magang Antar Lingkungan (Gemilang) memberikan pengalaman langsung kepada anak untuk mengenal lingkungan Sekolah Dasar sekaligus membangun mental dan kesiapan menghadapi jenjang pendidikan berikutnya. Pembiasaan kemandirian terintegrasi dilakukan dalam aktivitas sehari-hari untuk menumbuhkan disiplin dan tanggung jawab secara alami tanpa paksaan, sementara pendidikan karakter dan iman diwujudkan melalui perayaan hari besar serta kegiatan sosial yang interaktif. Proses pembelajaran juga diperkaya dengan kegiatan berbasis motorik dan kreativitas, seperti finger painting dan permainan roda berputar, sehingga anak dapat belajar melalui pengalaman yang menyenangkan, aktif, dan sesuai dengan tahap perkembangannya.",
+            address: "Dusun Sumberbentis - Desa Manyaran-Banyakan Kediri",
+            phone: "0813 6323 0271",
+            email: "Tk.santakatarina@gmail.com",
             website: "",
             // Data Sosmed Baru:
             instagram: "",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1562.1409055926997!2d111.95695184049931!3d-7.793761524548514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7851835bbe10f1%3A0xf516c7fd25f8ad4e!2sTK%20SANTA%20KATARINA%20SUMBERBENTIS!5e1!3m2!1sid!2sid!4v1789359799839!5m2!1sid!2sid"
         },
         {
             id: 4,
-            level: "TK",   
-            name: "TK St. Yoseph 1",
-            logo: "https://i.ibb.co.com/8gY77qp4/TKK-St-Yoseph-I.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Jl. Hasanudin No.35 Kediri",
-            phone: "",
-            email: "",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
-        },
-        {
-            id: 5,
-            level: "TK",
-            name: "TK St. Yoseph 2",
-            logo: "https://i.ibb.co.com/XfN9J2jx/TK-St-Yoseph-II.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Jl. Sriwijaya No. 43 B Kediri",
-            phone: "",
-            email: "",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
-        },
-        {
-            id: 6,
-            level: "TK",
-            name: "TK St. Katarina Manyaran",
-            logo: "https://i.ibb.co.com/ksgrjs7H/TKK-St-Katarina.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Dusun Sumberbentis - Desa Manyaran-Banyakan Kediri",
-            phone: "",
-            email: "",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
-        },
-        {
-            id: 7,
             level: "SD",
             name: "SD Katolik Yohanes Gabriel",
             logo: "https://i.ibb.co.com/8LvYZ8hc/SDK-Yoga-Puhsarang.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            images: ["https://i.ibb.co.com/b5dthkjH/Foto-Sekolah-1-SDKYoga-Puhsrg.webp","https://i.ibb.co.com/MyMvs2kK/Foto-Sekolah-2-SDKYoga-Puhsrg.webp","https://i.ibb.co.com/5XZxQFFt/Foto-Sekolah-3-SDKYoga-Puhsrg.webp"],
+            description: "SD Katolik Yohanes Gabriel Puhsarang merupakan sekolah dasar swasta di Desa Puhsarang, Kecamatan Semen, Kabupaten Kediri, yang berada di bawah naungan St. John Gabriel Foundation. Berdiri sejak tahun 1931, sekolah ini menjadi bagian dari karya pendidikan Katolik yang menghidupi nilai iman, kasih, pelayanan, dan pembentukan karakter. Dengan jumlah peserta didik yang relatif sedikit, sekolah memiliki suasana yang dekat, sederhana, dan kekeluargaan. Keterbatasan sarana-prasarana terus dikembangkan secara bertahap, sementara bangunan yang didominasi batu alam atau batu ekspos menjadi salah satu identitas unik yang mencerminkan kekokohan dan perjalanan panjang sekolah.<br/><br/>Dalam penyelenggaraan pendidikan, SD Katolik Yohanes Gabriel Puhsarang memadukan pengembangan akademik dengan pembentukan iman dan karakter melalui pembelajaran, pembiasaan, kegiatan kerohanian, dan kegiatan sosial. Nilai kasih, kejujuran, tanggung jawab, disiplin, kepedulian, kerja sama, dan kesopanan menjadi bagian dari kehidupan sehari-hari, disertai ruang pengembangan bakat dan minat seperti menyanyi, tari, dan kegiatan kreatif. Dengan dukungan guru, peserta didik, orang tua, St. John Gabriel Foundation, Gereja, dan masyarakat, sekolah terus berupaya menjadi lingkungan pendidikan yang aman, ramah, dan penuh kasih untuk membentuk pribadi yang beriman, cerdas, mandiri, berkarakter, peduli, dan berintegritas.",
+            programs: "Sejalan dengan komitmen sekolah dalam mengembangkan peserta didik secara utuh, program pengembangan bakat dan akademik dilaksanakan melalui kegiatan ekstrakurikuler Menari, Menggambar, dan Taekwondo serta Pembinaan MIPA. Kegiatan tersebut memberikan ruang bagi peserta didik untuk mengeksplorasi dan mengembangkan potensi seni, kreativitas, olahraga, serta kemampuan berpikir logis dan ilmiah. Melalui pendampingan yang terarah, peserta didik dibentuk menjadi pribadi yang percaya diri, disiplin, kreatif, tekun, dan mampu mengembangkan bakat maupun kemampuan akademiknya secara optimal.",
             address: "Jl. Raya Puhsarang Desa Puhsarang-Semen-Kediri",
             phone: "",
-            email: "",
+            email: "sdkyohanesgabriel10@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/tkksdkyogapuhsarang",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.9885435539677!2d111.94769067380618!3d-7.8329571778107585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785681d2c671c5%3A0xf0070aca8f0f851e!2s5X82%2BR46%2C%20Ngawal%2C%20Puhsarang%2C%20Kec.%20Semen%2C%20Kabupaten%20Kediri%2C%20Jawa%20Timur!5e1!3m2!1sid!2sid!4v1789438858651!5m2!1sid!2sid"
         },
         {
-            id: 8,
+            id: 5,
             level: "SD",
             name: "SD Katolik Santa Maria",
             logo: "https://i.ibb.co.com/k2D1mRCC/SDK-St-Maria-Pare.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            images: ["https://i.ibb.co.com/Qj19DcKw/Foto-Sekolah-1-SDKPare.webp","https://i.ibb.co.com/5X7xkgr2/Foto-Sekolah-2-SDKPare.webp","https://i.ibb.co.com/Pzwjm579/Foto-Sekolah-3-SDKPare.webp"],
+            description: "SDK Santa Maria Pare yang berlokasi di Jl. Letjen Sutoyo No. 78, Pare–Kediri, didirikan pada 1 Agustus 1952 oleh Keuskupan Surabaya dengan dukungan keluarga-keluarga Katolik dan guru agama Katolik di wilayah Pare. Sekolah ini hadir untuk menampung lulusan TKK Santa Maria dan berkembang di atas lahan seluas 3.875 m² milik Yayasan Gereja dan Amal St. Vincentius A Paulo. Dengan latar belakang peserta didik yang beragam, baik dari sisi agama maupun suku, SDK Santa Maria Pare menjadi sekolah yang terbuka dan inklusif. Kepercayaan masyarakat terhadap sekolah juga terlihat dari jumlah peserta didik yang dalam lima tahun terakhir konsisten berada pada kisaran 290–323 siswa, didukung oleh tenaga pendidik dan kependidikan yang berkomitmen.<br/><br/>Dalam perkembangannya, SDK Santa Maria Pare terus berupaya mengembangkan potensi peserta didik secara utuh melalui pembelajaran, pengembangan bakat dan minat, serta berbagai kegiatan ekstrakurikuler bagi kelas bawah maupun kelas atas. Komitmen tersebut telah menghasilkan berbagai prestasi di tingkat kecamatan, provinsi, nasional, hingga internasional, baik dalam bidang nonakademik maupun olimpiade. Selain berprestasi, peserta didik juga diberi ruang untuk menghidupi nilai iman melalui keterlibatan dalam pelayanan Ekaristi di gereja serta membangun kepedulian dan kebersamaan melalui kerja sama dengan Gereja, orang tua, dan masyarakat sekitar.",
+            programs: "Sejalan dengan komitmen SDK Santa Maria Pare dalam mengembangkan potensi peserta didik secara utuh, sekolah menyediakan berbagai program akademik dan nonakademik yang mendukung pengembangan kemampuan, karakter, dan bakat siswa. Di bidang akademik, Kelas Olimpiade menjadi wadah untuk mengembangkan kemampuan berpikir kritis, logis, dan berprestasi. Sementara itu, kegiatan Basket, Drumband, dan Dance memberikan ruang bagi peserta didik untuk mengembangkan bakat dan kreativitas, sedangkan Outing Class, Puncak Semester melalui proyek kreatif, LDK–Brigif, dan Kemah menjadi sarana pembelajaran kontekstual yang menumbuhkan kemandirian, disiplin, kepemimpinan, kerja sama, serta kepedulian sosial. Melalui rangkaian kegiatan tersebut, sekolah berupaya membentuk peserta didik yang berprestasi, percaya diri, kreatif, tangguh, dan mampu berkembang dalam keberagaman.",
             address: "Jl. Letjen Sutoyo No. 78 Pare Kediri",
-            phone: "",
-            email: "",
-            website: "",
+            phone: "081217810161",
+            email: "santamariapare@gmail.com",
+            website: "https://www.sdksantamariapare.com",
             // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            instagram: "https://www.instagram.com/sdksantamariapare",
+            facebook: "https://www.facebook.com/sdksantamariapare.sdksantamariapare",
+            youtube: "https://www.youtube.com/@officialsdkatoliksantamari7389",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.415984478002!2d112.19882559999999!3d-7.775763599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785dd11643bc19%3A0xe487456b0012c956!2sSD%20Katolik%20Santa%20Maria!5e1!3m2!1sid!2sid!4v1789441638753!5m2!1sid!2sid"
         },
         {
-            id: 9,
+            id: 6,
             level: "SD",
             name: "SD Katolik Frateran II",
-            logo: "",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            logo: "https://i.ibb.co.com/0pZ25FHK/SDK-Frateran-II.jpg",
+            images: ["https://i.ibb.co.com/fKTQ9Gj/Foto-Sekolah-1-SDKFrada.webp","https://i.ibb.co.com/VF7xZmT/Foto-Sekolah-2-SDKFrada.webp","https://i.ibb.co.com/5ZgXNYt/Foto-Sekolah-3-SDKFrada.webp"],
+            description: "SD Katolik Frateran II Kota Kediri berdiri pada tahun 1948 sebagai pecahan dari Frateran I atas prakarsa Romo Hadi Sudarso bersama para Frater BHK, dengan semangat menghadirkan nilai kekatolikan, kebangsaan, dan kepedulian sosial. Berlokasi strategis di pinggir jalan raya, sekolah ini berdiri di atas lahan seluas 1.275 m² dengan luas bangunan 775 m². Meskipun menghadapi keterbatasan lahan, fasilitas, jumlah peserta didik, dan tantangan persaingan dengan sekolah di sekitarnya, SDK Frateran II terus bertahan dan berkembang melalui dukungan St. John Gabriel Foundation, Keuskupan Surabaya, pemerintah, donatur, orang tua, serta alumni. Peserta didik berasal dari latar belakang agama yang beragam, dengan budaya belajar yang baik, kemauan untuk maju, dan dukungan orang tua yang kuat.<br/><br/>Dalam pendidikannya, SDK Frateran II menekankan pembentukan karakter, kedisiplinan, kecakapan, dan pengembangan potensi peserta didik. Salah satu ciri khasnya adalah Paguyuban Karawitan Frada Laras yang berawal dari ketertarikan siswa terhadap budaya Jawa dan kini menjadi bagian penting dalam kegiatan seni serta pelayanan di Gereja dan masyarakat. Sekolah juga mengembangkan bakat melalui ekstrakurikuler Drumband, Seni Tari, dan Renang, sekaligus menanamkan pembiasaan sikap sopan dan santun dalam kehidupan sehari-hari, seperti menyapa dengan ramah, menghormati orang yang lebih tua, serta membangun kebiasaan berkomunikasi dengan baik. Melalui nilai kekatolikan, budaya, karakter, dan kepedulian sosial, sekolah berupaya membentuk pribadi yang cerdas, terampil, berbudaya, dan berkarakter.",
+            programs: "Sejalan dengan semangat SDK Frateran II dalam menghadirkan pendidikan yang berakar pada nilai kekatolikan, kebangsaan, dan kepedulian sosial, sekolah mengembangkan Pendidikan Karakter Anak dan Seni Karawitan sebagai program unggulan. Pendidikan karakter diwujudkan melalui pembiasaan sikap sopan, santun, disiplin, menghargai orang lain, serta membangun kebiasaan menyapa dengan ramah dan berkomunikasi dengan baik. Sementara itu, Seni Karawitan melalui Paguyuban Frada Laras menjadi wadah untuk mengenalkan dan melestarikan budaya Jawa sekaligus menumbuhkan kreativitas, kerja sama, tanggung jawab, dan rasa percaya diri peserta didik. Kedua program ini menjadi bagian dari upaya sekolah membentuk pribadi yang cerdas, terampil, berbudaya, dan memiliki kepedulian terhadap sesama.",
             address: "Jl. Jaksa Agung Suprapto No. 10 Mojoroto Kediri",
-            phone: "",
-            email: "",
+            phone: "08213639707",
+            email: "sdkfrateran2@gmail.com",
             website: "",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/_sdkfrateranii",
             facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            youtube: "https://www.youtube.com/@fradakreanovchanel5456",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.165888720397!2d112.0047235!3d-7.8092781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7857216a1322a9%3A0x4d2292c5114c11dd!2sSD%20Katolik%20Frateran%202!5e1!3m2!1sid!2sid!4v1789442937147!5m2!1sid!2sid"
         },
         {
-            id: 10,
-            level: "SD",
-            name: "SD Katolik Santo Yosef",
-            logo: "https://i.ibb.co.com/4ZLmvgHH/SDK-St-Yoseph-I.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
-            address: "Jl. Hasanudin No. 35 Kediri",
-            phone: "",
-            email: "",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
-        },
-        {
-            id: 11,
+            id: 7,
             level: "SMP",
             name: "SMP Katolik Yohannes Gabriel Pare",
             logo: "https://i.ibb.co.com/8LpYM64X/SMP-Yoga-Pare.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            images: ["https://i.ibb.co.com/FLC5yH86/Foto-Sekolah-1-SMPKYoga-Pare.webp","https://i.ibb.co.com/VptwxVfP/Foto-Sekolah-2-SMPKYoga-Pare.webp","https://i.ibb.co.com/Zp8ZxM4p/Foto-Sekolah-3-SMPKYoga-Pare.webp"],
+            description: "SMP Katolik Yohannes Gabriel Pare didirikan oleh Imam Kongregasi Misi pada 1 Agustus 1956 dan selama 70 tahun terus bertumbuh menjadi salah satu sekolah unggulan di Kabupaten Kediri. Dengan visi membentuk peserta didik yang beriman, berkarakter, dan berprestasi, sekolah mengembangkan pendidikan melalui berbagai program intrakurikuler, kokurikuler, dan ekstrakurikuler yang selaras dengan kebutuhan perkembangan peserta didik.<br/><br/>Penguatan iman dan karakter diwujudkan melalui literasi Kitab Suci dan doa pagi, retret, rekoleksi, aksi Natal, kegiatan Peduli Kasih, serta berbagai kegiatan Katolisitas. Dalam pengembangan kompetensi, sekolah memberikan penguatan Bahasa Inggris melalui kerja sama dengan tim Jago Bahasa dari Kampung Inggris, sementara bidang olahraga dikembangkan melalui kerja sama dengan Klub Basket Perbaspa Pare. Komitmen tersebut turut mengantarkan SMP Katolik Yohannes Gabriel Pare menjadi salah satu sekolah dengan tim bola basket SMP yang berprestasi di Kabupaten Kediri, sekaligus membentuk peserta didik yang beriman, berkarakter, kompeten, dan berprestasi.",
+            programs: "Sejalan dengan visi SMP Katolik Yohannes Gabriel Pare dalam membentuk peserta didik yang beriman, berkarakter, dan berprestasi, sekolah menyediakan berbagai program unggulan untuk mengembangkan potensi akademik, keterampilan, dan kepemimpinan siswa. Pengembangan akademik diperkuat melalui Ekstrakurikuler OSN dan English Club, sementara keterampilan digital dikembangkan melalui Digital Creator yang mencakup Coding dan Canva. Di bidang olahraga, Ekstrakurikuler Bola Basket menjadi wadah pengembangan bakat, disiplin, kerja sama, dan sportivitas yang mendukung kekhasan sekolah sebagai salah satu sekolah dengan tim basket berprestasi di Kabupaten Kediri. Selain itu, Latihan Dasar Kepemimpinan OSIS membentuk siswa agar mampu bertanggung jawab, percaya diri, bekerja sama, dan memiliki jiwa kepemimpinan.",
             address: "Jl. Letjen Sutoyo No. 78 Pare Kediri",
-            phone: "",
-            email: "",
-            website: "",
+            phone: "(0354) 393701",
+            email: "smpkyoh.gab78@gmail.com",
+            website: "https://smpkyogapare.sch.id",
             // Data Sosmed Baru:
-            instagram: "",
-            facebook: "",
+            instagram: "https://www.instagram.com/smpkyoga.pare",
+            facebook: "https://www.facebook.com/osisyogapare",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.4164692344593!2d112.19879189999999!3d-7.775698499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785dd13d405373%3A0x60c94f40b11cdf6b!2sSMP%20Katholik%20Yohanes%20Gabriel%20Pare!5e1!3m2!1sid!2sid!4v1789443315567!5m2!1sid!2sid"
         },
         {
-            id: 12,
+            id: 8,
             level: "SMA",
             name: "SMA Katolik Santo Augustinus",
             logo: "https://i.ibb.co.com/zhxnwgdG/SMAK-St-Agustinus.jpg",
@@ -232,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
             instagram: "",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: ""
         }
     ];
 
@@ -317,14 +245,18 @@ document.addEventListener("DOMContentLoaded", () => {
         // --- SCRIPT BARU UNTUK SLIDER ---
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Hapus gaya inline style, gantikan dengan class active untuk gambar pertama
+            // Tambahkan atribut onload pada tag img
             const imagesHTML = school.images.map((img, index) => `
-                <img src="${img}" class="slide-image ${index === 0 ? 'active' : ''}">
+                <img 
+                    src="${img}" 
+                    class="slide-image ${index === 0 ? 'active' : ''}"
+                    onload="this.closest('.slider-container').classList.remove('skeleton')"
+                >
             `).join('');
 
-            // Hapus gaya inline style pada tombol, gunakan class slider-btn
+            // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
-                <div class="slider-container">
+                <div class="slider-container skeleton">
                     <div class="slides-wrapper">
                         ${imagesHTML}
                     </div>

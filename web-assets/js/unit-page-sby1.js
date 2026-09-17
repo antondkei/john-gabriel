@@ -425,14 +425,18 @@ document.addEventListener("DOMContentLoaded", () => {
         // --- SCRIPT BARU UNTUK SLIDER ---
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Hapus gaya inline style, gantikan dengan class active untuk gambar pertama
+            // Tambahkan atribut onload pada tag img
             const imagesHTML = school.images.map((img, index) => `
-                <img src="${img}" class="slide-image ${index === 0 ? 'active' : ''}">
+                <img 
+                    src="${img}" 
+                    class="slide-image ${index === 0 ? 'active' : ''}"
+                    onload="this.closest('.slider-container').classList.remove('skeleton')"
+                >
             `).join('');
 
-            // Hapus gaya inline style pada tombol, gunakan class slider-btn
+            // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
-                <div class="slider-container">
+                <div class="slider-container skeleton">
                     <div class="slides-wrapper">
                         ${imagesHTML}
                     </div>

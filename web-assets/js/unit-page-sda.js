@@ -303,12 +303,43 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     }
 
+    let currentSlide = 0;
+    
     // Fungsi Render Konten Sekolah
     function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
+        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
+
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
+
+        // --- SCRIPT BARU UNTUK SLIDER ---
+        let sliderHTML = "";
+        if (school.images && school.images.length > 0) {
+            // Tambahkan atribut onload pada tag img
+            const imagesHTML = school.images.map((img, index) => `
+                <img 
+                    src="${img}" 
+                    class="slide-image ${index === 0 ? 'active' : ''}"
+                    onload="this.closest('.slider-container').classList.remove('skeleton')"
+                >
+            `).join('');
+
+            // Tambahkan class 'skeleton' pada div slider-container
+            sliderHTML = `
+                <div class="slider-container skeleton">
+                    <div class="slides-wrapper">
+                        ${imagesHTML}
+                    </div>
+                    ${school.images.length > 1 ? `
+                        <button class="slider-btn prev-slide">&#10094;</button>
+                        <button class="slider-btn next-slide">&#10095;</button>
+                    ` : ''}
+                </div>
+            `;
+        }
+        // --------------------------------
 
         content.innerHTML = `
             <article class="school-card">
@@ -326,13 +357,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
 
-                <figure class="school-cover skeleton" id="cover-wrapper">
-                    <img 
-                        src="${school.image}" 
-                        alt="${school.name}"
-                        class="img-lazy"
-                        onload="document.getElementById('cover-wrapper').classList.remove('skeleton'); this.classList.add('loaded')">
-                </figure>
+                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                ${sliderHTML}
 
                 <div class="school-description">
                     <p>${school.description}</p>
@@ -424,6 +450,27 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!button) return;
         const id = Number(button.dataset.id);
         changeSchool(id);
+    });
+
+// Logika Navigasi Slider Foto
+    content.addEventListener("click", (e) => {
+        if (e.target.classList.contains("prev-slide") || e.target.classList.contains("next-slide")) {
+            const slides = content.querySelectorAll(".slide-image");
+            if (!slides.length) return;
+
+            // 1. Hapus class 'active' dari gambar saat ini (memicu animasi pudar menghilang)
+            slides[currentSlide].classList.remove("active");
+
+            // 2. Hitung indeks gambar berikutnya
+            if (e.target.classList.contains("prev-slide")) {
+                currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+            } else {
+                currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+            }
+
+            // 3. Tambahkan class 'active' ke gambar baru (memicu animasi muncul & zoom)
+            slides[currentSlide].classList.add("active");
+        }
     });
 
     // ==========================================
