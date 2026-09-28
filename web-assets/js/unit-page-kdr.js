@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
     
     // Fungsi Render Konten Sekolah
-    function renderSchool(id) {
+function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
@@ -245,14 +245,16 @@ document.addEventListener("DOMContentLoaded", () => {
         // --- SCRIPT BARU UNTUK SLIDER ---
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Tambahkan atribut onload pada tag img
-            const imagesHTML = school.images.map((img, index) => `
-                <img 
-                    src="${img}" 
-                    class="slide-image ${index === 0 ? 'active' : ''}"
-                    onload="this.closest('.slider-container').classList.remove('skeleton')"
-                >
-            `).join('');
+            
+            // Atribut onload DIHAPUS. Pengecekan akan dilakukan di changeSchool()
+            const imagesHTML = school.images.map((img, index) => {
+                return `
+                    <img 
+                        src="${img}" 
+                        class="slide-image ${index === 0 ? 'active' : ''}"
+                    >
+                `;
+            }).join('');
 
             // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
@@ -273,11 +275,11 @@ document.addEventListener("DOMContentLoaded", () => {
             <article class="school-card">
                 <div class="school-header">
                     <div class="school-identity">
+                        <!-- Atribut onload pada logo DIHAPUS -->
                         <img 
                             src="${school.logo}" 
                             alt="Logo ${school.name}" 
-                            class="header-school-logo skeleton img-lazy"
-                            onload="this.classList.remove('skeleton'); this.classList.add('loaded')">
+                            class="header-school-logo skeleton img-lazy">
                         <div>
                             <span class="school-type">${school.level}</span>
                             <h2>${school.name}</h2>
@@ -344,13 +346,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function changeSchool(id) {
+function changeSchool(id) {
         const currentActive = navigation.querySelector("button.active");
         if (currentActive && Number(currentActive.dataset.id) === id) return;
 
         activateButton(id);
-
-        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
         content.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         content.animate([
@@ -361,7 +361,39 @@ document.addEventListener("DOMContentLoaded", () => {
             fill: "forwards",
             easing: "ease-in"
         }).onfinish = () => {
-            renderSchool(id);
+            
+            // 1. Render HTML ke dalam DOM
+            renderSchool(id); 
+
+            // 2. Tangkap elemen gambar yang baru saja di-render
+            const logoImg = content.querySelector('.header-school-logo');
+            const firstSlideImg = content.querySelector('.slide-image.active');
+            const sliderContainer = content.querySelector('.slider-container');
+
+            // 3. Fungsi pembantu untuk mengecek status load/cache
+            const handleSkeletonRemoval = (imgElement, containerElement) => {
+                if (!imgElement) return;
+                
+                // Jika gambar sudah ada di cache browser
+                if (imgElement.complete) {
+                    containerElement.classList.remove('skeleton');
+                    imgElement.classList.add('loaded');
+                } else {
+                    // Jika gambar baru diunduh dari jaringan
+                    imgElement.addEventListener('load', () => {
+                        containerElement.classList.remove('skeleton');
+                        imgElement.classList.add('loaded');
+                    }, { once: true });
+                }
+            };
+
+            // 4. Eksekusi fungsi pembantu
+            handleSkeletonRemoval(logoImg, logoImg);
+            if (sliderContainer) {
+                handleSkeletonRemoval(firstSlideImg, sliderContainer);
+            }
+
+            // 5. Jalankan animasi fade-in
             content.animate([
                 { opacity: 0, transform: "translateY(15px)" },
                 { opacity: 1, transform: "translateY(0)" }
