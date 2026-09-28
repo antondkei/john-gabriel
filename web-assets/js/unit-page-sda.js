@@ -322,6 +322,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img 
                     src="${img}" 
                     class="slide-image ${index === 0 ? 'active' : ''}"
+                    ${index === 0 ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"'}
                     onload="this.closest('.slider-container').classList.remove('skeleton')"
                 >
             `).join('');

@@ -355,13 +355,18 @@ document.addEventListener("DOMContentLoaded", () => {
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
             // Tambahkan atribut onload pada tag img
-            const imagesHTML = school.images.map((img, index) => `
-                <img 
-                    src="${img}" 
-                    class="slide-image ${index === 0 ? 'active' : ''}"
-                    onload="this.closest('.slider-container').classList.remove('skeleton')"
-                >
-            `).join('');
+            const imagesHTML = school.images.map((img, index) => {
+                // Hanya gambar pertama yang bertugas menghapus class skeleton dari container
+                const onloadEvent = index === 0 ? `onload="this.closest('.slider-container').classList.remove('skeleton')"` : '';
+
+                return `
+                    <img 
+                        src="${img}" 
+                        class="slide-image ${index === 0 ? 'active' : ''}"
+                        ${onloadEvent}
+                    >
+                `;
+            }).join('');
 
             // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
