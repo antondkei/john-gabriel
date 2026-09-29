@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB Kristus Raja",
             logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Teratai No. 2 A Surabaya",
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB Kristus Raja II",
             logo: "https://i.ibb.co.com/tTC8mqys/KB-TK-Kristus-Raja-II.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Wisma Permai Tengah I Surabaya",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB St. Theresia",
             logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TKK Kristus Raja",
             logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Teratai No. 2 A Surabaya",
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TKK Kristus Raja II",
             logo: "https://i.ibb.co.com/tTC8mqys/KB-TK-Kristus-Raja-II.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Wisma Permai Tengah I Surabaya",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK St. Theresia",
             logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK Pecinta Damai",
             logo: "https://i.ibb.co.com/0jR4pyP8/TK-Pencinta-Damai.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Randu No.3 Surabaya",
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Yohannes Gabriel",
             logo: "https://i.ibb.co.com/xqGPYVnK/SD-Yoga.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Residen Sudirman No. 1 Surabaya",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Santo Mikael",
             logo: "https://i.ibb.co.com/VWn4xqtb/SD-St-Mikael.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Santa Theresia",
             logo: "https://i.ibb.co.com/1GWxnRMK/SD-St-Theresia.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Residen Sudirman 5 Surabaya",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Santa Theresia II Surabaya",
             logo: "https://i.ibb.co.com/zVrSC7C0/SD-St-Theresia-2.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK. Pencinta Damai",
             logo: "https://i.ibb.co.com/GQGF7FW8/SD-Pencinta-Damai.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Randu No.3, Pogot, Surabaya",
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Kristus Raja",
             logo: "https://i.ibb.co.com/qY57MGWk/SD-Kristus-Raja.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Wisma Permai Tengah I Surabaya",
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/bhjVBqB/SMP-Stanislaus-I.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Residen Sudirman 5 Surabaya",
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus 2",
             logo: "https://i.ibb.co.com/21mGVdb0/SMP-Stanislaus-II.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Mikael",
             logo: "https://i.ibb.co.com/Y7BN7rKf/SMP-St-Mikael.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
@@ -311,7 +311,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Pencinta Damai",
             logo: "https://i.ibb.co.com/Kc2HFB0W/SMP-Pencinta-Damai.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Randu No.3, Pogot, Surabaya",
@@ -329,7 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/99YyCt6S/SMA-Stanislaus.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik Santo Hendrikus",
             logo: "https://i.ibb.co.com/Q7ZXZSsj/SMA-Hendrikus.jpg",
-            image: "https://i.imgur.com/DTdWWV8.jpeg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
             description: "",
             programs: "",
             address: "Jl. Arief Rachman Hakim No. 40-44 Surabaya ",
@@ -429,12 +429,43 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
     }
 
+    let currentSlide = 0;
+    
     // Fungsi Render Konten Sekolah
     function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
+        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
+
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
+
+        // --- SCRIPT BARU UNTUK SLIDER ---
+        let sliderHTML = "";
+        if (school.images && school.images.length > 0) {
+            // Tambahkan atribut onload pada tag img
+            const imagesHTML = school.images.map((img, index) => `
+                <img 
+                    src="${img}" 
+                    class="slide-image ${index === 0 ? 'active' : ''}"
+                    onload="this.closest('.slider-container').classList.remove('skeleton')"
+                >
+            `).join('');
+
+            // Tambahkan class 'skeleton' pada div slider-container
+            sliderHTML = `
+                <div class="slider-container skeleton">
+                    <div class="slides-wrapper">
+                        ${imagesHTML}
+                    </div>
+                    ${school.images.length > 1 ? `
+                        <button class="slider-btn prev-slide">&#10094;</button>
+                        <button class="slider-btn next-slide">&#10095;</button>
+                    ` : ''}
+                </div>
+            `;
+        }
+        // --------------------------------
 
         content.innerHTML = `
             <article class="school-card">
@@ -452,13 +483,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
 
-                <figure class="school-cover skeleton" id="cover-wrapper">
-                    <img 
-                        src="${school.image}" 
-                        alt="${school.name}"
-                        class="img-lazy"
-                        onload="document.getElementById('cover-wrapper').classList.remove('skeleton'); this.classList.add('loaded')">
-                </figure>
+                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                ${sliderHTML}
 
                 <div class="school-description">
                     <p>${school.description}</p>
@@ -517,10 +543,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = document.querySelector(".school-nav button.active");
+        const currentActive = navigation.querySelector("button.active");
         if (currentActive && Number(currentActive.dataset.id) === id) return;
 
         activateButton(id);
+
+        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
+        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         content.animate([
             { opacity: 1, transform: "translateY(0)" },
@@ -547,6 +576,27 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!button) return;
         const id = Number(button.dataset.id);
         changeSchool(id);
+    });
+
+// Logika Navigasi Slider Foto
+    content.addEventListener("click", (e) => {
+        if (e.target.classList.contains("prev-slide") || e.target.classList.contains("next-slide")) {
+            const slides = content.querySelectorAll(".slide-image");
+            if (!slides.length) return;
+
+            // 1. Hapus class 'active' dari gambar saat ini (memicu animasi pudar menghilang)
+            slides[currentSlide].classList.remove("active");
+
+            // 2. Hitung indeks gambar berikutnya
+            if (e.target.classList.contains("prev-slide")) {
+                currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+            } else {
+                currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+            }
+
+            // 3. Tambahkan class 'active' ke gambar baru (memicu animasi muncul & zoom)
+            slides[currentSlide].classList.add("active");
+        }
     });
 
     // ==========================================
