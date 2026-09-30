@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
             name: "KB Kristus Raja",
             logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
             images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "",
-            programs: "",
+            description: "TKK Kristus Raja merupakan lembaga pendidikan anak usia dini yang berdiri sejak 24 November 1938 dan beralamat di Jalan Teratai 2 A, Tambaksari, Surabaya, di bawah naungan St. John Gabriel Foundation. Dengan pengalaman panjang dalam pelayanan pendidikan, sekolah terus berkomitmen memberikan layanan yang berkualitas dan sesuai dengan kebutuhan perkembangan anak. Sebagai sekolah Katolik dengan akreditasi A, TKK Kristus Raja mengintegrasikan nilai-nilai Kristiani dalam proses pendidikan melalui suasana belajar yang aman, nyaman, menyenangkan, dan penuh kasih, sehingga anak dapat berkembang secara utuh melalui kegiatan bermain, bereksplorasi, dan berkarya.<br/><br/>Kekhasan TKK Kristus Raja terletak pada penguatan nilai kasih, kepedulian, tanggung jawab, kejujuran, kemandirian, dan semangat berbagi yang ditanamkan melalui pembiasaan sehari-hari. Sekolah juga memberikan perhatian pada perkembangan sosial-emosional, karakter, kemandirian, dan spiritual anak serta membangun kerja sama yang erat dengan orang tua, komite, yayasan, dan gereja/paroki. Melalui lingkungan pendidikan yang inklusif dan penuh kasih, TKK Kristus Raja mendampingi anak untuk tumbuh menjadi pribadi yang mandiri, percaya diri, peduli terhadap sesama dan lingkungan, serta berkarakter Kristiani.",
+            programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
             address: "Jl. Teratai No. 2 A Surabaya",
-            phone: "",
-            email: "",
-            website: "",
+            phone: "031-5035006",
+            email: "kbtkkristusraja1@gmail.com",
+            website: "http://kb-tkk-kristusrajasby.sch.id",
             // Data Sosmed Baru:
-            instagram: "",
+            instagram: "https://www.instagram.com/kbtkkkristusraja",
             facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.1626302559007!2d112.75487779999999!3d-7.255293999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9709068304b%3A0x970efc5b41625e31!2sTK%20Katolik%20Kristus%20Raja!5e1!3m2!1sid!2sid!4v1790731853030!5m2!1sid!2sid"
         },
         {
             id: 2,
