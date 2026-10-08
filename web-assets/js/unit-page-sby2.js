@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB Kristus Raja",
             logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/35cVp5XT/Foto-Sekolah-1-KBTK-KR.webp","https://i.ibb.co.com/JFn6CyFw/Foto-Sekolah-2-KBTK-KR.webp","https://i.ibb.co.com/p6qYqbP2/Foto-Sekolah-3-KBTK-KR.webp"],
             description: "TKK Kristus Raja merupakan lembaga pendidikan anak usia dini yang berdiri sejak 24 November 1938 dan beralamat di Jalan Teratai 2 A, Tambaksari, Surabaya, di bawah naungan St. John Gabriel Foundation. Dengan pengalaman panjang dalam pelayanan pendidikan, sekolah terus berkomitmen memberikan layanan yang berkualitas dan sesuai dengan kebutuhan perkembangan anak. Sebagai sekolah Katolik dengan akreditasi A, TKK Kristus Raja mengintegrasikan nilai-nilai Kristiani dalam proses pendidikan melalui suasana belajar yang aman, nyaman, menyenangkan, dan penuh kasih, sehingga anak dapat berkembang secara utuh melalui kegiatan bermain, bereksplorasi, dan berkarya.<br/><br/>Kekhasan TKK Kristus Raja terletak pada penguatan nilai kasih, kepedulian, tanggung jawab, kejujuran, kemandirian, dan semangat berbagi yang ditanamkan melalui pembiasaan sehari-hari. Sekolah juga memberikan perhatian pada perkembangan sosial-emosional, karakter, kemandirian, dan spiritual anak serta membangun kerja sama yang erat dengan orang tua, komite, yayasan, dan gereja/paroki. Melalui lingkungan pendidikan yang inklusif dan penuh kasih, TKK Kristus Raja mendampingi anak untuk tumbuh menjadi pribadi yang mandiri, percaya diri, peduli terhadap sesama dan lingkungan, serta berkarakter Kristiani.",
             programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
             address: "Jl. Teratai No. 2 A Surabaya",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "KB",
             name: "KB St. Theresia",
             logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/5C1gH3P/Foto-Sekolah-1-TKTheresia.webp","https://i.ibb.co.com/GKsgCt6/Foto-Sekolah-2-TKTheresia.webp","https://i.ibb.co.com/991V8yBF/Foto-Sekolah-3-TKTheresia.webp"],
             description: "KB–TKK Santa Theresia Surabaya berdiri pada tahun 1983 dan berlokasi di Jl. Kalijudan No. 25–33 Surabaya, dalam satu kompleks pendidikan bersama SDK Santa Theresia II, SMPK Santo Stanislaus II, dan SMAK Santo Stanislaus. Selama lebih dari empat dekade, sekolah terus bertumbuh dalam penyertaan Tuhan, perlindungan Santa Theresia, serta keteladanan Santo Yohannes Gabriel Perboyre sebagai pelindung St. John Gabriel Foundation. Nilai Keteguhan, Kedisiplinan, Kepedulian, Communio, dan Misioner menjadi landasan dalam mendampingi peserta didik, sekaligus mengantarkan mereka meraih berbagai prestasi di tingkat kecamatan maupun kota.<br/><br/>Di tengah perkembangan masyarakat dan dinamika dunia pendidikan, KB–TKK Santa Theresia berkomitmen memberikan layanan pendidikan anak usia dini yang berkualitas melalui pendampingan penuh kasih. Dengan semangat pelayanan dan kebersamaan, sekolah berupaya membentuk anak yang beriman, berkarakter, mandiri, dan berprestasi sebagai bekal untuk melanjutkan pendidikan ke jenjang berikutnya serta menjadi pribadi yang unggul dan berakhlak mulia.",
             programs: "Untuk mewujudkan pendidikan anak usia dini yang berkualitas dan berlandaskan nilai-nilai Kristiani, KB–TKK Santa Theresia Surabaya mengembangkan berbagai program unggulan yang mendukung pertumbuhan anak dan kemajuan sekolah. Melalui Santa Theresia Meaningful Learning, pembelajaran dirancang agar bermakna dan menyenangkan, sedangkan Santa Theresia Kids: Growing in Faith and Love menanamkan iman dan kasih dalam keseharian anak. Program Guru Santa Theresia Bertumbuh dan Berkembang mendorong peningkatan kompetensi pendidik secara berkelanjutan, didukung oleh Santa Theresia Partnership & Networking yang memperkuat kolaborasi dengan orang tua dan masyarakat. Sekolah juga berkomitmen menciptakan lingkungan aman dan ramah anak melalui Santa Theresia Child-Friendly School, menumbuhkan kemandirian melalui Santa Theresia Mandiri dan Berdaya, serta memperkuat identitas dan kepercayaan masyarakat melalui Santa Theresia School Branding & SPMB. Seluruh program ini menjadi wujud semangat pelayanan dan kebersamaan dalam mendampingi anak agar bertumbuh menjadi pribadi yang beriman, berkarakter, dan mandiri.",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TKK Kristus Raja",
             logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/35cVp5XT/Foto-Sekolah-1-KBTK-KR.webp","https://i.ibb.co.com/JFn6CyFw/Foto-Sekolah-2-KBTK-KR.webp","https://i.ibb.co.com/p6qYqbP2/Foto-Sekolah-3-KBTK-KR.webp"],
             description: "TKK Kristus Raja merupakan lembaga pendidikan anak usia dini yang berdiri sejak 24 November 1938 dan beralamat di Jalan Teratai 2 A, Tambaksari, Surabaya, di bawah naungan St. John Gabriel Foundation. Dengan pengalaman panjang dalam pelayanan pendidikan, sekolah terus berkomitmen memberikan layanan yang berkualitas dan sesuai dengan kebutuhan perkembangan anak. Sebagai sekolah Katolik dengan akreditasi A, TKK Kristus Raja mengintegrasikan nilai-nilai Kristiani dalam proses pendidikan melalui suasana belajar yang aman, nyaman, menyenangkan, dan penuh kasih, sehingga anak dapat berkembang secara utuh melalui kegiatan bermain, bereksplorasi, dan berkarya.<br/><br/>Kekhasan TKK Kristus Raja terletak pada penguatan nilai kasih, kepedulian, tanggung jawab, kejujuran, kemandirian, dan semangat berbagi yang ditanamkan melalui pembiasaan sehari-hari. Sekolah juga memberikan perhatian pada perkembangan sosial-emosional, karakter, kemandirian, dan spiritual anak serta membangun kerja sama yang erat dengan orang tua, komite, yayasan, dan gereja/paroki. Melalui lingkungan pendidikan yang inklusif dan penuh kasih, TKK Kristus Raja mendampingi anak untuk tumbuh menjadi pribadi yang mandiri, percaya diri, peduli terhadap sesama dan lingkungan, serta berkarakter Kristiani.",
             programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
             address: "Jl. Teratai No. 2 A Surabaya",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TKK St. Theresia",
             logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/5C1gH3P/Foto-Sekolah-1-TKTheresia.webp","https://i.ibb.co.com/GKsgCt6/Foto-Sekolah-2-TKTheresia.webp","https://i.ibb.co.com/991V8yBF/Foto-Sekolah-3-TKTheresia.webp"],
             description: "KB–TKK Santa Theresia Surabaya berdiri pada tahun 1983 dan berlokasi di Jl. Kalijudan No. 25–33 Surabaya, dalam satu kompleks pendidikan bersama SDK Santa Theresia II, SMPK Santo Stanislaus II, dan SMAK Santo Stanislaus. Selama lebih dari empat dekade, sekolah terus bertumbuh dalam penyertaan Tuhan, perlindungan Santa Theresia, serta keteladanan Santo Yohannes Gabriel Perboyre sebagai pelindung St. John Gabriel Foundation. Nilai Keteguhan, Kedisiplinan, Kepedulian, Communio, dan Misioner menjadi landasan dalam mendampingi peserta didik, sekaligus mengantarkan mereka meraih berbagai prestasi di tingkat kecamatan maupun kota.<br/><br/>Di tengah perkembangan masyarakat dan dinamika dunia pendidikan, KB–TKK Santa Theresia berkomitmen memberikan layanan pendidikan anak usia dini yang berkualitas melalui pendampingan penuh kasih. Dengan semangat pelayanan dan kebersamaan, sekolah berupaya membentuk anak yang beriman, berkarakter, mandiri, dan berprestasi sebagai bekal untuk melanjutkan pendidikan ke jenjang berikutnya serta menjadi pribadi yang unggul dan berakhlak mulia.",
             programs: "Untuk mewujudkan pendidikan anak usia dini yang berkualitas dan berlandaskan nilai-nilai Kristiani, KB–TKK Santa Theresia Surabaya mengembangkan berbagai program unggulan yang mendukung pertumbuhan anak dan kemajuan sekolah. Melalui Santa Theresia Meaningful Learning, pembelajaran dirancang agar bermakna dan menyenangkan, sedangkan Santa Theresia Kids: Growing in Faith and Love menanamkan iman dan kasih dalam keseharian anak. Program Guru Santa Theresia Bertumbuh dan Berkembang mendorong peningkatan kompetensi pendidik secara berkelanjutan, didukung oleh Santa Theresia Partnership & Networking yang memperkuat kolaborasi dengan orang tua dan masyarakat. Sekolah juga berkomitmen menciptakan lingkungan aman dan ramah anak melalui Santa Theresia Child-Friendly School, menumbuhkan kemandirian melalui Santa Theresia Mandiri dan Berdaya, serta memperkuat identitas dan kepercayaan masyarakat melalui Santa Theresia School Branding & SPMB. Seluruh program ini menjadi wujud semangat pelayanan dan kebersamaan dalam mendampingi anak agar bertumbuh menjadi pribadi yang beriman, berkarakter, dan mandiri.",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "TK",
             name: "TK Pecinta Damai",
             logo: "https://i.ibb.co.com/0jR4pyP8/TK-Pencinta-Damai.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/9khfrP2R/Foto-Sekolah-1-TKPDamai.webp","https://i.ibb.co.com/N28m6rc9/Foto-Sekolah-2-TKPDamai.webp","https://i.ibb.co.com/FqxFszs9/Foto-Sekolah-3-TKPDamai.webp"],
             description: "TK Pencinta Damai berlokasi di Jalan Randu No. 03 RT 08/RW 02, Kelurahan Sidotopo Wetan, Kecamatan Kenjeran, Kota Surabaya, di kawasan Surabaya Utara. Sekolah berdiri di atas lahan seluas 4.837 m² dengan bangunan seluas 4.817 m² yang dilengkapi ruang kelas, ruang kepala sekolah, dan perpustakaan. Saat ini, TK Pencinta Damai melayani peserta didik usia 4–6 tahun yang terbagi dalam kelompok A dan kelompok B, dengan lingkungan belajar yang mendukung proses tumbuh kembang anak secara optimal.<br/><br/>Dalam menyelenggarakan pendidikan, TK Pencinta Damai didukung oleh tenaga pendidik dan kependidikan yang memiliki latar belakang pendidikan yang relevan. Sekolah memiliki tiga tenaga pendidik, satu tenaga kependidikan, serta dua guru ekstrakurikuler, dengan tiga tenaga pendidik telah bersertifikasi dan linier. Didukung oleh tenaga profesional dengan kualifikasi pendidikan S1, TK Pencinta Damai berkomitmen memberikan pendampingan dan layanan pendidikan yang sesuai dengan kebutuhan anak, sehingga tercipta lingkungan belajar yang nyaman, mendukung, dan mampu mengembangkan potensi setiap peserta didik.",
             programs: "Sejalan dengan komitmen TK Pencinta Damai dalam mendampingi tumbuh kembang anak secara optimal, sekolah mengembangkan kegiatan yang mendukung pembentukan karakter, literasi, dan kreativitas peserta didik. Penguatan karakteristik Katolik dilakukan melalui pembiasaan doa pagi dan mendengarkan REHAN (Renungan Harian Anak), sehingga anak semakin mengenal nilai-nilai iman dan belajar menerapkannya dalam kehidupan sehari-hari. Dalam bidang digital dan literasi, anak diajak memanfaatkan teknologi serta fasilitas perpustakaan untuk menikmati cerita melalui buku digital, guna menumbuhkan minat baca, imajinasi, dan rasa ingin tahu. Sementara itu, kegiatan eksplorasi seni melalui menggambar dan mewarnai menjadi sarana bagi anak untuk mengekspresikan diri, mengembangkan kreativitas, serta melatih koordinasi motorik halus. Berbagai kegiatan ini diharapkan dapat membentuk anak yang beriman, kreatif, dan memiliki semangat belajar sejak dini.",
             address: "Jl. Randu No.3 Surabaya",
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Yohannes Gabriel",
             logo: "https://i.ibb.co.com/xqGPYVnK/SD-Yoga.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/XZp72ZLn/Foto-Sekolah-1-SDKYoga-Sby.webp","https://i.ibb.co.com/chcyVkDb/Foto-Sekolah-2-SDKYoga-Sby.webp","https://i.ibb.co.com/kVvLy4dr/Foto-Sekolah-3-SDKYoga-Sby.webp"],
             description: "SDK Yohannes Gabriel merupakan lembaga pendidikan dasar yang berlokasi di Jl. Residen Sudirman No. 1, RT 02/RW 07, Kelurahan Tambaksari, Kecamatan Tambaksari, Kota Surabaya. Dengan lokasi yang strategis di wilayah Surabaya, SDK Yohannes Gabriel hadir untuk memberikan layanan pendidikan bagi peserta didik pada jenjang sekolah dasar. Melalui proses pembelajaran dan pendampingan yang berkelanjutan, sekolah berkomitmen mendukung perkembangan potensi peserta didik, baik dalam aspek pengetahuan, keterampilan, maupun pembentukan karakter, sehingga mereka dapat tumbuh menjadi pribadi yang beriman, berkarakter, dan siap menghadapi tantangan di masa depan. Informasi lebih lanjut dapat diperoleh melalui telepon (031) 5034325.",
             programs: "Untuk mendukung pengembangan potensi peserta didik secara menyeluruh, SDK Yohannes Gabriel menghadirkan program unggulan yang mencakup bidang teknologi, olahraga, dan seni. Melalui fasilitas laboratorium komputer, peserta didik memperoleh kesempatan untuk mengenal dan memanfaatkan teknologi digital sebagai sarana belajar. Kegiatan karate membantu membentuk kedisiplinan, keberanian, konsentrasi, serta sikap sportif, sedangkan modern dance menjadi wadah bagi peserta didik untuk mengekspresikan kreativitas, mengembangkan bakat seni, dan meningkatkan kepercayaan diri. Ketiga program ini diharapkan dapat mendukung pembentukan peserta didik yang terampil, kreatif, disiplin, dan berkarakter.",
             address: "Jl. Residen Sudirman No. 1 Surabaya",
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Santo Mikael",
             logo: "https://i.ibb.co.com/VWn4xqtb/SD-St-Mikael.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/YTyPm9kn/Foto-Sekolah-1-SDKMikael.webp","https://i.ibb.co.com/YGKMjWZ/Foto-Sekolah-2-SDKMikael.webp","https://i.ibb.co.com/XkFFC36S/Foto-Sekolah-3-SDKMikael.webp"],
             description: "SD Katolik Santo Mikael Surabaya didirikan pada 1 September 1957 dan pada tahun 2026 genap berusia 69 tahun. Berada di bawah naungan St. John Gabriel Foundation dalam lingkup pelayanan Keuskupan Surabaya, sekolah ini berdampingan dengan Paroki Santo Mikael dan hadir untuk memenuhi kebutuhan pendidikan masyarakat di kawasan Surabaya Utara. SDK Santo Mikael berkomitmen menyelenggarakan pendidikan yang mengembangkan iman, karakter, dan kemampuan akademik peserta didik berdasarkan nilai-nilai Kristiani.<br/><br/>Sebagai wujud semangat pelayanan, SDK Santo Mikael Surabaya menjalin kerja sama dengan para suster TMM dalam mendukung pendidikan anak-anak Panti Asuhan Santo Stefanus, serta dengan para suster PRR dalam pembinaan iman anak-anak. Sekolah hadir sebagai wadah pendidikan Katolik yang terbuka bagi semua golongan, terutama mereka yang miskin dan menderita serta membutuhkan bantuan. Melalui semangat kasih, kepedulian, dan pelayanan, SDK Santo Mikael berupaya memberikan kesempatan pendidikan yang bermakna bagi setiap anak agar dapat bertumbuh menjadi pribadi yang beriman, berkarakter, dan mampu memberikan kontribusi positif bagi sesama.",
             programs: "SDK Santo Mikael Surabaya mengembangkan berbagai program unggulan untuk mendukung pertumbuhan peserta didik dalam iman, karakter, dan akademik. Pembinaan Katolisitas serta iman dan karakter dilakukan secara berkesinambungan untuk menanamkan nilai-nilai Kristiani dan kepedulian terhadap sesama. Pembiasaan literasi dan numerasi memperkuat kemampuan dasar siswa, sementara perayaan ulang tahun setiap bulan menumbuhkan kebersamaan. Sekolah juga memberikan pembinaan bagi siswa berprestasi agar bakat dan potensi mereka berkembang secara optimal, sehingga terbentuk pribadi yang beriman, berkarakter, dan berprestasi.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
@@ -185,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Santa Theresia",
             logo: "https://i.ibb.co.com/1GWxnRMK/SD-St-Theresia.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/VY0Ys2R8/Foto-Sekolah-1-SDKTheresia.webp","https://i.ibb.co.com/3yhjzxYd/Foto-Sekolah-2-SDKTheresia.webp","https://i.ibb.co.com/NnbKMXpL/Foto-Sekolah-3-SDKTheresia.webp"],
             description: "SD Katolik Santa Theresia 1 Surabaya, atau yang dikenal sebagai SDK Santa Theresia 1, merupakan sekolah dasar swasta Katolik yang berlokasi di Jl. Residen Sudirman No. 5, Kecamatan Tambaksari, Surabaya. Sekolah ini memiliki sejarah panjang sejak 1 April 1929, ketika Mgr. dr. Th. de Backere meresmikan gedung sekolah yang saat itu bernama St. Theresia. Nama Santa Theresia dari Lisieux dipilih sebagai pelindung sekolah, dengan keteladanan hidup yang sederhana sebagai inspirasi dalam pendidikan. Sekolah ini kemudian diakui dengan nama SDK Santa Theresia 1 pada 24 November 2008 dan berada di bawah naungan St. John Gabriel Foundation.<br/><br/>Sepanjang perjalanannya, SDK Santa Theresia mengalami berbagai perkembangan, mulai dari Europese School, perubahan fungsi gedung pada masa pendudukan Jepang, hingga menjadi Sekolah Dasar Katolik pada 1 Juli 1946 dengan tujuh kelas, tujuh guru, dan 172 murid. Seiring bertambahnya jumlah peserta didik, sekolah membuka kelas siang pada 1 Agustus 1961 untuk memperluas layanan pendidikan. Berbekal sejarah panjang dan semangat pendidikan Katolik, SDK Santa Theresia 1 terus berupaya memberikan pendidikan yang berlandaskan nilai-nilai Kristiani serta keteladanan Santa Theresia, guna membentuk peserta didik yang beriman, berkarakter, dan berkembang secara optimal.",
             programs: "Untuk mendukung pengembangan potensi dan keterampilan peserta didik, SDK Santa Theresia 1 Surabaya menghadirkan berbagai program unggulan di bidang bahasa dan seni. Melalui English Club, pembelajaran Bahasa Mandarin, serta pendampingan native speaker, siswa memperoleh kesempatan untuk meningkatkan kemampuan berbahasa dan memperluas wawasan lintas budaya. Sementara itu, kegiatan karawitan dan paduan suara menjadi wadah untuk mengembangkan bakat seni, kreativitas, kedisiplinan, dan kerja sama. Berbagai program ini diharapkan dapat membentuk peserta didik yang percaya diri, berprestasi, serta mampu menghargai keberagaman budaya.",
             address: "Jl. Residen Sudirman 5 Surabaya",
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SD Katolik Santa Theresia II Surabaya",
             logo: "https://i.ibb.co.com/zVrSC7C0/SD-St-Theresia-2.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/bg4nbfV9/Foto-Sekolah-1-SDKThere2.webp","https://i.ibb.co.com/Mjx0N65/Foto-Sekolah-2-SDKThere2.webp","https://i.ibb.co.com/KzKJPqt2/Foto-Sekolah-3-SDKThere2.webp"],
             description: "SD Katolik Santa Theresia II Surabaya berlokasi di Jl. Kalijudan No. 25–33, Kelurahan Pacarkembang, Kecamatan Tambaksari, Surabaya, dan berdiri pada tahun 1980. Sejarah pendiriannya berawal dari upaya Romo Everard Van Mensvoort, CM, yang pada akhir tahun 1970 membeli lahan persawahan di kawasan Kalijudan saat menjabat sebagai kepala Paroki Kristus Raja. Pengembangan kawasan tersebut kemudian dilanjutkan oleh Romo P. Boonekamp, CM, dengan mendirikan beberapa lembaga pendidikan, yaitu TK Santa Theresia, SDK Santa Theresia II, SMPK Santo Stanislaus II, dan SMAK Santo Stanislaus. Pembukaan SDK Santa Theresia II merupakan bagian dari pengembangan layanan pendidikan yang diprakarsai oleh Sr. Seraphie, S.Sp.S., dan Sr. Yustina, S.Sp.S.<br/><br/>SDK Santa Theresia II memiliki visi menjadi sekolah yang berprestasi, terampil, dan berwawasan lingkungan hidup dengan berlandaskan iman Kristiani. Untuk mewujudkan visi tersebut, sekolah berkomitmen menciptakan lingkungan yang harmonis dan nyaman, mengembangkan kemampuan peserta didik dalam bidang ilmu pengetahuan dan teknologi, serta membangun budaya disiplin, kejujuran, keadilan, dan penghargaan terhadap perbedaan. Proses pembelajaran juga diarahkan pada pembentukan karakter dan kepedulian terhadap lingkungan melalui pendidikan lingkungan hidup yang terintegrasi secara berkelanjutan. Dengan demikian, sekolah berupaya membentuk peserta didik yang beriman, berprestasi, terampil, dan bertanggung jawab dalam menjaga kelestarian alam.",
             programs: "Sejalan dengan visi SDK Santa Theresia II Surabaya untuk membentuk peserta didik yang berprestasi, terampil, dan berwawasan lingkungan berdasarkan iman Kristiani, sekolah mengembangkan berbagai program unggulan secara terpadu. Dalam bidang pendidikan, Communication Skills dan Gerakan Literasi Sekolah mendorong kemampuan berbahasa Inggris serta kebiasaan membaca. Pembinaan Katolisitas diwujudkan melalui kegiatan liturgi dan kepedulian terhadap sesama, sedangkan Learning Together dan Mentoring mendukung peningkatan kompetensi guru serta pendampingan peserta didik. Sekolah juga memperhatikan kesehatan dan perlindungan anak melalui edukasi siswa dan kerja sama dengan Puskesmas. Kepedulian lingkungan dikembangkan melalui program Green School, sementara Digital Learning mengoptimalkan pemanfaatan teknologi dalam pembelajaran. Didukung pengelolaan keuangan yang tertib dan evaluasi berkala, seluruh program ini menjadi upaya sekolah untuk menghadirkan pendidikan yang berkualitas, berkarakter, sehat, dan peduli lingkungan.",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
@@ -221,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Pencinta Damai",
             logo: "https://i.ibb.co.com/GQGF7FW8/SD-Pencinta-Damai.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/NgY7q4j8/Foto-Sekolah-1-SDKPDamai.webp","https://i.ibb.co.com/ZzBqkMpT/Foto-Sekolah-2-SDKPDamai.webp","https://i.ibb.co.com/kstmc9nP/Foto-Sekolah-3-SDKPDamai.webp"],
             description: "SDK Pencinta Damai Surabaya merupakan sekolah dasar swasta Katolik yang berlokasi di Jalan Randu No. 3, Kelurahan Sidotopo Wetan, Kecamatan Kenjeran, Surabaya, di bawah naungan St. John Gabriel Foundation. Berdiri sejak 14 November 1982, sekolah ini mengawali kegiatan belajar mengajar di bangsal Gereja Ratu Pencinta Damai, Jalan Pogot Baru No. 77–79, sebelum akhirnya menempati gedung sendiri. Dengan status akreditasi A, SDK Pencinta Damai berkomitmen menyediakan pendidikan yang inklusif dan berkualitas serta lingkungan belajar yang aman dan kondusif bagi perkembangan peserta didik.<br/><br/>Kekhasan SDK Pencinta Damai terletak pada penguatan karakter, budi pekerti luhur, kedisiplinan, dan toleransi dalam kehidupan masyarakat yang beragam. Pendidikan tidak hanya berfokus pada pencapaian akademik, tetapi juga pada pembentukan iman, moralitas, dan semangat cinta damai melalui pembiasaan doa bersama, kegiatan sosial, serta berbagai kegiatan ekstrakurikuler. Didukung oleh kerja sama antara guru, orang tua, dan yayasan, sekolah terus berupaya mengembangkan potensi peserta didik secara optimal agar tumbuh menjadi pribadi yang cerdas, berkarakter, dan siap melanjutkan pendidikan ke jenjang berikutnya.",
             programs: "Sejalan dengan komitmen SDK Pencinta Damai Surabaya dalam membentuk generasi yang cerdas, berkarakter, dan cinta damai, sekolah mengembangkan berbagai program yang mencakup penguatan budaya ramah, toleransi, dan anti-perundungan, pembiasaan hidup rohani melalui misa, rekoleksi, serta aksi sosial berlandaskan semangat kasih. Kualitas pendidik ditingkatkan melalui berbagi praktik baik dan mentoring antarguru untuk menerapkan disiplin positif tanpa kekerasan. Sekolah juga memperkuat kemitraan dengan paroki, Puskesmas, dan lembaga lain, serta menyediakan lingkungan belajar yang inklusif, aman, bersih, dan nyaman dengan dukungan pojok literasi di kelas. Didukung pengelolaan dana yang optimal, publikasi kegiatan dan prestasi melalui media sosial, serta pembiasaan menyambut siswa, apel pagi bersama, dan pelayanan di gereja, seluruh program ini menjadi wujud upaya sekolah dalam menumbuhkan kepedulian, mempererat persaudaraan, dan membangun kepercayaan masyarakat.",
             address: "Jl. Randu No.3, Pogot, Surabaya",
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SD",
             name: "SDK Kristus Raja",
             logo: "https://i.ibb.co.com/qY57MGWk/SD-Kristus-Raja.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/ksGhXxT2/Foto-Sekolah-1-SDK-KR.webp","https://i.ibb.co.com/yLp31rT/Foto-Sekolah-2-SDK-KR.webp","https://i.ibb.co.com/pNFkPVL/Foto-Sekolah-3-SDK-KR.webp"],
             description: "SDK Kristus Raja Surabaya merupakan satuan pendidikan dasar di bawah naungan St. John Gabriel Foundation yang berlokasi di Jl. Wisma Permai Tengah I, Kelurahan Mulyorejo, Kecamatan Mulyorejo, Surabaya. Didirikan pada 3 Mei 1986, sekolah ini hadir sebagai wujud pelayanan pendidikan Katolik yang mengembangkan potensi peserta didik secara utuh, baik dalam bidang akademik maupun pembentukan iman dan karakter. Melalui pembelajaran, keteladanan, dan pembiasaan, sekolah menanamkan nilai-nilai kedisiplinan, kejujuran, kepedulian, kemandirian, tanggung jawab, serta semangat melayani sesama. Pembinaan rohani setiap hari Jumat, pembelajaran Bahasa Mandarin dan Speaking, serta program English Day setiap Selasa dan Jumat menjadi bagian dari upaya membangun karakter Kristiani sekaligus meningkatkan kemampuan komunikasi peserta didik.<br/><br/>Kekhasan SDK Kristus Raja terletak pada pembelajaran berbasis ekologi yang memanfaatkan kebun sekolah, kolam ikan, peternakan ayam, dan tanaman hidroponik sebagai sumber belajar kontekstual untuk menumbuhkan kepedulian lingkungan, tanggung jawab, dan kemandirian. Sekolah juga menyediakan wadah pengembangan bakat melalui Modern Dance serta pembinaan siswa berprestasi di bidang akademik dan nonakademik. Didukung pembiasaan literasi dan pembelajaran yang mendorong kemampuan berpikir kritis, kreativitas, komunikasi, dan kolaborasi, SDK Kristus Raja berkomitmen menghadirkan pengalaman belajar yang aktif, menyenangkan, dan bermakna. Seluruh upaya ini diarahkan untuk membentuk peserta didik yang beriman, berkarakter, berprestasi, peduli terhadap sesama dan lingkungan, serta siap menghadapi tantangan masa depan.",
             programs: "SDK Kristus Raja Surabaya mengembangkan berbagai program unggulan untuk mendukung pertumbuhan peserta didik secara menyeluruh. Melalui Modern Dance, siswa mengembangkan kreativitas, kepercayaan diri, dan kerja sama. Pembelajaran Berbasis Ekologi menumbuhkan kepedulian dan tanggung jawab terhadap kelestarian lingkungan, sedangkan English Day setiap Selasa dan Jumat membiasakan siswa berkomunikasi dalam Bahasa Inggris. Sekolah juga menyelenggarakan Pembinaan Siswa Berprestasi melalui pendampingan dan pengayaan sesuai bakat serta minat, baik di bidang akademik maupun nonakademik. Melalui program-program ini, SDK Kristus Raja berkomitmen membentuk generasi yang bertumbuh dalam karakter, kreatif dalam berkarya, peduli terhadap lingkungan, dan berprestasi.",
             address: "Jl. Wisma Permai Tengah I Surabaya",
@@ -257,7 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/bhjVBqB/SMP-Stanislaus-I.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/mVKSPYQq/Foto-Sekolah-1-SMPStansa.webp","https://i.ibb.co.com/TBqx5ZnY/Foto-Sekolah-2-SMPStansa.webp","https://i.ibb.co.com/1Gxnsdrj/Foto-Sekolah-3-SMPStansa.webp"],
             description: "SMPK Santo Stanislaus 1 Surabaya merupakan lembaga pendidikan Katolik di Surabaya yang berada di bawah naungan St. John Gabriel Foundation. Dengan komitmen kuat dalam pelayanan pendidikan, sekolah berupaya membentuk generasi muda yang cerdas, berintegritas, dan berlandaskan nilai-nilai Kristiani. Tidak hanya berfokus pada pencapaian akademik, SMPK Santo Stanislaus 1 juga mengembangkan potensi peserta didik secara menyeluruh melalui lingkungan belajar yang aman, kondusif, dan penuh kekeluargaan, dengan menanamkan spiritualitas, kedisiplinan, serta kepedulian sosial dalam kehidupan sehari-hari.<br/><br/>Sejalan dengan upaya meningkatkan mutu pendidikan dan menjawab tantangan zaman, SMPK Santo Stanislaus 1 mulai menerapkan pembiasaan penggunaan Bahasa Inggris dalam percakapan sederhana di antara seluruh warga sekolah, mulai dari guru, siswa, hingga tenaga kependidikan. Program ini bertujuan membangun keberanian dan kepercayaan diri siswa dalam berkomunikasi serta memperluas wawasan global sejak dini. Melalui perpaduan pendidikan karakter yang kuat dan inovasi pembelajaran bahasa, sekolah terus berkomitmen menghadirkan pendidikan yang relevan dan berkualitas guna mempersiapkan peserta didik menghadapi masa depan.",
             programs: "SMPK Santo Stanislaus 1 Surabaya mengembangkan berbagai program unggulan yang terintegrasi untuk membentuk peserta didik yang berkarakter, berprestasi, dan siap menghadapi tantangan global. Melalui English Habituation & Simple Daily Conversation, siswa, guru, dan tenaga kependidikan dibiasakan menggunakan Bahasa Inggris dalam komunikasi sederhana untuk membangun keberanian dan kepercayaan diri. Stanislaus Character Building menjadi landasan pembentukan karakter melalui ibadat, doa harian, retret atau rekoleksi, serta penanaman nilai kepemimpinan dan kejujuran. Kepedulian terhadap sesama dan lingkungan diwujudkan melalui Aksi Kasih dan Eco-School, termasuk kegiatan sosial, penggalangan dana kemanusiaan, LAUDATOSI, dan pemilahan sampah. Di sisi lain, pengembangan minat dan bakat melalui kegiatan seni, olahraga, sains, dan pramuka memberikan ruang bagi siswa untuk menemukan serta mengembangkan potensinya. Seluruh program tersebut diperkuat dengan Pendampingan Akademik Terpadu melalui penguatan materi, bimbingan intensif, persiapan ujian akhir kelas IX, serta pemanfaatan teknologi digital yang dipadukan dengan pembelajaran berbasis kertas, sehingga setiap siswa memperoleh pendampingan yang seimbang untuk mencapai hasil belajar optimal dan mempersiapkan diri melanjutkan pendidikan ke jenjang berikutnya.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus 2",
             logo: "https://i.ibb.co.com/21mGVdb0/SMP-Stanislaus-II.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/C5F3pQt3/Foto-Sekolah-1-SMPStandu.webp","https://i.ibb.co.com/jkBmDnKt/Foto-Sekolah-2-SMPStandu.webp","https://i.ibb.co.com/21SYZ2C0/Foto-Sekolah-3-SMPStandu.webp"],
             description: "SMP Katolik Santo Stanislaus II Surabaya atau dikenal sebagai STANDU berdiri sejak tahun 1986 sebagai wujud pelayanan pendidikan yang berlandaskan iman Katolik, nilai kebangsaan, dan kemanusiaan. Berlokasi di kawasan pendidikan Kalijudan, Surabaya Timur, STANDU tumbuh bersama lembaga pendidikan lainnya, mulai dari KB-TK Katolik Santa Theresia, SD Katolik Santa Theresia II, SMA Katolik Santo Stanislaus, hingga Universitas Katolik Widya Mandala. Berlandaskan visi untuk mewujudkan komunitas pendidikan yang mendukung pertumbuhan pribadi secara utuh dalam dinamika masyarakat global, STANDU menerapkan nilai STANDU-GO (Smart, Tolerance, Authentic, Nationality, Determined, Uniques, Growth Mindset, dan Optimism) sebagai pedoman budaya sekolah. Melalui pembelajaran yang berpusat pada siswa, sekolah membangun lingkungan belajar yang menyenangkan, inklusif, saling menghargai, dan memberdayakan.<br/><br/>STANDU berkomitmen mengembangkan potensi peserta didik secara menyeluruh melalui pendampingan guru yang profesional, program lingkar belajar, serta berbagai kegiatan ekstrakurikuler di bidang sains, seni, bahasa, olahraga, dan kepemimpinan. Berbagai prestasi siswa dalam olimpiade, bahasa Inggris dan Mandarin, paduan suara, modern dance, futsal, basket, wushu, serta penelitian ilmiah menjadi bagian dari perjalanan pengembangan bakat dan kemampuan mereka. Dengan mengedepankan toleransi, karakter, kemandirian, resiliensi, dan pola pikir bertumbuh, STANDU terus berupaya meningkatkan mutu pendidikan dan memperkuat kerja sama dengan berbagai pihak untuk membentuk generasi yang beriman, berkarakter kuat, adaptif, dan siap menghadapi tantangan masyarakat global.",
             programs: "SMP Katolik Santo Stanislaus II Surabaya (STANDU) mengembangkan berbagai program unggulan untuk mendukung pertumbuhan siswa secara utuh. Melalui program literasi dan numerasi yang terencana dan berkelanjutan, sekolah mendorong peningkatan kemampuan akademik dalam suasana belajar yang menyenangkan. Pembinaan Katolisitas menumbuhkan iman dan semangat pelayanan, sedangkan literasi digital membekali siswa dengan keterampilan teknologi melalui pengenalan coding, desain grafis, dan kecerdasan buatan (AI). Program English for Future dan pembelajaran Bahasa Mandarin memperkuat kemampuan komunikasi internasional serta wawasan global. Seluruh program tersebut dipadukan dengan pembinaan karakter, pengembangan kreativitas, dan apresiasi budaya untuk membentuk generasi STANDU yang beriman, kompeten, adaptif, dan siap menghadapi tantangan masa depan.",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMP",
             name: "SMP Katolik Santo Mikael",
             logo: "https://i.ibb.co.com/Y7BN7rKf/SMP-St-Mikael.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/TqMP3KbH/Foto-Sekolah-1-SMPMikael.webp","https://i.ibb.co.com/nqSZDDcx/Foto-Sekolah-2-SMPMikael.webp","https://i.ibb.co.com/MxyTbzmx/Foto-Sekolah-3-SMPMikael.webp"],
             description: "SMP Katolik Santo Mikael Surabaya merupakan lembaga pendidikan yang berada di bawah naungan St. John Gabriel Foundation dan berlokasi di kompleks Gereja Katolik Paroki Santo Mikael, Jl. Tanjung Sadari No. 49, Krembangan–Perak, Surabaya. Sekolah ini didirikan secara legal pada 1 Juli 1981 dan telah terakreditasi A. Dengan visi “Bertakwa kepada Tuhan Yang Maha Esa, unggul dalam prestasi dan berbudi pekerti luhur”, SMP Katolik Santo Mikael berkomitmen membentuk pribadi yang taat beribadah, rajin belajar, dan berakhlak mulia. Nilai tersebut diwujudkan melalui motto “Brave, Discipline, & Graceful” sebagai landasan dalam membangun karakter peserta didik.<br/><br/>Dalam mendukung pendidikan dan pembinaan siswa, SMP Katolik Santo Mikael bekerja sama dengan para Romo Kongregasi SDB yang berkarya di Paroki Santo Mikael dalam pengelolaan dan pembinaan Asrama Putra “Auxilium”, yang diperuntukkan bagi siswa dari dalam maupun luar Kota Surabaya. Dalam pembelajaran, sekolah menerapkan Kurikulum Merdeka dengan dukungan lingkungan yang strategis, aman, nyaman, serta fasilitas lapangan olahraga yang luas. Suasana belajar yang menyenangkan, komunikasi yang baik, dan hubungan yang penuh kekeluargaan ant warga sekolah menjadi bagian dari kehidupan sekolah. Melalui lingkungan tersebut, SMP Katolik Santo Mikael terus berupaya mendampingi peserta didik untuk bertumbuh menjadi generasi yang berkarakter, berprestasi, dan siap menghadapi masa depan.",
             programs: "SMP Katolik Santo Mikael Surabaya mengembangkan berbagai program unggulan yang terintegrasi untuk mendukung pertumbuhan siswa dalam aspek spiritualitas, karakter, literasi, teknologi, kewirausahaan, kepedulian lingkungan, serta pengembangan bakat dan minat. Melalui Morning Spirit & Character Building, yang diwujudkan dalam Katolisitas dan Sapa Pagi, siswa dibiasakan membangun kehidupan iman, kasih, kedisiplinan, dan sopan santun. Di bidang literasi, GELIS (Gerakan Literasi Sekolah Menyenangkan) hadir melalui Pojok Baca dan pembiasaan membaca selama 15 menit untuk meningkatkan kemampuan membaca, menulis, dan berpikir kritis. Sementara itu, Smart Digital Student (SDS) membekali siswa dengan keterampilan literasi digital, pembuatan Digital Portfolio, desain grafis, serta pemanfaatan perangkat lunak produktif. Kepedulian terhadap lingkungan dan jiwa kewirausahaan dikembangkan melalui program Laudatosi, antara lain melalui bank sampah dan Market Day yang mendorong siswa mengelola sampah sekaligus menghasilkan produk kreatif. Pengalaman belajar juga diperluas melalui Outing Class atau Field Trip, serta berbagai kegiatan pengembangan bakat seperti Futsal, Modern Dance, Pramuka, dan Sanmik Friday Talents Show yang menjadi ruang bagi siswa untuk berlatih, berkreasi, membangun kepercayaan diri, dan mengembangkan potensi mereka secara optimal.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
@@ -329,7 +329,7 @@ document.addEventListener("DOMContentLoaded", () => {
             level: "SMA",
             name: "SMAS Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/99YyCt6S/SMA-Stanislaus.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            images: ["https://i.ibb.co.com/gZ71rKrH/Foto-Sekolah-1-SMAKStan.webp","https://i.ibb.co.com/gZ3G0bR2/Foto-Sekolah-2-SMAKStan.webp","https://i.ibb.co.com/fYBP2kp8/Foto-Sekolah-3-SMAKStan.webp"],
             description: "SMA Katolik Santo Stanislaus Surabaya yang berlokasi di Jl. Kalijudan No. 25–33 merupakan institusi pendidikan menengah bercorak Katolik yang memiliki komitmen dalam membentuk generasi muda melalui perpaduan pendidikan akademis dan pembinaan karakter. Dengan semangat Santo Stanislaus Kostka sebagai pelindung kaum muda, sekolah menanamkan nilai-nilai Kristiani dan humanisme universal melalui lingkungan belajar yang berlandaskan kasih, kedisiplinan, persaudaraan, dan kepedulian sosial. Didukung fasilitas pembelajaran seperti ruang kelas berbasis multimedia, laboratorium sains dan komputer, perpustakaan, serta sarana olahraga dan seni, sekolah memberikan ruang bagi peserta didik untuk mengembangkan potensi intelektual, kreativitas, dan karakter secara seimbang.<br/><br/>Pengembangan potensi siswa diperkuat melalui beragam kegiatan ekstrakurikuler, seperti ansambel, paduan suara, badminton, basket, futsal, voli, bola tangan, Pramuka, ARC (AI, Robotic and Coding), Math Club, Cooking Entrepreneurship, Aikido, Modern Dance, serta kegiatan sosial melalui Serikat Santo Vincentius (SSV). Melalui pendampingan personal dari pendidik dan tenaga kependidikan, siswa diarahkan untuk mengembangkan nalar kritis, kepemimpinan, etos kerja, integritas, dan kepekaan sosial. Sejalan dengan perkembangan teknologi dan tuntutan zaman, SMA Katolik Santo Stanislaus terus berinovasi dan menjalin kerja sama dengan perguruan tinggi untuk mempersiapkan lulusan yang tidak hanya unggul secara akademis dan siap melanjutkan pendidikan, tetapi juga memiliki karakter kuat, berbelas kasih, dan mampu memberikan dampak positif bagi masyarakat.",
             programs: "SMA Katolik Santo Stanislaus Surabaya menghadirkan ekosistem pendidikan yang holistik melalui berbagai program yang dirancang untuk membentuk siswa yang cerdas, berkarakter, berbelas kasih, kreatif, dan siap menghadapi masa depan. Pembentukan karakter dan kebersamaan dibangun melalui Smaksta Communio bagi siswa kelas 10, dilanjutkan dengan pengalaman hidup bermakna melalui Caritas Peregrina bagi kelas 11, serta Mission Journey bagi kelas 12 sebagai ruang refleksi diri dan persiapan menapaki masa depan. Semangat kompetisi dan kebersamaan dikembangkan melalui SWOS, Liga Bola, e-Sport, dan Class Meeting, sementara kepedulian sosial diwujudkan melalui SSV Smaksta. Budaya belajar kolaboratif juga diperkuat melalui Komunitas Tutor Sebaya, yang mendorong siswa untuk saling berbagi pengetahuan sekaligus mengembangkan kepemimpinan dan empati. Di bidang minat dan bakat, tersedia beragam ekstrakurikuler seperti basket, modern dance, futsal, voli dan bola tangan, bulu tangkis, Cooking Entrepreneurship, Aikido, Math Club, paduan suara, seni ansambel, serta ARC (AI, Robotic, & Coding). Melengkapi pengalaman belajar tersebut, SMA Katolik Santo Stanislaus menjalin kemitraan dengan perguruan tinggi dan institusi profesional melalui berbagai short course di bidang Bahasa Inggris, informatika, kewirausahaan, serta literasi dan edukasi keuangan bersama UKWMS, UBAYA, BEI, dan PT Sucor Sekuritas Indonesia, sehingga peserta didik memperoleh pengalaman belajar yang relevan, aplikatif, dan berorientasi pada kesiapan studi, karier, serta kehidupan di masa depan.",
             address: "Jl. Arief Rachman Hakim No. 40-44 Surabaya ",
@@ -432,18 +432,17 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
     
     // Fungsi Render Konten Sekolah
-    function renderSchool(id) {
+function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
-        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
-
+        currentSlide = 0; 
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
 
         // --- SCRIPT BARU UNTUK SLIDER ---
+        // (Biarkan script slider sama seperti kode asli Anda)
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Tambahkan atribut onload pada tag img
             const imagesHTML = school.images.map((img, index) => `
                 <img 
                     src="${img}" 
@@ -452,7 +451,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 >
             `).join('');
 
-            // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
                 <div class="slider-container skeleton">
                     <div class="slides-wrapper">
@@ -465,7 +463,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
-        // --------------------------------
+
+        // ==========================================
+        // TEMPLATE PESAN SPMB & LINK WHATSAPP
+        // ==========================================
+        const waNumber = school.whatsapp || "6280000000000"; // Fallback jika nomor WA belum diisi
+        const waTemplateMessage = encodeURIComponent(`Halo Admin ${school.name}, saya ingin menanyakan informasi mengenai pendaftaran siswa baru (SPMB). Apakah ada brosur atau informasi persyaratannya? Terima kasih.`);
+        const waLink = `https://wa.me/${waNumber}?text=${waTemplateMessage}`;
 
         content.innerHTML = `
             <article class="school-card">
@@ -481,11 +485,20 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2>${school.name}</h2>
                         </div>
                     </div>
+                    
+                    <!-- TOMBOL HIGHLIGHT SPMB -->
+                    <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="btn-highlight wa-btn" title="Tanya Informasi SPMB">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                        TANYA INFO SPMB
+                    </a>
                 </div>
 
-                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                <!-- MASUKKAN SLIDER DISINI -->
                 ${sliderHTML}
 
+                <!-- Sisa kode description, program, map sama seperti sebelumnya... -->
                 <div class="school-description">
                     <p>${school.description}</p>
                 </div>
@@ -543,33 +556,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = navigation.querySelector("button.active");
-        if (currentActive && Number(currentActive.dataset.id) === id) return;
+            const currentActive = navigation.querySelector("button.active");
+            if (currentActive && Number(currentActive.dataset.id) === id) return;
 
-        activateButton(id);
+            activateButton(id);
 
-        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
-        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // --- PERBAIKAN SCROLL DENGAN OFFSET ---
+            // Hitung jarak elemen dari atas layar, dikurangi jarak navbar (misal 110px)
+            const headerOffset = 110; // Sesuaikan angka ini dengan tinggi navbar website Anda
+            const elementPosition = content.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        content.animate([
-            { opacity: 1, transform: "translateY(0)" },
-            { opacity: 0, transform: "translateY(15px)" }
-        ], {
-            duration: 200,
-            fill: "forwards",
-            easing: "ease-in"
-        }).onfinish = () => {
-            renderSchool(id);
-            content.animate([
-                { opacity: 0, transform: "translateY(15px)" },
-                { opacity: 1, transform: "translateY(0)" }
-            ], {
-                duration: 400,
-                fill: "forwards",
-                easing: "cubic-bezier(.22, 1, .36, 1)"
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
             });
-        };
-    }
+            // --------------------------------------
+
+            content.animate([
+                { opacity: 1, transform: "translateY(0)" },
+                { opacity: 0, transform: "translateY(15px)" }
+            ], {
+                duration: 200,
+                fill: "forwards",
+                easing: "ease-in"
+            }).onfinish = () => {
+                renderSchool(id);
+                content.animate([
+                    { opacity: 0, transform: "translateY(15px)" },
+                    { opacity: 1, transform: "translateY(0)" }
+                ], {
+                    duration: 400,
+                    fill: "forwards",
+                    easing: "cubic-bezier(.22, 1, .36, 1)"
+                });
+            };
+        }
 
     navigation.addEventListener("click", (e) => {
         const button = e.target.closest("button");

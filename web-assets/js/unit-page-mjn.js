@@ -469,33 +469,42 @@ function renderSchool(id) {
     }
 
     function changeSchool(id) {
-        const currentActive = navigation.querySelector("button.active");
-        if (currentActive && Number(currentActive.dataset.id) === id) return;
+            const currentActive = navigation.querySelector("button.active");
+            if (currentActive && Number(currentActive.dataset.id) === id) return;
 
-        activateButton(id);
+            activateButton(id);
 
-        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
-        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // --- PERBAIKAN SCROLL DENGAN OFFSET ---
+            // Hitung jarak elemen dari atas layar, dikurangi jarak navbar (misal 110px)
+            const headerOffset = 110; // Sesuaikan angka ini dengan tinggi navbar website Anda
+            const elementPosition = content.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        content.animate([
-            { opacity: 1, transform: "translateY(0)" },
-            { opacity: 0, transform: "translateY(15px)" }
-        ], {
-            duration: 200,
-            fill: "forwards",
-            easing: "ease-in"
-        }).onfinish = () => {
-            renderSchool(id);
-            content.animate([
-                { opacity: 0, transform: "translateY(15px)" },
-                { opacity: 1, transform: "translateY(0)" }
-            ], {
-                duration: 400,
-                fill: "forwards",
-                easing: "cubic-bezier(.22, 1, .36, 1)"
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
             });
-        };
-    }
+            // --------------------------------------
+
+            content.animate([
+                { opacity: 1, transform: "translateY(0)" },
+                { opacity: 0, transform: "translateY(15px)" }
+            ], {
+                duration: 200,
+                fill: "forwards",
+                easing: "ease-in"
+            }).onfinish = () => {
+                renderSchool(id);
+                content.animate([
+                    { opacity: 0, transform: "translateY(15px)" },
+                    { opacity: 1, transform: "translateY(0)" }
+                ], {
+                    duration: 400,
+                    fill: "forwards",
+                    easing: "cubic-bezier(.22, 1, .36, 1)"
+                });
+            };
+        }
 
     navigation.addEventListener("click", (e) => {
         const button = e.target.closest("button");

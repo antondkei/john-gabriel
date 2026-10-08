@@ -306,18 +306,17 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
     
     // Fungsi Render Konten Sekolah
-    function renderSchool(id) {
+function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
-        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
-
+        currentSlide = 0; 
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
 
         // --- SCRIPT BARU UNTUK SLIDER ---
+        // (Biarkan script slider sama seperti kode asli Anda)
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Tambahkan atribut onload pada tag img
             const imagesHTML = school.images.map((img, index) => `
                 <img 
                     src="${img}" 
@@ -326,7 +325,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 >
             `).join('');
 
-            // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
                 <div class="slider-container skeleton">
                     <div class="slides-wrapper">
@@ -339,7 +337,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
-        // --------------------------------
+
+        // ==========================================
+        // TEMPLATE PESAN SPMB & LINK WHATSAPP
+        // ==========================================
+        const waNumber = school.whatsapp || "6280000000000"; // Fallback jika nomor WA belum diisi
+        const waTemplateMessage = encodeURIComponent(`Halo Admin ${school.name}, saya ingin menanyakan informasi mengenai pendaftaran siswa baru (SPMB). Apakah ada brosur atau informasi persyaratannya? Terima kasih.`);
+        const waLink = `https://wa.me/${waNumber}?text=${waTemplateMessage}`;
 
         content.innerHTML = `
             <article class="school-card">
@@ -355,11 +359,20 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2>${school.name}</h2>
                         </div>
                     </div>
+                    
+                    <!-- TOMBOL HIGHLIGHT SPMB -->
+                    <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="btn-highlight wa-btn" title="Tanya Informasi SPMB">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                        TANYA INFO SPMB
+                    </a>
                 </div>
 
-                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                <!-- MASUKKAN SLIDER DISINI -->
                 ${sliderHTML}
 
+                <!-- Sisa kode description, program, map sama seperti sebelumnya... -->
                 <div class="school-description">
                     <p>${school.description}</p>
                 </div>
@@ -417,33 +430,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = navigation.querySelector("button.active");
-        if (currentActive && Number(currentActive.dataset.id) === id) return;
+            const currentActive = navigation.querySelector("button.active");
+            if (currentActive && Number(currentActive.dataset.id) === id) return;
 
-        activateButton(id);
+            activateButton(id);
 
-        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
-        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // --- PERBAIKAN SCROLL DENGAN OFFSET ---
+            // Hitung jarak elemen dari atas layar, dikurangi jarak navbar (misal 110px)
+            const headerOffset = 110; // Sesuaikan angka ini dengan tinggi navbar website Anda
+            const elementPosition = content.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        content.animate([
-            { opacity: 1, transform: "translateY(0)" },
-            { opacity: 0, transform: "translateY(15px)" }
-        ], {
-            duration: 200,
-            fill: "forwards",
-            easing: "ease-in"
-        }).onfinish = () => {
-            renderSchool(id);
-            content.animate([
-                { opacity: 0, transform: "translateY(15px)" },
-                { opacity: 1, transform: "translateY(0)" }
-            ], {
-                duration: 400,
-                fill: "forwards",
-                easing: "cubic-bezier(.22, 1, .36, 1)"
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
             });
-        };
-    }
+            // --------------------------------------
+
+            content.animate([
+                { opacity: 1, transform: "translateY(0)" },
+                { opacity: 0, transform: "translateY(15px)" }
+            ], {
+                duration: 200,
+                fill: "forwards",
+                easing: "ease-in"
+            }).onfinish = () => {
+                renderSchool(id);
+                content.animate([
+                    { opacity: 0, transform: "translateY(15px)" },
+                    { opacity: 1, transform: "translateY(0)" }
+                ], {
+                    duration: 400,
+                    fill: "forwards",
+                    easing: "cubic-bezier(.22, 1, .36, 1)"
+                });
+            };
+        }
 
     navigation.addEventListener("click", (e) => {
         const button = e.target.closest("button");
