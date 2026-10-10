@@ -515,3 +515,42 @@ document.addEventListener('DOMContentLoaded', function () {
   loadNews();
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const observerOptions = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.15
+  };
+
+  const observer = new IntersectionObserver(
+    function (entries, observer) {
+
+      entries.forEach(function (entry) {
+
+        if (entry.isIntersecting) {
+
+          entry.target.classList.add("yjg-show");
+
+          observer.unobserve(entry.target);
+
+        }
+
+      });
+
+    },
+    observerOptions
+  );
+
+
+  document
+    .querySelectorAll("#yjg-spmb .yjg-hidden")
+    .forEach(function (el) {
+
+      observer.observe(el);
+
+    });
+
+});

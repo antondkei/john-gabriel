@@ -1,0 +1,631 @@
+/* =========================================================
+   SPMB — ST. JOHN GABRIEL FOUNDATION (PREMIUM EDITION)
+   ========================================================= */
+
+#yjg-spmb {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-light);
+}
+
+/* =========================================================
+   SHARED & UTILITIES
+   ========================================================= */
+#yjg-spmb .container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#yjg-spmb img {
+  max-width: 100%;
+  height: auto;
+}
+
+#yjg-spmb a {
+  text-decoration: none;
+}
+
+#yjg-spmb h1, #yjg-spmb h2, #yjg-spmb h3, #yjg-spmb p {
+  margin-top: 0;
+}
+
+/* Label & Eyebrow Premium */
+#yjg-spmb .spmb-section-label,
+#yjg-spmb .spmb-eyebrow,
+#yjg-spmb .spmb-story-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+#yjg-spmb .spmb-section-label::before,
+#yjg-spmb .spmb-eyebrow::before,
+#yjg-spmb .spmb-story-label::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.7;
+}
+
+/* =========================================================
+   HERO SECTION (CINEMATIC)
+   ========================================================= */
+#yjg-spmb .spmb-hero {
+  position: relative;
+  min-height: 100vh;
+  max-height: 900px;
+  display: flex;
+  align-items: center;
+  padding: 180px 0;
+  overflow: hidden;
+  color: var(--color-white);
+}
+
+/* Ken Burns Animation */
+@keyframes kenBurns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.08); }
+}
+
+#yjg-spmb .spmb-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+#yjg-spmb .spmb-hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  animation: kenBurns 20s ease-out infinite alternate;
+}
+
+/* Overlay Elegan */
+#yjg-spmb .spmb-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(
+    135deg,
+    rgba(25, 26, 83, 0.95) 0%,
+    rgba(25, 26, 83, 0.8) 40%,
+    rgba(25, 26, 83, 0.4) 100%
+  );
+}
+
+#yjg-spmb .spmb-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(circle at 80% 20%, rgba(224, 196, 159, 0.15), transparent 40%);
+  pointer-events: none;
+}
+
+#yjg-spmb .spmb-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+#yjg-spmb .spmb-eyebrow {
+  margin-bottom: 24px;
+}
+
+#yjg-spmb .spmb-hero h1 {
+  margin-bottom: 30px;
+  font-family: var(--font-header);
+  font-size: clamp(3rem, 6vw, 4.5rem); /* Tipografi dinamis */
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  text-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+#yjg-spmb .spmb-hero h1 span {
+  display: block;
+  color: var(--color-secondary);
+  background: linear-gradient(to right, var(--color-secondary), #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#yjg-spmb .spmb-hero-description {
+  max-width: 600px;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* =========================================================
+   BUTTON PREMIUM
+   ========================================================= */
+#yjg-spmb .spmb-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 36px;
+  border-radius: 50px; /* Pill shape untuk kesan modern */
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+}
+
+#yjg-spmb .spmb-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#yjg-spmb .spmb-btn-primary {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  box-shadow: 0 15px 30px rgba(224, 196, 159, 0.3);
+}
+
+#yjg-spmb .spmb-btn-primary::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+  z-index: -1;
+}
+
+#yjg-spmb .spmb-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(224, 196, 159, 0.4);
+}
+
+#yjg-spmb .spmb-btn:hover::before {
+  transform: translateX(100%);
+}
+
+#yjg-spmb .spmb-btn:hover svg {
+  transform: translateX(6px);
+}
+
+/* =========================================================
+   VALUES (KARTU ELEGAN)
+   ========================================================= */
+#yjg-spmb .spmb-values {
+  padding: 140px 0;
+  background: var(--color-bg-light);
+}
+
+#yjg-spmb .spmb-section-header {
+  max-width: 800px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+#yjg-spmb .spmb-section-header h2 {
+  margin: 20px 0;
+  font-family: var(--font-header);
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--color-primary);
+}
+
+#yjg-spmb .spmb-section-header p {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  opacity: 0.8;
+}
+
+#yjg-spmb .spmb-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+#yjg-spmb .spmb-value-card {
+  position: relative;
+  padding: 50px 40px;
+  background: var(--color-white);
+  border-radius: 24px;
+  border: 1px solid rgba(0,0,0,0.03);
+  box-shadow: 0 20px 50px rgba(25, 26, 83, 0.04);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
+}
+
+#yjg-spmb .spmb-value-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(25, 26, 83, 0.08);
+  border-color: rgba(224, 196, 159, 0.3);
+}
+
+/* Efek Watermark pada Angka */
+#yjg-spmb .spmb-value-number {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(25, 26, 83, 0.05);
+  font-size: 80px;
+  font-family: var(--font-header);
+  font-weight: 900;
+  line-height: 1;
+  transition: all 0.5s ease;
+}
+
+#yjg-spmb .spmb-value-card:hover .spmb-value-number {
+  -webkit-text-stroke: 1px rgba(224, 196, 159, 0.2);
+  transform: scale(1.1) translate(-5px, 5px);
+}
+
+#yjg-spmb .spmb-value-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(25, 26, 83, 0.03);
+  border-radius: 18px;
+  color: var(--color-primary);
+  transition: all 0.5s ease;
+}
+
+#yjg-spmb .spmb-value-icon svg {
+  width: 32px;
+  height: 32px;
+  transition: all 0.5s ease;
+}
+
+#yjg-spmb .spmb-value-card:hover .spmb-value-icon {
+  background: var(--color-primary);
+  transform: scale(1.05) rotate(5deg);
+}
+
+#yjg-spmb .spmb-value-card:hover .spmb-value-icon svg {
+  fill: var(--color-secondary);
+}
+
+#yjg-spmb .spmb-value-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+#yjg-spmb .spmb-value-card p {
+  color: var(--color-text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* =========================================================
+   VISION (DARK MODE MINIMALIST)
+   ========================================================= */
+#yjg-spmb .spmb-vision {
+  position: relative;
+  padding: 140px 0;
+  background: var(--color-gradient);
+  color: var(--color-white);
+}
+
+#yjg-spmb .spmb-vision h2{
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--color-white);
+}
+
+#yjg-spmb .spmb-vision .spmb-section-header p{
+  
+  color: rgba(255,255,255,0.7);
+
+}
+
+#yjg-spmb .spmb-vision::before,
+#yjg-spmb .spmb-vision::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+}
+
+#yjg-spmb .spmb-vision::before {
+  width: 600px; height: 600px;
+  background: var(--color-secondary);
+  top: -200px; right: -200px;
+}
+
+#yjg-spmb .spmb-vision::after {
+  width: 500px; height: 500px;
+  background: #fff;
+  bottom: -200px; left: -200px;
+}
+
+#yjg-spmb .spmb-vision-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 24px;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+#yjg-spmb .spmb-vision-item {
+  background: Var(--color-primary);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+  padding: 50px;
+  transition: background 0.4s ease;
+}
+
+#yjg-spmb .spmb-vision-item:hover {
+  background: rgba(255,255,255,0.03);
+}
+
+#yjg-spmb .spmb-vision-number {
+  color: var(--color-secondary);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+#yjg-spmb .spmb-vision-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+#yjg-spmb .spmb-vision-item p {
+  color: rgba(255,255,255,0.6);
+  line-height: 1.7;
+}
+
+/* =========================================================
+   STORY (SPLIT LAYOUT ELEGAN)
+   ========================================================= */
+#yjg-spmb .spmb-story {
+  position: relative;
+  background: var(--color-primary); /* Dibuat gelap menyambung ke bagian Vision */
+}
+
+#yjg-spmb .spmb-story-container {
+  max-width: 1600px; /* Diperbesar dari 1200px agar konten lebih merapat ke tepi */
+  margin: 0 auto;
+  padding: 0 6%; /* Menggunakan persentase agar dinamis di berbagai layar */
+  width: 100%;
+  display: flex;
+  min-height: 800px;
+}
+
+#yjg-spmb .spmb-story-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#yjg-spmb .spmb-story-content h2 {
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+#yjg-spmb .spmb-story-content h2 span {
+  color: var(--color-secondary);
+}
+
+#yjg-spmb .spmb-story-line {
+  width: 80px;
+  height: 4px;
+  background: var(--color-secondary);
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+
+#yjg-spmb .spmb-story-content p {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+#yjg-spmb .spmb-story-image {
+  flex: 1.2;
+  position: relative;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#yjg-spmb .spmb-story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+#yjg-spmb .spmb-story-image:hover img {
+  transform: scale(1.05);
+}
+
+/* =========================================================
+   HISTORY / TIMELINE
+   ========================================================= */
+#yjg-spmb .spmb-history {
+  padding: 140px 0;
+  background: var(--color-bg-light); /* Atau warna creme halus Anda */
+}
+
+#yjg-spmb .spmb-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#yjg-spmb .spmb-timeline-head {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#yjg-spmb .spmb-timeline-node {
+  width: 20px; height: 20px;
+  background: var(--color-white);
+  border: 4px solid var(--color-secondary);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  box-shadow: 0 0 0 5px rgba(224, 196, 159, 0.2);
+  transition: all 0.3s ease;
+}
+
+#yjg-spmb .spmb-timeline-year {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--color-primary);
+  font-family: var(--font-header);
+}
+
+#yjg-spmb .spmb-timeline-card {
+  padding: 40px 30px;
+  background: var(--color-white);
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#yjg-spmb .spmb-timeline-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0,0,0,0.06);
+}
+
+#yjg-spmb .spmb-timeline-item:hover .spmb-timeline-node {
+  background: var(--color-secondary);
+  box-shadow: 0 0 0 8px rgba(224, 196, 159, 0.3);
+}
+
+#yjg-spmb .spmb-timeline-index {
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* =========================================================
+   FINAL CTA
+   ========================================================= */
+#yjg-spmb .spmb-final-cta {
+  padding: 160px 0;
+  background: var(--color-primary);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#yjg-spmb .spmb-final-decoration {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(224, 196, 159, 0.1) 0%, transparent 70%);
+}
+
+#yjg-spmb .spmb-final-decoration-left {
+  width: 800px; height: 800px;
+  left: -400px; bottom: -400px;
+}
+
+#yjg-spmb .spmb-final-decoration-right {
+  width: 600px; height: 600px;
+  right: -200px; top: -300px;
+}
+
+#yjg-spmb .spmb-final-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#yjg-spmb .spmb-final-content h2 {
+  font-size: clamp(2.8rem, 5vw, 4rem);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1.1;
+  margin: 20px 0 30px;
+}
+
+#yjg-spmb .spmb-final-content p {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.15rem;
+  margin-bottom: 50px;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 1024px) {
+  #yjg-spmb .spmb-values-grid { grid-template-columns: repeat(2, 1fr); }
+  #yjg-spmb .spmb-timeline { grid-template-columns: repeat(2, 1fr); }
+  #yjg-spmb .spmb-story-image { clip-path: none; }
+  #yjg-spmb .spmb-vision-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  #yjg-spmb .spmb-hero { text-align: center; justify-content: center; padding: 140px 0 100px; }
+  #yjg-spmb .spmb-hero h1 span { display: inline; }
+  #yjg-spmb .spmb-hero-actions { justify-content: center; }
+  
+  #yjg-spmb .spmb-values-grid { grid-template-columns: 1fr; }
+  
+  #yjg-spmb .spmb-story-container { flex-direction: column; }
+  #yjg-spmb .spmb-story-content { padding: 80px 5%; text-align: center; align-items: center; }
+  #yjg-spmb .spmb-story-image { min-height: 400px; }
+  
+  #yjg-spmb .spmb-timeline { grid-template-columns: 1fr; gap: 30px; }
+  #yjg-spmb .spmb-timeline::before {
+    top: 0; left: 9px; width: 2px; height: 100%;
+    background: var(--color-secondary); opacity: 0.2;
+  }
+  #yjg-spmb .spmb-timeline-head { height: auto; margin-bottom: 15px; }
+  #yjg-spmb .spmb-timeline-year { margin-left: 35px; }
+}
