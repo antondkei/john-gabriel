@@ -622,7 +622,7 @@
   #yjg-spmb .spmb-section-label,
   #yjg-spmb .spmb-eyebrow,
   #yjg-spmb .spmb-story-label {
-  font-size: var(--fs-small);
+  font-size: .75rem; font-weight: 600; letter-spacing: 0.1em; gap: 8px;
   }
   #yjg-spmb .spmb-hero { text-align: center; justify-content: center; padding: 140px 0 100px; }
   #yjg-spmb .spmb-hero h1 { font-size: clamp(2.5rem, 6vw, 3.5rem); }
