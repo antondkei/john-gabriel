@@ -39,7 +39,7 @@
   align-items: center;
   gap: 12px;
   color: var(--color-secondary);
-  font-size: 12px;
+  font-size: var(--fs-label);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.2em;
@@ -127,7 +127,7 @@
 #yjg-spmb .spmb-hero h1 {
   margin-bottom: 30px;
   font-family: var(--font-header);
-  font-size: clamp(3rem, 6vw, 4.5rem); /* Tipografi dinamis */
+  font-size: var(--fs-display);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -147,7 +147,7 @@
   max-width: 600px;
   margin-bottom: 40px;
   color: rgba(255, 255, 255, 0.85);
-  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  font-size: var(--fs-lead);
   line-height: 1.8;
   font-weight: 300;
 }
@@ -442,7 +442,7 @@
   font-weight: 800;
   color: var(--color-white);
   line-height: 1.1;
-  margin-bottom: 30px;
+  margin: 20px 0;
 }
 
 #yjg-spmb .spmb-story-content h2 span {
@@ -532,6 +532,7 @@
   box-shadow: 0 15px 35px rgba(0,0,0,0.03);
   border: 1px solid rgba(0,0,0,0.02);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  height:80%;
 }
 
 #yjg-spmb .spmb-timeline-card h3 {
@@ -618,10 +619,16 @@
 }
 
 @media (max-width: 768px) {
+  #yjg-spmb .spmb-section-label,
+  #yjg-spmb .spmb-eyebrow,
+  #yjg-spmb .spmb-story-label {
+  font-size: var(--fs-small);
+  }
   #yjg-spmb .spmb-hero { text-align: center; justify-content: center; padding: 140px 0 100px; }
+  #yjg-spmb .spmb-hero h1 { font-size: clamp(2.5rem, 6vw, 3.5rem); }
   #yjg-spmb .spmb-hero h1 span { display: inline; }
   #yjg-spmb .spmb-hero-actions { justify-content: center; }
-  
+  #yjg-spmb .spmb-hero-description {line-height: 1.4; font-size: var(--fs-body); max-width: 90%; margin: 0 auto 30px; }
   #yjg-spmb .spmb-values-grid { grid-template-columns: 1fr; }
   
   #yjg-spmb .spmb-story-container { flex-direction: column; }
