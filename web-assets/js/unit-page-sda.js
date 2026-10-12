@@ -27,7 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "",
             programs: "",
             address: "Jl. Brantas Wisma Tropodo Waru-Sidoarjo",
-            phone: "",
+            phone: "6282228478338",
+            whatsapp: "",
             email: "",
             website: "",
             // Data Sosmed Baru:
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen TK Katolik Santa Theresia dalam memberikan pendidikan yang holistik dan membentuk anak secara utuh, program Katolisitas menjadi bagian penting dalam menanamkan nilai iman dan karakter Katolik sejak dini. Melalui Pembiasaan Pagi, anak diajak berdoa sebelum memulai kegiatan dan mendengarkan Sabda Tuhan sebagai bagian dari pembentukan suasana belajar yang berkesadaran dan bermakna. Setiap hari Jumat, anak mengikuti pendalaman iman melalui cerita Santo dan Santa serta berbagai kegiatan dalam rangkaian kehidupan menggereja, seperti Aksi Puasa Pembangunan (APP), Masa Adven, Bulan Kitab Suci Nasional (BKSN), dan Pendalaman Bulan Maria. Melalui kegiatan tersebut, anak didampingi untuk mengenal, menghayati, dan menerapkan nilai kasih, iman, kepedulian, serta kebiasaan hidup baik dalam kehidupan sehari-hari.",
             address: "Jl. Ki Hajar Dewantara No. 35 Krian-Sidoarjo",
             phone: "085732333134",
+            whatsapp: "",
             email: "tkktheresiakrian@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -64,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "",
             address: "Jl. Monginsidi No. 31 Sidoarjo",
             phone: "",
+            whatsapp: "",
             email: "",
             website: "",
             // Data Sosmed Baru:
@@ -82,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen SD Katolik Santo Yustinus de Yacobis Krian dalam mengembangkan peserta didik secara utuh, sekolah menyediakan berbagai program yang memadukan penguatan iman, karakter, kompetensi, serta pengembangan bakat dan minat. Pendidikan Karakter dan Iman Katolik diwujudkan melalui pembiasaan nilai-nilai Kristiani, pendalaman Kitab Suci, ibadat, misa, retret, Adven, APP, dan kegiatan Paskah. Pembelajaran inovatif dikembangkan untuk mendukung potensi akademik, sosial, dan spiritual, dilengkapi dengan program Bahasa Inggris serta berbagai kegiatan seni dan budaya seperti seni lukis, gamelan, teater, dan tari tradisional. Potensi olahraga dikembangkan melalui futsal, bulutangkis, dan karate, sementara musik dan vokal menjadi ruang bagi siswa untuk berekspresi. Pramuka dan Pesta Siaga turut membentuk kemandirian, kedisiplinan, kerja sama, tanggung jawab, dan kepemimpinan. Dengan 11 kegiatan ekstrakurikuler dan dukungan pengembangan prestasi melalui berbagai kompetisi, termasuk FLS3N, sekolah memberikan ruang yang luas bagi setiap peserta didik untuk menemukan, mengembangkan, dan mengoptimalkan potensi dirinya.",
             address: "Jl. Ki Hajar Dewantara No. 35 Krian-Sidoarjo",
             phone: "(031)99890187",
+            whatsapp: "6287806845288",
             email: "sdkyudeya@gmail.com",
             website: "https://sdkyudeyakrian.sch.id",
             // Data Sosmed Baru:
@@ -100,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai wujud pendidikan yang berlandaskan kasih dan pembentukan karakter, SD Katolik Untung Suropati 1 Sidoarjo menghadirkan berbagai program unggulan yang mengintegrasikan iman, nasionalisme, kesehatan, literasi, dan pengembangan potensi peserta didik. Program tersebut meliputi pembiasaan 5S, Bina Iman Legio Maria, ibadah bulanan, saat teduh, serta doa dalam tiga bahasa, disertai pembiasaan nasionalisme melalui upacara dan lagu Indonesia Raya. Sekolah juga mendukung pola hidup sehat melalui senam dan makanan bergizi, mengembangkan kemampuan bahasa melalui Bahasa Inggris dan Mandarin, serta memperkuat literasi, karakter, dan kepedulian sosial melalui Gerakan Literasi, penyuluhan, bakti sosial, Sinau Wisata, Guru Tamu, dan Kedai Unsur sebagai ruang berbagi pengetahuan. Keseluruhan program dirancang untuk membentuk peserta didik yang beriman, sehat, cerdas, berkarakter, peduli, dan berintegritas.",
             address: "Jl. Monginsidi No. 31 Sidoarjo",
             phone: "031-8961636",
+            whatsapp: "6281330673680",
             email: "grade5unsur1@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -118,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk peserta didik yang cerdas, beriman, berkarakter, dan mampu mengembangkan potensi diri, SDK Untung Suropati II menghadirkan berbagai program unggulan melalui Pramuka Garuda, penguatan akademik bidang Matematika, serta pengembangan bakat nonakademik dalam Seni Tari, Karate, dan Futsal. Pembelajaran renang juga menjadi salah satu kekhasan sekolah yang mendukung perkembangan keterampilan, kesehatan, kemandirian, dan kepercayaan diri peserta didik secara menyeluruh.",
             address: "Jl. Tenis III Gajah, Magersari, Sidoarjo",
             phone: "031-8953325",
+            whatsapp: "628977289687",
             email: "sdkuntungsurapati2sda@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -136,6 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "",
             address: "Jl. Brantas Wisma Tropodo Waru-Sidoarjo",
             phone: "031-8661746",
+            whatsapp: "6281217229976",
             email: "santoyusuptropodosdk@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -154,6 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk peserta didik yang cerdas, berkarakter, dan berlandaskan nilai-nilai Kristiani, SMP Katolik Untung Suropati Sidoarjo menghadirkan berbagai program pengembangan secara menyeluruh. Program tersebut meliputi penguatan akademik melalui pembelajaran, pendampingan, dan kompetisi; pengembangan bakat dan minat melalui berbagai kegiatan nonakademik; serta pembinaan prestasi untuk membangun pengalaman berkompetisi, kepercayaan diri, dan semangat juang. Pendidikan juga diperkuat melalui program Katolisitas serta kegiatan OSIS yang menjadi wadah pengembangan iman, karakter, kepemimpinan, tanggung jawab, kerja sama, dan kemampuan berorganisasi, didukung beragam kegiatan olahraga, seni, dan kreativitas sesuai potensi peserta didik.",
             address: "Jl. Tenis III Gajah, Magersari, Sidoarjo",
             phone: "031-8966141 ",
+            whatsapp: "6287782887950",
             email: "smpkuntungsuropati@gmail.com",
             website: "https://www.smpkunsur.sch.id",
             // Data Sosmed Baru:
@@ -172,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk peserta didik yang berkarakter, beriman, mandiri, dan siap menghadapi perkembangan zaman, SMPK Santo Yusup Tropodo mengembangkan berbagai program unggulan yang memadukan teknologi, pengalaman belajar, pembinaan iman, kepemimpinan, serta pengembangan bakat. Pembelajaran diperkuat melalui Smart Classroom & AI-Integrated Learning dan Outdoor Learning, sementara Character Building Retreat dan Faith in Action menumbuhkan spiritualitas serta penghayatan nilai-nilai Katolik melalui tindakan nyata. Pengembangan kepemimpinan dan kompetensi warga sekolah dilakukan melalui Student Leadership & Character Academy serta Educator Coaching & Peer Mentoring, dilengkapi program Cyber-Ethics dan Sharing Career untuk membekali siswa menghadapi tantangan sosial, digital, dan dunia kerja. Dukungan terhadap potensi nonakademik diwujudkan melalui Sports & Art Center, sedangkan kolaborasi dengan orang tua dan mitra diperkuat melalui Parent-Teacher Association (PTA) Grant Program untuk mendukung penyediaan sarana dan beasiswa.",
             address: "Jl. Brantas Wisma Tropodo Waru-Sidoarjo",
             phone: "(031) 99004878",
+            whatsapp: "6282244369551",
             email: "santoyusuptropodo.jhs@gmail.com",
             website: "https://www.smpksanyu.sch.id",
             // Data Sosmed Baru:
@@ -190,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan visi SMP Katolik St. Yustinus de Yacobis Krian dalam membentuk peserta didik yang beriman, berprestasi, dan berkepribadian tangguh, sekolah mengembangkan berbagai program yang mendukung pertumbuhan akademik, karakter, dan potensi siswa secara menyeluruh. Program Literasi menjadi fondasi untuk memperkuat kemampuan membaca, menulis, dan berpikir kritis melalui pemanfaatan perpustakaan serta kegiatan literasi yang menarik. Beragam kegiatan ekstrakurikuler di bidang olahraga, seni, dan musik tidak hanya menjadi wadah pengembangan minat dan bakat, tetapi juga diarahkan untuk membangun prestasi. Pengembangan karakter dilakukan melalui penanaman nilai luhur, etika, tanggung jawab, dan kepemimpinan, sementara Digital Learning mengintegrasikan teknologi dalam pembelajaran untuk menciptakan pengalaman belajar yang interaktif, relevan, dan mempersiapkan peserta didik menghadapi tantangan masa depan.",
             address: "Jl. Ki Hajar Dewantara No. 35 Krian-Sidoarjo",
             phone: "031-8971930",
+            whatsapp: "6285921537215",
             email: "smpkstydyacobis@gmail.com",
             website: "https://tinyurl.com/Web-SMPK-Yudeya",
             // Data Sosmed Baru:
@@ -208,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan semangat “Bright Mind, Strong Character, Lasting Impact”, SMAS Katolik Untung Suropati Sidoarjo mengembangkan program unggulan yang memadukan penguatan akademik, pembentukan karakter, dan kesiapan menghadapi kehidupan. Pilar Bright Mind diwujudkan melalui UTBK/TKA Success & Academic Mastery, penerapan Kurikulum Merdeka dengan pendekatan Deep Learning, serta Campus Expo & Career Insight untuk membantu peserta didik mengenali potensi dan merencanakan masa depan. Pilar Strong Character dikembangkan melalui Perboyrian Character Camp & Rekoleksi serta pembiasaan nilai-nilai Kristiani dan kebangsaan dalam kehidupan sehari-hari. Sementara itu, Lasting Impact diwujudkan melalui Life Skills & Real-World Learning serta Student Leadership & Creative yang mendorong peserta didik menjadi pribadi mandiri, kreatif, bertanggung jawab, dan mampu memberikan dampak positif bagi lingkungan sekitarnya.",
             address: "Jl. Untung Suropati 33 Sidoarjo",
             phone: "(031)8941551",
+            whatsapp: "6285728138959",
             email: "smakunsur9@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -226,6 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan semangat SMAKUSKA dalam membentuk generasi yang cerdas dalam iman, ilmu, berkarakter, dan berprestasi, sekolah mengembangkan program unggulan yang mencakup penguatan kompetensi, karakter, kesiapan masa depan, dan pengembangan diri. Pembelajaran STEM Kolaborasi melalui Deep Learning, Problem Based Learning, SIKAP, literasi-numerasi, komunitas belajar, dan pemrograman mendorong peserta didik untuk belajar aktif, berpikir kritis, berkarya, dan berkolaborasi. Pembentukan karakter diperkuat melalui DISKON, Sharing and Caring, JUDIKA, Leadership Training, Live In, Oase Iman, Rekoleksi, dan Retret untuk membangun pribadi yang utuh, berintegritas, dan siap menjadi berkat bagi sesama. Pengenalan dunia kerja dan studi lanjut melalui Career Day, Proposal Life, Ekspo Kampus, Yosinaya, dan Internship membantu siswa merancang masa depan, sementara program Pengembangan Diri melalui kewirausahaan dan 21 kegiatan ekstrakurikuler menjadi ruang untuk menumbuhkan pribadi yang aktif, mandiri, disiplin, dan terus berkembang.",
             address: "Jl. Ki Hajar Dewantara No. 175 Krian-Sidoarjo",
             phone: "031-8987239",
+            whatsapp: "",
             email: "smakatolikkrian@gmail.com",
             website: "https://smakuskabersinar.sch.id",
             // Data Sosmed Baru:

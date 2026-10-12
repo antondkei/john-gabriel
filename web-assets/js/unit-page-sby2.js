@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
             address: "Jl. Teratai No. 2 A Surabaya",
             phone: "031-5035006",
+            whatsapp: "6281359010606",
             email: "kbtkkristusraja1@gmail.com",
             website: "http://kb-tkk-kristusrajasby.sch.id",
             // Data Sosmed Baru:
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mendukung perkembangan anak secara menyeluruh, KB-TKS Kristus Raja II menghadirkan berbagai kegiatan yang menyenangkan dan edukatif. Kegiatan ekstrakurikuler drumband menjadi sarana untuk mengembangkan kreativitas, musikalitas, kedisiplinan, dan kerja sama anak. Melalui Cooking Class, anak diajak mengenal bahan makanan, belajar melakukan kegiatan sederhana secara mandiri, serta melatih motorik dan kreativitas. Ekstrakurikuler Bahasa Inggris memperkenalkan kosakata dan ungkapan sederhana sejak dini, sedangkan kegiatan Outing Class yang dilaksanakan dua kali dalam setahun, pada semester pertama dan kedua, memberikan pengalaman belajar langsung di luar kelas. Seluruh kegiatan ini dirancang untuk mendukung potensi anak, menumbuhkan kemandirian, serta membangun karakter dan budi pekerti yang selaras dengan nilai-nilai Kristiani.",
             address: "Jl. Wisma Permai Tengah I Surabaya",
             phone: "031-5932474",
+            whatsapp: "6281234519820",
             email: "",
             website: "",
             // Data Sosmed Baru:
@@ -64,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mewujudkan pendidikan anak usia dini yang berkualitas dan berlandaskan nilai-nilai Kristiani, KB–TKK Santa Theresia Surabaya mengembangkan berbagai program unggulan yang mendukung pertumbuhan anak dan kemajuan sekolah. Melalui Santa Theresia Meaningful Learning, pembelajaran dirancang agar bermakna dan menyenangkan, sedangkan Santa Theresia Kids: Growing in Faith and Love menanamkan iman dan kasih dalam keseharian anak. Program Guru Santa Theresia Bertumbuh dan Berkembang mendorong peningkatan kompetensi pendidik secara berkelanjutan, didukung oleh Santa Theresia Partnership & Networking yang memperkuat kolaborasi dengan orang tua dan masyarakat. Sekolah juga berkomitmen menciptakan lingkungan aman dan ramah anak melalui Santa Theresia Child-Friendly School, menumbuhkan kemandirian melalui Santa Theresia Mandiri dan Berdaya, serta memperkuat identitas dan kepercayaan masyarakat melalui Santa Theresia School Branding & SPMB. Seluruh program ini menjadi wujud semangat pelayanan dan kebersamaan dalam mendampingi anak agar bertumbuh menjadi pribadi yang beriman, berkarakter, dan mandiri.",
             address: "Jl. Kalijudan No. 25 - 33 Surabaya",
             phone: "081233520262",
+            whatsapp: "6281233520262",
             email: "tkksantatheresia@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -74,68 +77,15 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             id: 4,
-            level: "TK",
-            name: "TKK Kristus Raja",
-            logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
-            images: ["https://i.ibb.co.com/35cVp5XT/Foto-Sekolah-1-KBTK-KR.webp","https://i.ibb.co.com/JFn6CyFw/Foto-Sekolah-2-KBTK-KR.webp","https://i.ibb.co.com/p6qYqbP2/Foto-Sekolah-3-KBTK-KR.webp"],
-            description: "TKK Kristus Raja merupakan lembaga pendidikan anak usia dini yang berdiri sejak 24 November 1938 dan beralamat di Jalan Teratai 2 A, Tambaksari, Surabaya, di bawah naungan St. John Gabriel Foundation. Dengan pengalaman panjang dalam pelayanan pendidikan, sekolah terus berkomitmen memberikan layanan yang berkualitas dan sesuai dengan kebutuhan perkembangan anak. Sebagai sekolah Katolik dengan akreditasi A, TKK Kristus Raja mengintegrasikan nilai-nilai Kristiani dalam proses pendidikan melalui suasana belajar yang aman, nyaman, menyenangkan, dan penuh kasih, sehingga anak dapat berkembang secara utuh melalui kegiatan bermain, bereksplorasi, dan berkarya.<br/><br/>Kekhasan TKK Kristus Raja terletak pada penguatan nilai kasih, kepedulian, tanggung jawab, kejujuran, kemandirian, dan semangat berbagi yang ditanamkan melalui pembiasaan sehari-hari. Sekolah juga memberikan perhatian pada perkembangan sosial-emosional, karakter, kemandirian, dan spiritual anak serta membangun kerja sama yang erat dengan orang tua, komite, yayasan, dan gereja/paroki. Melalui lingkungan pendidikan yang inklusif dan penuh kasih, TKK Kristus Raja mendampingi anak untuk tumbuh menjadi pribadi yang mandiri, percaya diri, peduli terhadap sesama dan lingkungan, serta berkarakter Kristiani.",
-            programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
-            address: "Jl. Teratai No. 2 A Surabaya",
-            phone: "031-5035006",
-            email: "kbtkkristusraja1@gmail.com",
-            website: "http://kb-tkk-kristusrajasby.sch.id",
-            // Data Sosmed Baru:
-            instagram: "https://www.instagram.com/kbtkkkristusraja",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.1626302559007!2d112.75487779999999!3d-7.255293999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9709068304b%3A0x970efc5b41625e31!2sTK%20Katolik%20Kristus%20Raja!5e1!3m2!1sid!2sid!4v1790731853030!5m2!1sid!2sid"
-        },
-        {
-            id: 5,
-            level: "TK",
-            name: "TKS Kristus Raja II",
-            logo: "https://i.ibb.co.com/tTC8mqys/KB-TK-Kristus-Raja-II.jpg",
-            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
-            description: "KB-TKS Kristus Raja II beralamat di Jalan Wisma Permai Tengah I No. 1 dan mulai beroperasi pada 17 Juli 1986. Dengan berlandaskan semangat Kristus Raja Semesta Alam, sekolah berkomitmen menghadirkan pendidikan anak usia dini yang berkualitas melalui pengembangan potensi, prestasi, serta penanaman nilai-nilai Kristiani dan budi pekerti. Melalui lingkungan belajar yang penuh kasih dan pendampingan yang sesuai dengan tahap perkembangan anak, KB-TKS Kristus Raja II berupaya membentuk pribadi yang beriman, berkarakter, mandiri, dan siap berkembang secara optimal.",
-            programs: "Untuk mendukung perkembangan anak secara menyeluruh, KB-TKS Kristus Raja II menghadirkan berbagai kegiatan yang menyenangkan dan edukatif. Kegiatan ekstrakurikuler drumband menjadi sarana untuk mengembangkan kreativitas, musikalitas, kedisiplinan, dan kerja sama anak. Melalui Cooking Class, anak diajak mengenal bahan makanan, belajar melakukan kegiatan sederhana secara mandiri, serta melatih motorik dan kreativitas. Ekstrakurikuler Bahasa Inggris memperkenalkan kosakata dan ungkapan sederhana sejak dini, sedangkan kegiatan Outing Class yang dilaksanakan dua kali dalam setahun, pada semester pertama dan kedua, memberikan pengalaman belajar langsung di luar kelas. Seluruh kegiatan ini dirancang untuk mendukung potensi anak, menumbuhkan kemandirian, serta membangun karakter dan budi pekerti yang selaras dengan nilai-nilai Kristiani.",
-            address: "Jl. Wisma Permai Tengah I Surabaya",
-            phone: "031-5932474",
-            email: "",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "https://www.instagram.com/kbtkkristusraja2",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.0265638976125!2d112.78954279999999!3d-7.274843699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa17815c3fe7%3A0x20dd02cb7dd92328!2sTKK%20KRISTUS%20RAJA%20II!5e1!3m2!1sid!2sid!4v1790906144462!5m2!1sid!2sid"
-        },
-        {
-            id: 6,
-            level: "TK",
-            name: "TKK St. Theresia",
-            logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
-            images: ["https://i.ibb.co.com/5C1gH3P/Foto-Sekolah-1-TKTheresia.webp","https://i.ibb.co.com/GKsgCt6/Foto-Sekolah-2-TKTheresia.webp","https://i.ibb.co.com/991V8yBF/Foto-Sekolah-3-TKTheresia.webp"],
-            description: "KB–TKK Santa Theresia Surabaya berdiri pada tahun 1983 dan berlokasi di Jl. Kalijudan No. 25–33 Surabaya, dalam satu kompleks pendidikan bersama SDK Santa Theresia II, SMPK Santo Stanislaus II, dan SMAK Santo Stanislaus. Selama lebih dari empat dekade, sekolah terus bertumbuh dalam penyertaan Tuhan, perlindungan Santa Theresia, serta keteladanan Santo Yohannes Gabriel Perboyre sebagai pelindung St. John Gabriel Foundation. Nilai Keteguhan, Kedisiplinan, Kepedulian, Communio, dan Misioner menjadi landasan dalam mendampingi peserta didik, sekaligus mengantarkan mereka meraih berbagai prestasi di tingkat kecamatan maupun kota.<br/><br/>Di tengah perkembangan masyarakat dan dinamika dunia pendidikan, KB–TKK Santa Theresia berkomitmen memberikan layanan pendidikan anak usia dini yang berkualitas melalui pendampingan penuh kasih. Dengan semangat pelayanan dan kebersamaan, sekolah berupaya membentuk anak yang beriman, berkarakter, mandiri, dan berprestasi sebagai bekal untuk melanjutkan pendidikan ke jenjang berikutnya serta menjadi pribadi yang unggul dan berakhlak mulia.",
-            programs: "Untuk mewujudkan pendidikan anak usia dini yang berkualitas dan berlandaskan nilai-nilai Kristiani, KB–TKK Santa Theresia Surabaya mengembangkan berbagai program unggulan yang mendukung pertumbuhan anak dan kemajuan sekolah. Melalui Santa Theresia Meaningful Learning, pembelajaran dirancang agar bermakna dan menyenangkan, sedangkan Santa Theresia Kids: Growing in Faith and Love menanamkan iman dan kasih dalam keseharian anak. Program Guru Santa Theresia Bertumbuh dan Berkembang mendorong peningkatan kompetensi pendidik secara berkelanjutan, didukung oleh Santa Theresia Partnership & Networking yang memperkuat kolaborasi dengan orang tua dan masyarakat. Sekolah juga berkomitmen menciptakan lingkungan aman dan ramah anak melalui Santa Theresia Child-Friendly School, menumbuhkan kemandirian melalui Santa Theresia Mandiri dan Berdaya, serta memperkuat identitas dan kepercayaan masyarakat melalui Santa Theresia School Branding & SPMB. Seluruh program ini menjadi wujud semangat pelayanan dan kebersamaan dalam mendampingi anak agar bertumbuh menjadi pribadi yang beriman, berkarakter, dan mandiri.",
-            address: "Jl. Kalijudan No. 25 - 33 Surabaya",
-            phone: "081233520262",
-            email: "tkksantatheresia@gmail.com",
-            website: "",
-            // Data Sosmed Baru:
-            instagram: "https://www.instagram.com/kbtksttheresia",
-            facebook: "",
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8218270615102!2d112.77364159999999!3d-7.261108500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f90eb1a22315%3A0x88fbee8c9d5a1dd5!2sKB%20-%20TKK%20Santa%20Theresia!5e0!3m2!1sid!2sid!4v1790949566203!5m2!1sid!2sid"
-        },
-        {
-            id: 7,
-            level: "TK",
-            name: "TK Pecinta Damai",
+            level: "KB",
+            name: "KB Pecinta Damai",
             logo: "https://i.ibb.co.com/0jR4pyP8/TK-Pencinta-Damai.jpg",
             images: ["https://i.ibb.co.com/9khfrP2R/Foto-Sekolah-1-TKPDamai.webp","https://i.ibb.co.com/N28m6rc9/Foto-Sekolah-2-TKPDamai.webp","https://i.ibb.co.com/FqxFszs9/Foto-Sekolah-3-TKPDamai.webp"],
-            description: "TK Pencinta Damai berlokasi di Jalan Randu No. 03 RT 08/RW 02, Kelurahan Sidotopo Wetan, Kecamatan Kenjeran, Kota Surabaya, di kawasan Surabaya Utara. Sekolah berdiri di atas lahan seluas 4.837 m² dengan bangunan seluas 4.817 m² yang dilengkapi ruang kelas, ruang kepala sekolah, dan perpustakaan. Saat ini, TK Pencinta Damai melayani peserta didik usia 4–6 tahun yang terbagi dalam kelompok A dan kelompok B, dengan lingkungan belajar yang mendukung proses tumbuh kembang anak secara optimal.<br/><br/>Dalam menyelenggarakan pendidikan, TK Pencinta Damai didukung oleh tenaga pendidik dan kependidikan yang memiliki latar belakang pendidikan yang relevan. Sekolah memiliki tiga tenaga pendidik, satu tenaga kependidikan, serta dua guru ekstrakurikuler, dengan tiga tenaga pendidik telah bersertifikasi dan linier. Didukung oleh tenaga profesional dengan kualifikasi pendidikan S1, TK Pencinta Damai berkomitmen memberikan pendampingan dan layanan pendidikan yang sesuai dengan kebutuhan anak, sehingga tercipta lingkungan belajar yang nyaman, mendukung, dan mampu mengembangkan potensi setiap peserta didik.",
-            programs: "Sejalan dengan komitmen TK Pencinta Damai dalam mendampingi tumbuh kembang anak secara optimal, sekolah mengembangkan kegiatan yang mendukung pembentukan karakter, literasi, dan kreativitas peserta didik. Penguatan karakteristik Katolik dilakukan melalui pembiasaan doa pagi dan mendengarkan REHAN (Renungan Harian Anak), sehingga anak semakin mengenal nilai-nilai iman dan belajar menerapkannya dalam kehidupan sehari-hari. Dalam bidang digital dan literasi, anak diajak memanfaatkan teknologi serta fasilitas perpustakaan untuk menikmati cerita melalui buku digital, guna menumbuhkan minat baca, imajinasi, dan rasa ingin tahu. Sementara itu, kegiatan eksplorasi seni melalui menggambar dan mewarnai menjadi sarana bagi anak untuk mengekspresikan diri, mengembangkan kreativitas, serta melatih koordinasi motorik halus. Berbagai kegiatan ini diharapkan dapat membentuk anak yang beriman, kreatif, dan memiliki semangat belajar sejak dini.",
+            description: "KB Pencinta Damai berlokasi di Jalan Randu No. 03 RT 08/RW 02, Kelurahan Sidotopo Wetan, Kecamatan Kenjeran, Kota Surabaya, di kawasan Surabaya Utara. Sekolah berdiri di atas lahan seluas 4.837 m² dengan bangunan seluas 4.817 m² yang dilengkapi ruang kelas, ruang kepala sekolah, dan perpustakaan. Saat ini, KB Pencinta Damai melayani peserta didik usia 4–6 tahun yang terbagi dalam kelompok A dan kelompok B, dengan lingkungan belajar yang mendukung proses tumbuh kembang anak secara optimal.<br/><br/>Dalam menyelenggarakan pendidikan, KB Pencinta Damai didukung oleh tenaga pendidik dan kependidikan yang memiliki latar belakang pendidikan yang relevan. Sekolah memiliki tiga tenaga pendidik, satu tenaga kependidikan, serta dua guru ekstrakurikuler, dengan tiga tenaga pendidik telah bersertifikasi dan linier. Didukung oleh tenaga profesional dengan kualifikasi pendidikan S1, KB Pencinta Damai berkomitmen memberikan pendampingan dan layanan pendidikan yang sesuai dengan kebutuhan anak, sehingga tercipta lingkungan belajar yang nyaman, mendukung, dan mampu mengembangkan potensi setiap peserta didik.",
+            programs: "Sejalan dengan komitmen KB Pencinta Damai dalam mendampingi tumbuh kembang anak secara optimal, sekolah mengembangkan kegiatan yang mendukung pembentukan karakter, literasi, dan kreativitas peserta didik. Penguatan karakteristik Katolik dilakukan melalui pembiasaan doa pagi dan mendengarkan REHAN (Renungan Harian Anak), sehingga anak semakin mengenal nilai-nilai iman dan belajar menerapkannya dalam kehidupan sehari-hari. Dalam bidang digital dan literasi, anak diajak memanfaatkan teknologi serta fasilitas perpustakaan untuk menikmati cerita melalui buku digital, guna menumbuhkan minat baca, imajinasi, dan rasa ingin tahu. Sementara itu, kegiatan eksplorasi seni melalui menggambar dan mewarnai menjadi sarana bagi anak untuk mengekspresikan diri, mengembangkan kreativitas, serta melatih koordinasi motorik halus. Berbagai kegiatan ini diharapkan dapat membentuk anak yang beriman, kreatif, dan memiliki semangat belajar sejak dini.",
             address: "Jl. Randu No.3 Surabaya",
             phone: "(031)3767326",
+            whatsapp: "6282331626926",
             email: "tkk.pencintadamai@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -145,7 +95,83 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.084426722478!2d112.7616790757763!3d-7.231210871016575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f997cb867af9%3A0x2d8406faf1e5a67b!2sSMP%20Katolik%20Pencinta%20Damai!5e0!3m2!1sid!2sid!4v1790949885164!5m2!1sid!2sid"
         },
         {
+            id: 5,
+            level: "TK",
+            name: "TKK Kristus Raja",
+            logo: "https://i.ibb.co.com/XZsqSCTQ/KB-TK-Kristus-Raja.jpg",
+            images: ["https://i.ibb.co.com/35cVp5XT/Foto-Sekolah-1-KBTK-KR.webp","https://i.ibb.co.com/JFn6CyFw/Foto-Sekolah-2-KBTK-KR.webp","https://i.ibb.co.com/p6qYqbP2/Foto-Sekolah-3-KBTK-KR.webp"],
+            description: "TKK Kristus Raja merupakan lembaga pendidikan anak usia dini yang berdiri sejak 24 November 1938 dan beralamat di Jalan Teratai 2 A, Tambaksari, Surabaya, di bawah naungan St. John Gabriel Foundation. Dengan pengalaman panjang dalam pelayanan pendidikan, sekolah terus berkomitmen memberikan layanan yang berkualitas dan sesuai dengan kebutuhan perkembangan anak. Sebagai sekolah Katolik dengan akreditasi A, TKK Kristus Raja mengintegrasikan nilai-nilai Kristiani dalam proses pendidikan melalui suasana belajar yang aman, nyaman, menyenangkan, dan penuh kasih, sehingga anak dapat berkembang secara utuh melalui kegiatan bermain, bereksplorasi, dan berkarya.<br/><br/>Kekhasan TKK Kristus Raja terletak pada penguatan nilai kasih, kepedulian, tanggung jawab, kejujuran, kemandirian, dan semangat berbagi yang ditanamkan melalui pembiasaan sehari-hari. Sekolah juga memberikan perhatian pada perkembangan sosial-emosional, karakter, kemandirian, dan spiritual anak serta membangun kerja sama yang erat dengan orang tua, komite, yayasan, dan gereja/paroki. Melalui lingkungan pendidikan yang inklusif dan penuh kasih, TKK Kristus Raja mendampingi anak untuk tumbuh menjadi pribadi yang mandiri, percaya diri, peduli terhadap sesama dan lingkungan, serta berkarakter Kristiani.",
+            programs: "Sejalan dengan kekhasan TKK Kristus Raja dalam mendampingi anak bertumbuh secara utuh melalui nilai kasih, karakter, dan pembelajaran yang menyenangkan, sekolah mengembangkan tiga program unggulan yang dekat dengan dunia anak. Pohon Kasih melalui Daily Caption “Tumbuh dengan Kasih, Memimpin dengan Teladan” menanamkan nilai kasih, kepedulian, dan keteladanan dalam kehidupan sehari-hari. Rumah Literasi dengan semangat “Aku Cinta Huruf, Aku Cinta Buku” menjadi ruang untuk menumbuhkan minat baca, kemampuan berbahasa, dan rasa ingin tahu anak melalui pengalaman yang menyenangkan. Sementara itu, program Aku Bisa melalui semangat “Aku Kreatif, Aku Hebat karena Tuhan” memberikan ruang bagi anak untuk bereksplorasi, berkarya, dan mengembangkan kepercayaan diri sebagai pribadi yang memiliki potensi dan talenta yang dianugerahkan Tuhan.",
+            address: "Jl. Teratai No. 2 A Surabaya",
+            phone: "031-5035006",
+            whatsapp: "6281359010606",
+            email: "kbtkkristusraja1@gmail.com",
+            website: "http://kb-tkk-kristusrajasby.sch.id",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/kbtkkkristusraja",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.1626302559007!2d112.75487779999999!3d-7.255293999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9709068304b%3A0x970efc5b41625e31!2sTK%20Katolik%20Kristus%20Raja!5e1!3m2!1sid!2sid!4v1790731853030!5m2!1sid!2sid"
+        },
+        {
+            id: 6,
+            level: "TK",
+            name: "TKS Kristus Raja II",
+            logo: "https://i.ibb.co.com/tTC8mqys/KB-TK-Kristus-Raja-II.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "KB-TKS Kristus Raja II beralamat di Jalan Wisma Permai Tengah I No. 1 dan mulai beroperasi pada 17 Juli 1986. Dengan berlandaskan semangat Kristus Raja Semesta Alam, sekolah berkomitmen menghadirkan pendidikan anak usia dini yang berkualitas melalui pengembangan potensi, prestasi, serta penanaman nilai-nilai Kristiani dan budi pekerti. Melalui lingkungan belajar yang penuh kasih dan pendampingan yang sesuai dengan tahap perkembangan anak, KB-TKS Kristus Raja II berupaya membentuk pribadi yang beriman, berkarakter, mandiri, dan siap berkembang secara optimal.",
+            programs: "Untuk mendukung perkembangan anak secara menyeluruh, KB-TKS Kristus Raja II menghadirkan berbagai kegiatan yang menyenangkan dan edukatif. Kegiatan ekstrakurikuler drumband menjadi sarana untuk mengembangkan kreativitas, musikalitas, kedisiplinan, dan kerja sama anak. Melalui Cooking Class, anak diajak mengenal bahan makanan, belajar melakukan kegiatan sederhana secara mandiri, serta melatih motorik dan kreativitas. Ekstrakurikuler Bahasa Inggris memperkenalkan kosakata dan ungkapan sederhana sejak dini, sedangkan kegiatan Outing Class yang dilaksanakan dua kali dalam setahun, pada semester pertama dan kedua, memberikan pengalaman belajar langsung di luar kelas. Seluruh kegiatan ini dirancang untuk mendukung potensi anak, menumbuhkan kemandirian, serta membangun karakter dan budi pekerti yang selaras dengan nilai-nilai Kristiani.",
+            address: "Jl. Wisma Permai Tengah I Surabaya",
+            phone: "031-5932474",
+            whatsapp: "6281234519820",
+            email: "",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/kbtkkristusraja2",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.0265638976125!2d112.78954279999999!3d-7.274843699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa17815c3fe7%3A0x20dd02cb7dd92328!2sTKK%20KRISTUS%20RAJA%20II!5e1!3m2!1sid!2sid!4v1790906144462!5m2!1sid!2sid"
+        },
+        {
+            id: 7,
+            level: "TK",
+            name: "TKK St. Theresia",
+            logo: "https://i.ibb.co.com/5XQ3yQhw/KB-TK-St-Theresia.jpg",
+            images: ["https://i.ibb.co.com/5C1gH3P/Foto-Sekolah-1-TKTheresia.webp","https://i.ibb.co.com/GKsgCt6/Foto-Sekolah-2-TKTheresia.webp","https://i.ibb.co.com/991V8yBF/Foto-Sekolah-3-TKTheresia.webp"],
+            description: "KB–TKK Santa Theresia Surabaya berdiri pada tahun 1983 dan berlokasi di Jl. Kalijudan No. 25–33 Surabaya, dalam satu kompleks pendidikan bersama SDK Santa Theresia II, SMPK Santo Stanislaus II, dan SMAK Santo Stanislaus. Selama lebih dari empat dekade, sekolah terus bertumbuh dalam penyertaan Tuhan, perlindungan Santa Theresia, serta keteladanan Santo Yohannes Gabriel Perboyre sebagai pelindung St. John Gabriel Foundation. Nilai Keteguhan, Kedisiplinan, Kepedulian, Communio, dan Misioner menjadi landasan dalam mendampingi peserta didik, sekaligus mengantarkan mereka meraih berbagai prestasi di tingkat kecamatan maupun kota.<br/><br/>Di tengah perkembangan masyarakat dan dinamika dunia pendidikan, KB–TKK Santa Theresia berkomitmen memberikan layanan pendidikan anak usia dini yang berkualitas melalui pendampingan penuh kasih. Dengan semangat pelayanan dan kebersamaan, sekolah berupaya membentuk anak yang beriman, berkarakter, mandiri, dan berprestasi sebagai bekal untuk melanjutkan pendidikan ke jenjang berikutnya serta menjadi pribadi yang unggul dan berakhlak mulia.",
+            programs: "Untuk mewujudkan pendidikan anak usia dini yang berkualitas dan berlandaskan nilai-nilai Kristiani, KB–TKK Santa Theresia Surabaya mengembangkan berbagai program unggulan yang mendukung pertumbuhan anak dan kemajuan sekolah. Melalui Santa Theresia Meaningful Learning, pembelajaran dirancang agar bermakna dan menyenangkan, sedangkan Santa Theresia Kids: Growing in Faith and Love menanamkan iman dan kasih dalam keseharian anak. Program Guru Santa Theresia Bertumbuh dan Berkembang mendorong peningkatan kompetensi pendidik secara berkelanjutan, didukung oleh Santa Theresia Partnership & Networking yang memperkuat kolaborasi dengan orang tua dan masyarakat. Sekolah juga berkomitmen menciptakan lingkungan aman dan ramah anak melalui Santa Theresia Child-Friendly School, menumbuhkan kemandirian melalui Santa Theresia Mandiri dan Berdaya, serta memperkuat identitas dan kepercayaan masyarakat melalui Santa Theresia School Branding & SPMB. Seluruh program ini menjadi wujud semangat pelayanan dan kebersamaan dalam mendampingi anak agar bertumbuh menjadi pribadi yang beriman, berkarakter, dan mandiri.",
+            address: "Jl. Kalijudan No. 25 - 33 Surabaya",
+            phone: "081233520262",
+            whatsapp: "6281233520262",
+            email: "tkksantatheresia@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/kbtksttheresia",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8218270615102!2d112.77364159999999!3d-7.261108500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f90eb1a22315%3A0x88fbee8c9d5a1dd5!2sKB%20-%20TKK%20Santa%20Theresia!5e0!3m2!1sid!2sid!4v1790949566203!5m2!1sid!2sid"
+        },
+        {
             id: 8,
+            level: "TK",
+            name: "TK Pecinta Damai",
+            logo: "https://i.ibb.co.com/0jR4pyP8/TK-Pencinta-Damai.jpg",
+            images: ["https://i.ibb.co.com/9khfrP2R/Foto-Sekolah-1-TKPDamai.webp","https://i.ibb.co.com/N28m6rc9/Foto-Sekolah-2-TKPDamai.webp","https://i.ibb.co.com/FqxFszs9/Foto-Sekolah-3-TKPDamai.webp"],
+            description: "TK Pencinta Damai berlokasi di Jalan Randu No. 03 RT 08/RW 02, Kelurahan Sidotopo Wetan, Kecamatan Kenjeran, Kota Surabaya, di kawasan Surabaya Utara. Sekolah berdiri di atas lahan seluas 4.837 m² dengan bangunan seluas 4.817 m² yang dilengkapi ruang kelas, ruang kepala sekolah, dan perpustakaan. Saat ini, TK Pencinta Damai melayani peserta didik usia 4–6 tahun yang terbagi dalam kelompok A dan kelompok B, dengan lingkungan belajar yang mendukung proses tumbuh kembang anak secara optimal.<br/><br/>Dalam menyelenggarakan pendidikan, TK Pencinta Damai didukung oleh tenaga pendidik dan kependidikan yang memiliki latar belakang pendidikan yang relevan. Sekolah memiliki tiga tenaga pendidik, satu tenaga kependidikan, serta dua guru ekstrakurikuler, dengan tiga tenaga pendidik telah bersertifikasi dan linier. Didukung oleh tenaga profesional dengan kualifikasi pendidikan S1, TK Pencinta Damai berkomitmen memberikan pendampingan dan layanan pendidikan yang sesuai dengan kebutuhan anak, sehingga tercipta lingkungan belajar yang nyaman, mendukung, dan mampu mengembangkan potensi setiap peserta didik.",
+            programs: "Sejalan dengan komitmen TK Pencinta Damai dalam mendampingi tumbuh kembang anak secara optimal, sekolah mengembangkan kegiatan yang mendukung pembentukan karakter, literasi, dan kreativitas peserta didik. Penguatan karakteristik Katolik dilakukan melalui pembiasaan doa pagi dan mendengarkan REHAN (Renungan Harian Anak), sehingga anak semakin mengenal nilai-nilai iman dan belajar menerapkannya dalam kehidupan sehari-hari. Dalam bidang digital dan literasi, anak diajak memanfaatkan teknologi serta fasilitas perpustakaan untuk menikmati cerita melalui buku digital, guna menumbuhkan minat baca, imajinasi, dan rasa ingin tahu. Sementara itu, kegiatan eksplorasi seni melalui menggambar dan mewarnai menjadi sarana bagi anak untuk mengekspresikan diri, mengembangkan kreativitas, serta melatih koordinasi motorik halus. Berbagai kegiatan ini diharapkan dapat membentuk anak yang beriman, kreatif, dan memiliki semangat belajar sejak dini.",
+            address: "Jl. Randu No.3 Surabaya",
+            phone: "(031)3767326",
+            whatsapp: "6282331626926",
+            email: "tkk.pencintadamai@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/kb_tkk_pencintadamai",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.084426722478!2d112.7616790757763!3d-7.231210871016575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f997cb867af9%3A0x2d8406faf1e5a67b!2sSMP%20Katolik%20Pencinta%20Damai!5e0!3m2!1sid!2sid!4v1790949885164!5m2!1sid!2sid"
+        },
+        {
+            id: 9,
             level: "SD",
             name: "SDK Yohannes Gabriel",
             logo: "https://i.ibb.co.com/xqGPYVnK/SD-Yoga.jpg",
@@ -154,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mendukung pengembangan potensi peserta didik secara menyeluruh, SDK Yohannes Gabriel menghadirkan program unggulan yang mencakup bidang teknologi, olahraga, dan seni. Melalui fasilitas laboratorium komputer, peserta didik memperoleh kesempatan untuk mengenal dan memanfaatkan teknologi digital sebagai sarana belajar. Kegiatan karate membantu membentuk kedisiplinan, keberanian, konsentrasi, serta sikap sportif, sedangkan modern dance menjadi wadah bagi peserta didik untuk mengekspresikan kreativitas, mengembangkan bakat seni, dan meningkatkan kepercayaan diri. Ketiga program ini diharapkan dapat mendukung pembentukan peserta didik yang terampil, kreatif, disiplin, dan berkarakter.",
             address: "Jl. Residen Sudirman No. 1 Surabaya",
             phone: "(031) 5034325",
+            whatsapp: "",
             email: "yohanesgabriel74@yahoo.com",
             website: "",
             // Data Sosmed Baru:
@@ -163,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8708468976415!2d112.75189267577649!3d-7.255536771279938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f97afe884b55%3A0xcb02b2c875c6a917!2sSekolah%20Dasar%20(SD)%20Katolik%20St.%20Yohannes%20Gabriel!5e0!3m2!1sid!2sid!4v1790950193773!5m2!1sid!2sid"
         },
         {
-            id: 9,
+            id: 10,
             level: "SD",
             name: "SDK Santo Mikael",
             logo: "https://i.ibb.co.com/VWn4xqtb/SD-St-Mikael.jpg",
@@ -172,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SDK Santo Mikael Surabaya mengembangkan berbagai program unggulan untuk mendukung pertumbuhan peserta didik dalam iman, karakter, dan akademik. Pembinaan Katolisitas serta iman dan karakter dilakukan secara berkesinambungan untuk menanamkan nilai-nilai Kristiani dan kepedulian terhadap sesama. Pembiasaan literasi dan numerasi memperkuat kemampuan dasar siswa, sementara perayaan ulang tahun setiap bulan menumbuhkan kebersamaan. Sekolah juga memberikan pembinaan bagi siswa berprestasi agar bakat dan potensi mereka berkembang secara optimal, sehingga terbentuk pribadi yang beriman, berkarakter, dan berprestasi.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
             phone: "(031) 3541422",
+            whatsapp: "6282257199419",
             email: "sdksantomikael1@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -181,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1463098782715!2d112.72754990000001!3d-7.224147399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f8d9d0ca9515%3A0xe387bb05aa01f36e!2sGereja%20Katolik%20Paroki%20Santo%20Mikael%20-%20Perak!5e0!3m2!1sid!2sid!4v1790950400615!5m2!1sid!2sid"
         },
         {
-            id: 10,
+            id: 11,
             level: "SD",
             name: "SDK Santa Theresia",
             logo: "https://i.ibb.co.com/1GWxnRMK/SD-St-Theresia.jpg",
@@ -190,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mendukung pengembangan potensi dan keterampilan peserta didik, SDK Santa Theresia 1 Surabaya menghadirkan berbagai program unggulan di bidang bahasa dan seni. Melalui English Club, pembelajaran Bahasa Mandarin, serta pendampingan native speaker, siswa memperoleh kesempatan untuk meningkatkan kemampuan berbahasa dan memperluas wawasan lintas budaya. Sementara itu, kegiatan karawitan dan paduan suara menjadi wadah untuk mengembangkan bakat seni, kreativitas, kedisiplinan, dan kerja sama. Berbagai program ini diharapkan dapat membentuk peserta didik yang percaya diri, berprestasi, serta mampu menghargai keberagaman budaya.",
             address: "Jl. Residen Sudirman 5 Surabaya",
             phone: "(031)5032903",
+            whatsapp: "6282142887461",
             email: "sdksantatheresia3@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -199,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7915.733401473832!2d112.7543692!3d-7.2560082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9f7e8446f4b%3A0x20d0cb1bb76228a!2sSDK%20SANTA%20THERESIA!5e0!3m2!1sid!2sid!4v1790950715610!5m2!1sid!2sid"
         },
         {
-            id: 11,
+            id: 12,
             level: "SD",
             name: "SD Katolik Santa Theresia II Surabaya",
             logo: "https://i.ibb.co.com/zVrSC7C0/SD-St-Theresia-2.jpg",
@@ -208,6 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan visi SDK Santa Theresia II Surabaya untuk membentuk peserta didik yang berprestasi, terampil, dan berwawasan lingkungan berdasarkan iman Kristiani, sekolah mengembangkan berbagai program unggulan secara terpadu. Dalam bidang pendidikan, Communication Skills dan Gerakan Literasi Sekolah mendorong kemampuan berbahasa Inggris serta kebiasaan membaca. Pembinaan Katolisitas diwujudkan melalui kegiatan liturgi dan kepedulian terhadap sesama, sedangkan Learning Together dan Mentoring mendukung peningkatan kompetensi guru serta pendampingan peserta didik. Sekolah juga memperhatikan kesehatan dan perlindungan anak melalui edukasi siswa dan kerja sama dengan Puskesmas. Kepedulian lingkungan dikembangkan melalui program Green School, sementara Digital Learning mengoptimalkan pemanfaatan teknologi dalam pembelajaran. Didukung pengelolaan keuangan yang tertib dan evaluasi berkala, seluruh program ini menjadi upaya sekolah untuk menghadirkan pendidikan yang berkualitas, berkarakter, sehat, dan peduli lingkungan.",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
             phone: "(031)3892572",
+            whatsapp: "6281230601686",
             email: "sdktheresia2@gmail.com",
             website: "https://sdksantatheresia2.wordpress.com/",
             // Data Sosmed Baru:
@@ -217,7 +247,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3957.821393155123!2d112.7714572!3d-7.2611578!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f98616a741d9%3A0xd7c7b9f13a70ae57!2sSD%20Katolik%20Santa%20Theresia%202%20Surabaya!5e0!3m2!1sid!2sid!4v1790951043067!5m2!1sid!2sid"
         },
         {
-            id: 12,
+            id: 13,
             level: "SD",
             name: "SDK Pencinta Damai",
             logo: "https://i.ibb.co.com/GQGF7FW8/SD-Pencinta-Damai.jpg",
@@ -226,6 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen SDK Pencinta Damai Surabaya dalam membentuk generasi yang cerdas, berkarakter, dan cinta damai, sekolah mengembangkan berbagai program yang mencakup penguatan budaya ramah, toleransi, dan anti-perundungan, pembiasaan hidup rohani melalui misa, rekoleksi, serta aksi sosial berlandaskan semangat kasih. Kualitas pendidik ditingkatkan melalui berbagi praktik baik dan mentoring antarguru untuk menerapkan disiplin positif tanpa kekerasan. Sekolah juga memperkuat kemitraan dengan paroki, Puskesmas, dan lembaga lain, serta menyediakan lingkungan belajar yang inklusif, aman, bersih, dan nyaman dengan dukungan pojok literasi di kelas. Didukung pengelolaan dana yang optimal, publikasi kegiatan dan prestasi melalui media sosial, serta pembiasaan menyambut siswa, apel pagi bersama, dan pelayanan di gereja, seluruh program ini menjadi wujud upaya sekolah dalam menumbuhkan kepedulian, mempererat persaudaraan, dan membangun kepercayaan masyarakat.",
             address: "Jl. Randu No.3, Pogot, Surabaya",
             phone: "(031)3769728",
+            whatsapp: "6285712222819",
             email: "sd.pede3@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -235,7 +266,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.084426722478!2d112.7616790757763!3d-7.231210871016575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f997cb867af9%3A0x2d8406faf1e5a67b!2sSMP%20Katolik%20Pencinta%20Damai!5e0!3m2!1sid!2sid!4v1790949885164!5m2!1sid!2sid"
         },
         {
-            id: 13,
+            id: 14,
             level: "SD",
             name: "SDK Kristus Raja",
             logo: "https://i.ibb.co.com/qY57MGWk/SD-Kristus-Raja.jpg",
@@ -244,6 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SDK Kristus Raja Surabaya mengembangkan berbagai program unggulan untuk mendukung pertumbuhan peserta didik secara menyeluruh. Melalui Modern Dance, siswa mengembangkan kreativitas, kepercayaan diri, dan kerja sama. Pembelajaran Berbasis Ekologi menumbuhkan kepedulian dan tanggung jawab terhadap kelestarian lingkungan, sedangkan English Day setiap Selasa dan Jumat membiasakan siswa berkomunikasi dalam Bahasa Inggris. Sekolah juga menyelenggarakan Pembinaan Siswa Berprestasi melalui pendampingan dan pengayaan sesuai bakat serta minat, baik di bidang akademik maupun nonakademik. Melalui program-program ini, SDK Kristus Raja berkomitmen membentuk generasi yang bertumbuh dalam karakter, kreatif dalam berkarya, peduli terhadap lingkungan, dan berprestasi.",
             address: "Jl. Wisma Permai Tengah I Surabaya",
             phone: "(031)5932469",
+            whatsapp: "6281357408553",
             email: "sdk.kristusraja@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -253,7 +285,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7915.398063821225!2d112.7895652!3d-7.2750471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa1778863ca5%3A0x11280ca3cb3f104!2sSekolah%20Dasar%20Katolik%20Kristus%20Raja!5e0!3m2!1sid!2sid!4v1790953629828!5m2!1sid!2sid"
         },
         {
-            id: 14,
+            id: 15,
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/bhjVBqB/SMP-Stanislaus-I.jpg",
@@ -262,6 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMPK Santo Stanislaus 1 Surabaya mengembangkan berbagai program unggulan yang terintegrasi untuk membentuk peserta didik yang berkarakter, berprestasi, dan siap menghadapi tantangan global. Melalui English Habituation & Simple Daily Conversation, siswa, guru, dan tenaga kependidikan dibiasakan menggunakan Bahasa Inggris dalam komunikasi sederhana untuk membangun keberanian dan kepercayaan diri. Stanislaus Character Building menjadi landasan pembentukan karakter melalui ibadat, doa harian, retret atau rekoleksi, serta penanaman nilai kepemimpinan dan kejujuran. Kepedulian terhadap sesama dan lingkungan diwujudkan melalui Aksi Kasih dan Eco-School, termasuk kegiatan sosial, penggalangan dana kemanusiaan, LAUDATOSI, dan pemilahan sampah. Di sisi lain, pengembangan minat dan bakat melalui kegiatan seni, olahraga, sains, dan pramuka memberikan ruang bagi siswa untuk menemukan serta mengembangkan potensinya. Seluruh program tersebut diperkuat dengan Pendampingan Akademik Terpadu melalui penguatan materi, bimbingan intensif, persiapan ujian akhir kelas IX, serta pemanfaatan teknologi digital yang dipadukan dengan pembelajaran berbasis kertas, sehingga setiap siswa memperoleh pendampingan yang seimbang untuk mencapai hasil belajar optimal dan mempersiapkan diri melanjutkan pendidikan ke jenjang berikutnya.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
             phone: "(031) 5032259",
+            whatsapp: "6282337178733",
             email: "ppdbstansa01@gmail.com@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -271,7 +304,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.863493938601!2d112.7548679!3d-7.256372800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f97a7701da4f%3A0x9dc0837330b05fb!2sSMP%20Katolik%20Santo%20Stanislaus!5e0!3m2!1sid!2sid!4v1790955015777!5m2!1sid!2sid"
         },
         {
-            id: 15,
+            id: 16,
             level: "SMP",
             name: "SMP Katolik Santo Stanislaus 2",
             logo: "https://i.ibb.co.com/21mGVdb0/SMP-Stanislaus-II.jpg",
@@ -280,6 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMP Katolik Santo Stanislaus II Surabaya (STANDU) mengembangkan berbagai program unggulan untuk mendukung pertumbuhan siswa secara utuh. Melalui program literasi dan numerasi yang terencana dan berkelanjutan, sekolah mendorong peningkatan kemampuan akademik dalam suasana belajar yang menyenangkan. Pembinaan Katolisitas menumbuhkan iman dan semangat pelayanan, sedangkan literasi digital membekali siswa dengan keterampilan teknologi melalui pengenalan coding, desain grafis, dan kecerdasan buatan (AI). Program English for Future dan pembelajaran Bahasa Mandarin memperkuat kemampuan komunikasi internasional serta wawasan global. Seluruh program tersebut dipadukan dengan pembinaan karakter, pengembangan kreativitas, dan apresiasi budaya untuk membentuk generasi STANDU yang beriman, kompeten, adaptif, dan siap menghadapi tantangan masa depan.",
             address: "Jl. Kalijudan 25 - 33 Surabaya",
             phone: "(031)3813313",
+            whatsapp: "6281803098337",
             email: "stanislaus2.smpk@gmail.com",
             website: "https://www.smpk-stanislaus2.sch.id/",
             // Data Sosmed Baru:
@@ -289,7 +323,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.821440054641!2d112.77145717577653!3d-7.261152471340845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f923c8275627%3A0xc2782f7d714d12d7!2sSMPK%20Santo%20Stanislaus%202%20Surabaya!5e0!3m2!1sid!2sid!4v1790954778371!5m2!1sid!2sid"
         },
         {
-            id: 16,
+            id: 17,
             level: "SMP",
             name: "SMP Katolik Santo Mikael",
             logo: "https://i.ibb.co.com/Y7BN7rKf/SMP-St-Mikael.jpg",
@@ -298,6 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMP Katolik Santo Mikael Surabaya mengembangkan berbagai program unggulan yang terintegrasi untuk mendukung pertumbuhan siswa dalam aspek spiritualitas, karakter, literasi, teknologi, kewirausahaan, kepedulian lingkungan, serta pengembangan bakat dan minat. Melalui Morning Spirit & Character Building, yang diwujudkan dalam Katolisitas dan Sapa Pagi, siswa dibiasakan membangun kehidupan iman, kasih, kedisiplinan, dan sopan santun. Di bidang literasi, GELIS (Gerakan Literasi Sekolah Menyenangkan) hadir melalui Pojok Baca dan pembiasaan membaca selama 15 menit untuk meningkatkan kemampuan membaca, menulis, dan berpikir kritis. Sementara itu, Smart Digital Student (SDS) membekali siswa dengan keterampilan literasi digital, pembuatan Digital Portfolio, desain grafis, serta pemanfaatan perangkat lunak produktif. Kepedulian terhadap lingkungan dan jiwa kewirausahaan dikembangkan melalui program Laudatosi, antara lain melalui bank sampah dan Market Day yang mendorong siswa mengelola sampah sekaligus menghasilkan produk kreatif. Pengalaman belajar juga diperluas melalui Outing Class atau Field Trip, serta berbagai kegiatan pengembangan bakat seperti Futsal, Modern Dance, Pramuka, dan Sanmik Friday Talents Show yang menjadi ruang bagi siswa untuk berlatih, berkreasi, membangun kepercayaan diri, dan mengembangkan potensi mereka secara optimal.",
             address: "Jl. Tanjung Sadari No.49 Surabaya",
             phone: "(031) 3553540",
+            whatsapp: "6281358323206",
             email: "smpksantomikael@gmail.com",
             website: "http://smpksantomikaelsurabaya.blogspot.com",
             // Data Sosmed Baru:
@@ -307,7 +342,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.144264267653!2d112.72765600000001!3d-7.224380999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f8d7b079c46d%3A0xe9af22e33104ccd8!2sSekolah%20Menengah%20Pertama%20Katolik%20Santo%20Mikael%20Surabaya!5e0!3m2!1sid!2sid!4v1790955650844!5m2!1sid!2sid"
         },
         {
-            id: 17,
+            id: 18,
             level: "SMP",
             name: "SMP Katolik Pencinta Damai",
             logo: "https://i.ibb.co.com/Kc2HFB0W/SMP-Pencinta-Damai.jpg",
@@ -316,6 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMP Katolik Pencinta Damai mengembangkan berbagai program unggulan yang mendukung pertumbuhan peserta didik secara utuh dalam aspek karakter, literasi, spiritualitas, dan pengembangan potensi diri. Melalui Speak and Shine, siswa memperoleh ruang untuk mengembangkan keberanian dan kepercayaan diri melalui orasi, pidato, vokal, stand-up comedy, dan dance. Program Literasi Damai membangun budaya membaca, menulis, dan berpikir kritis, sementara Mindfulness membantu siswa mengembangkan kesadaran diri, ketenangan, serta kemampuan mengelola diri dalam kehidupan sehari-hari. Penguatan kehidupan iman diwujudkan melalui Ibadat Jumat Pertama dan ibadat pada akhir bulan sebagai sarana pembinaan spiritualitas dan kebersamaan seluruh warga sekolah.",
             address: "Jl. Randu No.3, Pogot, Surabaya",
             phone: "(031) 3761309",
+            whatsapp: "6281331749981",
             email: "smpkpencintadamai86@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -325,7 +361,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.084426722478!2d112.7616790757763!3d-7.231210871016575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f997cb867af9%3A0x2d8406faf1e5a67b!2sSMP%20Katolik%20Pencinta%20Damai!5e0!3m2!1sid!2sid!4v1790949885164!5m2!1sid!2sid"
         },
         {
-            id: 18,
+            id: 19,
             level: "SMA",
             name: "SMAS Katolik Santo Stanislaus",
             logo: "https://i.ibb.co.com/99YyCt6S/SMA-Stanislaus.jpg",
@@ -334,6 +370,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMA Katolik Santo Stanislaus Surabaya menghadirkan ekosistem pendidikan yang holistik melalui berbagai program yang dirancang untuk membentuk siswa yang cerdas, berkarakter, berbelas kasih, kreatif, dan siap menghadapi masa depan. Pembentukan karakter dan kebersamaan dibangun melalui Smaksta Communio bagi siswa kelas 10, dilanjutkan dengan pengalaman hidup bermakna melalui Caritas Peregrina bagi kelas 11, serta Mission Journey bagi kelas 12 sebagai ruang refleksi diri dan persiapan menapaki masa depan. Semangat kompetisi dan kebersamaan dikembangkan melalui SWOS, Liga Bola, e-Sport, dan Class Meeting, sementara kepedulian sosial diwujudkan melalui SSV Smaksta. Budaya belajar kolaboratif juga diperkuat melalui Komunitas Tutor Sebaya, yang mendorong siswa untuk saling berbagi pengetahuan sekaligus mengembangkan kepemimpinan dan empati. Di bidang minat dan bakat, tersedia beragam ekstrakurikuler seperti basket, modern dance, futsal, voli dan bola tangan, bulu tangkis, Cooking Entrepreneurship, Aikido, Math Club, paduan suara, seni ansambel, serta ARC (AI, Robotic, & Coding). Melengkapi pengalaman belajar tersebut, SMA Katolik Santo Stanislaus menjalin kemitraan dengan perguruan tinggi dan institusi profesional melalui berbagai short course di bidang Bahasa Inggris, informatika, kewirausahaan, serta literasi dan edukasi keuangan bersama UKWMS, UBAYA, BEI, dan PT Sucor Sekuritas Indonesia, sehingga peserta didik memperoleh pengalaman belajar yang relevan, aplikatif, dan berorientasi pada kesiapan studi, karier, serta kehidupan di masa depan.",
             address: "Jl. Arief Rachman Hakim No. 40-44 Surabaya ",
             phone: "(031) 3892472",
+            whatsapp: "6288217349297",
             email: "smastanislaus_sby@yahoo.co.id",
             website: "",
             // Data Sosmed Baru:
@@ -343,7 +380,7 @@ document.addEventListener("DOMContentLoaded", () => {
             maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9471.954688713911!2d112.7748732!3d-7.2620553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f98623aba303%3A0xce38735009a7ebd1!2sSekolah%20Menengah%20Atas%20Katolik%20Santo%20Stanislaus!5e1!3m2!1sid!2sid!4v1790956172771!5m2!1sid!2sid"
         },
         {
-            id: 19,
+            id: 20,
             level: "SMA",
             name: "SMAS Katolik Santo Hendrikus",
             logo: "https://i.ibb.co.com/Q7ZXZSsj/SMA-Hendrikus.jpg",
@@ -352,6 +389,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "SMA Katolik Santo Hendrikus Surabaya menghadirkan berbagai program yang dirancang untuk mengembangkan peserta didik secara utuh, baik dalam iman, karakter, akademik, kreativitas, maupun kesiapan menghadapi masa depan. Pembinaan spiritualitas dan karakter diwujudkan melalui Misa Jumat Pertama, BKSN, Character Camp, dan Latihan Dasar Kepemimpinan Siswa (LDKS) yang menumbuhkan kedewasaan iman, kemandirian, kepemimpinan, serta kepedulian terhadap sesama. Pengalaman belajar diperluas melalui kegiatan Live In dan Field Trip yang mengajak siswa belajar langsung dari masyarakat dan lingkungan nyata. Sementara itu, Cultural Days, Art Day, Class Meeting, dan STUFEST menjadi ruang bagi siswa untuk mengembangkan kreativitas, kebersamaan, sportivitas, dan apresiasi terhadap keberagaman. Sekolah juga memperluas wawasan masa depan melalui kolaborasi dan kunjungan ke perguruan tinggi, serta menyediakan berbagai kegiatan ekstrakurikuler dan ruang pengembangan bakat yang mendukung siswa untuk berprestasi. Melalui rangkaian pengalaman tersebut, SMA Katolik Santo Hendrikus terus membangun pribadi yang berkarakter CARES, kompeten, kreatif, peduli, dan siap melangkah menuju masa depan.",
             address: "Jl. Arief Rachman Hakim No. 40-44 Surabaya ",
             phone: "085856813618",
+            whatsapp: "",
             email: "mailbox@hendrikus.sch.id",
             website: "https://hendrikus.sch.id",
             // Data Sosmed Baru:

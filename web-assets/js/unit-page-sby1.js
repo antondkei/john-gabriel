@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mendukung perkembangan anak secara menyeluruh, KB & TKK Santa Maria Wiyung Surabaya menghadirkan berbagai program pengembangan karakter, potensi, kreativitas, dan iman, melalui <b>Character Class, Mandarin Class, Vocal Class, Computer Class, Art & Drawing Class, Dancing Class, serta Bible Camp & Katolisitas.</b> Berbagai kegiatan ini dirancang untuk membantu anak tumbuh menjadi pribadi yang kreatif, percaya diri, berkarakter, dan berlandaskan nilai-nilai keimanan serta kemanusiaan.",
             address: "Jl. Griya Babatan Mukti C-33, Wiyung, Surabaya ",
             phone: "31.7526132",
+            whatsapp: "6281330328061",
             email: "tkksantamariawiyung1@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Untuk mendukung perkembangan anak secara menyeluruh, KB & TKK Santa Maria Wiyung Surabaya menghadirkan berbagai program pengembangan karakter, potensi, kreativitas, dan iman, melalui <b>Character Class, Mandarin Class, Vocal Class, Computer Class, Art & Drawing Class, Dancing Class, serta Bible Camp & Katolisitas.</b> Berbagai kegiatan ini dirancang untuk membantu anak tumbuh menjadi pribadi yang kreatif, percaya diri, berkarakter, dan berlandaskan nilai-nilai keimanan serta kemanusiaan.",
             address: "Jl. Griya Babatan Mukti C-33, Wiyung, Surabaya ",
             phone: "31.7526132",
+            whatsapp: "6281330328061",
             email: "tkksantamariawiyung1@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -64,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "TKK Karitas II memiliki berbagai program unggulan yang dirancang untuk mendukung perkembangan anak secara menyeluruh. <b>Fun Learning & Character Building</b> menghadirkan pembelajaran yang menyenangkan sekaligus menanamkan nilai-nilai karakter, sedangkan <b>Project bersama orangtua dan guru</b> mendorong keterlibatan aktif dalam proses belajar anak. Selain itu, program <b>Sekolah Ramah Lingkungan</b> membangun kepedulian dan kebiasaan positif anak terhadap kebersihan, kelestarian, dan lingkungan sekitar.",
             address: "Jl. Jelidro No.17, Sambikerep, Surabaya",
             phone: "0317440860",
+            whatsapp: "6282320968802",
             email: "tkkaritas2@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -82,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Dalam mendukung perkembangan anak secara menyeluruh, TKS Karitas III mengembangkan berbagai program yang mencakup kemampuan Bahasa Inggris dan Mandarin, pembinaan katolisitas melalui BIAK, APP, Rosario, Adven, rekoleksi, pendalaman Kitab Suci, dan Misa bersama, serta penguatan karakter Kristiani seperti kerendahan hati, keberanian, dan kepedulian terhadap sesama. Program pendidikan didukung oleh tenaga pendidik yang kompeten, sarana-prasarana yang memadai dan bersih, pengelolaan keuangan yang sesuai RAPBS dan ketetapan yayasan, serta kerja sama dengan gereja, puskesmas, dan lembaga terkait. Sekolah juga memberikan ruang bagi anak untuk mengembangkan bakat dan minat melalui kegiatan vokal, menari, menggambar, berbagai lomba, serta aksi sosial seperti kegiatan Natal, APP, bakti sosial, dan bantuan bencana alam, sehingga anak tumbuh menjadi pribadi yang beriman, kreatif, percaya diri, dan peduli terhadap sesama.",
             address: "Jl. Simpang Darmo Permai Utara VII / 11 Surabaya",
             phone: "031-7310969",
+            whatsapp: "",
             email: "tkkaritas3sby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -100,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen TK Katolik Karitas V Surabaya dalam memberikan layanan pendidikan yang berkualitas, sekolah membangun lingkungan belajar yang aman, nyaman, dan mendukung tumbuh kembang anak secara utuh. Pembiasaan kedisiplinan, khususnya datang tepat waktu, serta penguatan nilai agama melalui kegiatan Katolisitas menjadi bagian dari pembentukan karakter sejak dini, didukung oleh guru-guru yang berpengalaman di bidangnya. Anak juga dikenalkan pada kosa kata dasar Bahasa Inggris, dibiasakan peduli melalui berbagai kegiatan sosial, serta mendapatkan perhatian terhadap kesehatan melalui pemeriksaan UKS. Kepedulian terhadap lingkungan diwujudkan melalui program Green School, sementara kerja sama dengan orang tua diperkuat melalui kegiatan parenting pada awal tahun ajaran. Berbagai program tersebut dilaksanakan dalam suasana sekolah yang ramah, aman, dan nyaman bagi anak untuk belajar dan berkembang.",
             address: "Jl. Taman Darmo Indah Barat I / C-6 Surabaya ",
             phone: "031-7346076",
+            whatsapp: "6281332406434",
             email: "tkkaritasvsby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -118,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan kekhasan TKK St. Katarina dalam mengembangkan potensi anak secara utuh dengan berlandaskan nilai-nilai Kristiani, sekolah menghadirkan program yang mendukung pengembangan kemampuan sekaligus pembentukan iman sejak dini. English Class yang dilaksanakan satu kali dalam seminggu menjadi ruang bagi anak untuk mengenal dan menggunakan Bahasa Inggris melalui kegiatan yang menyenangkan dan sesuai dengan tahap perkembangannya. Penguatan kehidupan iman diwujudkan melalui Doa Pagi bersama Romo setiap hari Senin serta Misa Jumat Pertama, yang membantu anak mengenal kebiasaan berdoa, menghayati nilai kasih, dan membangun kedekatan dengan kehidupan menggereja. Melalui kegiatan tersebut, anak didampingi untuk tumbuh menjadi pribadi yang beriman, percaya diri, dan terbuka terhadap pengalaman belajar yang beragam.",
             address: "Jl. Mojopahit 38 Surabaya",
             phone: "031-5671044",
+            whatsapp: "6281252430347",
             email: "tkksantakatarinasby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -136,6 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen TK Katolik Santo Yusup Karangpilang dalam memberikan pendidikan yang holistik dan berlandaskan nilai Kristiani, sekolah terus mengembangkan berbagai aspek pendukung mutu layanan pendidikan. Di bidang kependidikan, potensi anak dikembangkan melalui kegiatan Menari, Bahasa Inggris, serta Katolisitas yang membantu anak mengenal Sabda Allah dan menumbuhkan iman melalui kegiatan yang menggembirakan. Pengembangan sumber daya manusia dilakukan melalui seminar, diklat, workshop, dan pelatihan, sekaligus membangun budaya kerja yang positif dan kekeluargaan. Sekolah juga memperkuat kerja sama dengan orang tua melalui Komite Sekolah serta komunikasi dan semangat gotong royong antarwarga sekolah. Dalam keterbatasan sarana dan prasarana, sekolah berupaya mengoptimalkan fasilitas yang tersedia untuk mendukung proses pembelajaran, sementara pengelolaan keuangan dilakukan secara efisien dengan memanfaatkan dukungan BOSP dan berbagai upaya pengembangan sumber pendanaan. Berbagai langkah tersebut menjadi bagian dari upaya berkelanjutan untuk meningkatkan kualitas layanan dan menciptakan lingkungan pendidikan yang mendukung tumbuh kembang anak.",
             address: "Jl. Kebraon Barat I / No.4 Surabaya",
             phone: "(031) 99751117",
+            whatsapp: "6288295664232",
             email: "tkksantoyusupsby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -154,6 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk peserta didik secara utuh, SD Katolik Katarina menghadirkan berbagai program unggulan yang mengintegrasikan iman, karakter, literasi, kepedulian lingkungan, dan pengembangan bakat. Pembiasaan doa multilingual dalam Bahasa Indonesia, Jawa, Inggris, dan Jerman, serta penguatan spiritualitas Katolik melalui ibadat dan Misa menjadi bagian dari pembentukan karakter sehari-hari. Sekolah juga menyelenggarakan Festival Literasi, program Adiwiyata, serta beragam kegiatan ekstrakurikuler untuk mengembangkan kreativitas, minat, dan potensi peserta didik. Seluruh program didukung oleh tenaga pendidik yang kompeten dan berdedikasi, sehingga menciptakan pengalaman belajar yang bermakna dan membentuk siswa yang beriman, berkarakter, kreatif, mandiri, serta peduli terhadap lingkungan dan sesama.",
             address: "Jl. Mojopahit 38 Surabaya",
             phone: "0315678477",
+            whatsapp: "6282363590064",
             email: "sdkkatarina@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -172,6 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari upaya mewujudkan pendidikan yang berintegritas, kolegial, dan transformatif, SDK Karitas II mengembangkan berbagai program unggulan yang meliputi penguatan numerasi, literasi, dan karakter melalui pembiasaan One Day One Good Deed. Pembelajaran juga diperkaya melalui Activity Collaboration yang mendorong kerja sama dan kreativitas peserta didik, serta kegiatan bersama Gereja St. Stefanus dan St. Yakobus untuk memperkuat kehidupan iman. Selain itu, HSG (Hari Studi Guru) menjadi sarana pengembangan kompetensi pendidik agar senantiasa mampu menghadirkan pembelajaran yang relevan dan berkualitas.",
             address: "Jl. Jelidro No. 17, Sambikerep, Surabaya",
             phone: "031-7405553",
+            whatsapp: "6282144773373",
             email: "sdk.karitas2.surabaya@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -190,6 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen memadukan kualitas akademik dengan pengembangan iman, karakter, dan potensi peserta didik, SD Katolik Karitas III menerapkan pembelajaran terdiferensiasi yang menyesuaikan kebutuhan dan kemampuan setiap siswa. Pembelajaran reguler juga diperkuat melalui Bahasa Inggris dan Mandarin, serta berbagai kegiatan ekstrakurikuler seperti Fashion Show, Pencak Silat, Basket, Renang, dan Musik yang menjadi wadah bagi peserta didik untuk mengembangkan bakat, kreativitas, kepercayaan diri, dan keterampilan secara optimal.",
             address: "Jl. Simpang Darmo Permai Utara VII / 11 Surabaya",
             phone: "031-7315051",
+            whatsapp: "6285655773940",
             email: "sdkkaritas3sby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -208,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen memberikan pendidikan yang utuh, SD Karitas V Surabaya menghadirkan berbagai program unggulan yang mengintegrasikan pembelajaran berbasis Deep Learning dengan penguatan karakter dan Dimensi Profil Lulusan, serta pendalaman nilai-nilai Katolisitas. Kemampuan literasi dan numerasi diperkuat melalui pembelajaran yang kontekstual, sementara bakat dan potensi peserta didik dikembangkan melalui kegiatan ekstrakurikuler seni, olahraga, dan akademik, project atau gelar karya, serta pendampingan prestasi akademik dan nonakademik. Seluruh program diperkuat melalui kolaborasi antara sekolah dan orang tua untuk menciptakan pengalaman belajar yang bermakna dan mendukung perkembangan peserta didik secara optimal.",
             address: "Jl. Simpang Darmo Permai Utara VII / 11 Surabaya",
             phone: "031-7312934",
+            whatsapp: "6285330326682",
             email: "sdkaritas5sby@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -226,6 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari pengembangan pendidikan yang adaptif dan holistik, SD Katolik Santo Yusup terus mengembangkan inovasi teknologi melalui pemanfaatan berbagai platform digital untuk menunjang pembelajaran. Nilai-nilai iman Katolik juga diwujudkan melalui berbagai kegiatan pelayanan, seperti paduan suara dan PSA, serta diperkuat melalui kerja sama dengan berbagai pihak, antara lain RT, paroki, puskesmas, dan instansi terkait pendidikan serta kesejahteraan peserta didik dan tenaga pendidik.",
             address: "Jl. Kebraon Widya I, Karang Pilang, Surabaya",
             phone: "031-7663026",
+            whatsapp: "6282122212077",
             email: "sdk.st.yusup@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -244,6 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen menghadirkan pendidikan yang luas dan relevan dengan perkembangan zaman, ST. MARY ELEMENTARY SCHOOL mengembangkan berbagai program unggulan melalui National Plus Curriculum yang memperkuat pembelajaran Mandarin, Science, dan Math. Kemampuan berbahasa Inggris juga diasah melalui program English Day yang mendorong penggunaan Bahasa Inggris dalam komunikasi sehari-hari, sementara Gerakan Literasi Sekolah membangun budaya membaca dan memperluas wawasan peserta didik. Berbagai program tersebut dirancang untuk mendukung prestasi akademik sekaligus membentuk siswa yang komunikatif, mandiri, kreatif, dan siap menghadapi tantangan global.",
             address: "Jl. Raya Lidah Kulon 29-A Surabaya",
             phone: "(031) 7530653",
+            whatsapp: "62895418247766",
             email: "stmaryelemens@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -262,6 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk lulusan yang berkarakter dan berwawasan lingkungan, SMP Santa Katarina mengintegrasikan nilai-nilai religius, disiplin, kejujuran, tanggung jawab, kasih, dan kepemimpinan dalam pembelajaran serta kehidupan sehari-hari. Kepedulian terhadap lingkungan diperkuat melalui Gerakan PBLHS yang diterapkan dalam mata pelajaran dan berbagai aktivitas siswa. Sementara itu, pengembangan minat dan bakat difasilitasi melalui beragam ekstrakurikuler, seperti Pramuka, Futsal, Band, Modern Dance, Bahasa Mandarin, E-Sport, Paduan Suara, serta Jurnalistik/Literasi.",
             address: "Jl. Mojopahit 38 Surabaya",
             phone: "031-5670961",
+            whatsapp: "6285335430006",
             email: "smpkkatarina4@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -280,6 +294,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan komitmen SMPK Karitas II dalam membentuk peserta didik yang berkarakter, mandiri, dan siap menghadapi masa depan, sekolah mengembangkan kegiatan Pramuka dan Futsal sebagai program unggulan pengembangan potensi siswa. Kegiatan Pramuka menjadi wadah untuk menumbuhkan kedisiplinan, kemandirian, tanggung jawab, kerja sama, dan kepemimpinan, sementara Futsal mengembangkan sportivitas, kebugaran, ketekunan, serta kemampuan bekerja dalam tim. Pengalaman tersebut diperkuat melalui kegiatan Grand Camping yang diselenggarakan setiap tahun bagi peserta didik kelas VII dan VIII, sebagai sarana pembelajaran di luar kelas yang mendorong keberanian, kemandirian, solidaritas, dan pembentukan karakter melalui pengalaman nyata.",
             address: "Jl. Jelidro No. 17, Sambikerep, Surabaya",
             phone: "031-7401346",
+            whatsapp: "6285712626955",
             email: "smpkatolikkaritasdua@gmail.com",
             website: "",
             // Data Sosmed Baru:
@@ -298,6 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sejalan dengan semangat SMPK Karitas 3 Surabaya yang menempatkan pendidikan sebagai bekal untuk kehidupan, sekolah mengembangkan program unggulan yang memadukan pembentukan karakter, kompetensi akademik, wawasan global, serta kepedulian sosial. Caritas Servant Leadership menjadi wadah pembentukan karakter belas kasih, kedisiplinan, tanggung jawab, dan jiwa melayani. Di bidang akademik dan digital, Smart STEM & Digital Literacy membekali peserta didik dengan logika teknologi, coding dasar, serta kemampuan melakukan riset berbasis proyek. Global Communication Hub memperkuat kecakapan komunikasi aktif dalam Bahasa Inggris dan Mandarin, sementara Eco-Caritas & Social Action mengajak siswa menumbuhkan kepedulian terhadap lingkungan dan mewujudkannya melalui aksi nyata bagi sesama. Berbagai program tersebut menjadi bagian dari upaya sekolah membentuk pribadi yang cerdas, berintegritas, adaptif, dan mampu menghadirkan manfaat dalam kehidupan bermasyarakat.",
             address: "Jl. Simpang Darmo Permai Utara VII / 11 Surabaya",
             phone: "031-7318128",
+            whatsapp: "",
             email: "smpkkaritasIIIsurabaya@gmail.com",
             website: "smpkkaritas3surabaya.wordpress.com",
             // Data Sosmed Baru:
@@ -316,6 +332,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen mempersiapkan peserta didik untuk kehidupan dan masa depan, SMAS Katolik Karitas III mengembangkan berbagai program unggulan, mulai dari pendampingan pemilihan karier, penguatan Bahasa Inggris sebagai bahasa kedua, hingga pelatihan kemandirian, kepemimpinan, dan hospitality. Semangat kepedulian diwujudkan melalui kegiatan Dana Kasih, sementara peningkatan kompetensi guru dan karyawan didukung melalui kursus Bahasa Inggris dan pelatihan profesional. Sekolah juga memperluas peluang pendidikan melalui kerja sama dengan perguruan tinggi swasta dalam jalur PMB, didukung media pembelajaran interaktif, pembaruan fasilitas, serta beragam ekstrakurikuler akademik dan nonakademik seperti basket, futsal, karate, dan kegiatan lainnya untuk mengembangkan potensi peserta didik secara optimal.",
             address: "Jl. Simpang Darmo Permai Utara VII / 11 Surabaya",
             phone: "031-7314795",
+            whatsapp: "6282266585595",
             email: "humas.smaskatolikkaritas3sby@gmail.com",
             website: "https://www.smakkaritas3sby.sch.id",
             // Data Sosmed Baru:
@@ -334,6 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
             programs: "Sebagai bagian dari komitmen membentuk peserta didik yang tangguh, mandiri, berkarakter, dan berlandaskan iman Katolik, SMAS Katolik Santo Yusup Surabaya menghadirkan berbagai program unggulan yang mencakup Praktik Kerja Lapangan, Young Catholic Entrepreneur Mentorship, serta Alumni Network Career Hub untuk mempersiapkan siswa menghadapi dunia kerja dan masa depan. Pembinaan iman diperkuat melalui Sint Joseph Youth Fellowship, Compassion Live-in & Diakonia, serta Annual Educational Retreat, sementara jejaring dengan paroki dan sekolah Katolik mendukung pengembangan kerja sama. Sekolah juga menghadirkan Sint Joseph Green Space, kantin sehat dan estetik, serta program literasi keuangan bagi siswa dan staf sebagai bagian dari upaya menciptakan lingkungan pendidikan yang sehat, berkelanjutan, dan membekali seluruh warga sekolah dengan keterampilan hidup yang relevan.",
             address: "Jl. Kebraon 1 Barat No. 6 Surabaya",
             phone: "031-7661552",
+            whatsapp: "6281335661927",
             email: "smakstyusup.karpilsby@gmail.com",
             website: "https://www.smakstyusupsby.blogspot.com",
             // Data Sosmed Baru:

@@ -139,6 +139,7 @@
   display: block;
   color: var(--color-secondary);
   background: linear-gradient(to right, var(--color-secondary), #fff);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -298,6 +299,7 @@
 #yjg-spmb .spmb-value-icon svg {
   width: 32px;
   height: 32px;
+  fill: var(--color-secondary);
   transition: all 0.5s ease;
 }
 
