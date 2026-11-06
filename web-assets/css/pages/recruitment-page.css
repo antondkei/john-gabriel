@@ -170,8 +170,8 @@
   display: flex;
   align-items: center;
 
-  min-height: 680px;
-  padding: 120px 0 120px;
+  min-height: 900px;
+  padding: 180px 0 100px;
 
   overflow: hidden;
   background: var(--color-primary);
@@ -197,19 +197,7 @@
   inset: 0;
   z-index: 1;
 
-  background:
-    linear-gradient(
-      90deg,
-      color-mix(in srgb, var(--color-primary-dark) 96%, transparent) 0%,
-      color-mix(in srgb, var(--color-primary-dark) 86%, transparent) 35%,
-      color-mix(in srgb, var(--color-primary-dark) 55%, transparent) 68%,
-      color-mix(in srgb, var(--color-primary-dark) 30%, transparent) 100%
-    ),
-    linear-gradient(
-      0deg,
-      color-mix(in srgb, var(--color-primary-dark) 35%, transparent),
-      transparent 55%
-    );
+  background:linear-gradient( 135deg, rgba(25, 26, 83, 0.95) 0%, rgba(25, 26, 83, 0.8) 40%, rgba(25, 26, 83, 0.4) 100% )
 }
 
 #yjg-foundation #yjg-recruitment .recruitment-hero .container {
@@ -265,25 +253,6 @@
   color: color-mix(in srgb, var(--color-text-light) 82%, transparent);
   font-size: 16px;
   line-height: 1.9;
-}
-
-#yjg-foundation #yjg-recruitment .recruitment-hero-note {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  margin-top: 65px;
-
-  color: color-mix(in srgb, var(--color-text-light) 68%, transparent);
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-#yjg-foundation #yjg-recruitment .recruitment-note-line {
-  width: 38px;
-  height: 1px;
-  background: var(--color-secondary);
 }
 
 
