@@ -171,7 +171,7 @@
   align-items: center;
 
   min-height: 900px;
-  padding: 180px 0 100px;
+  padding: 180px 0 110px;
 
   overflow: hidden;
   background: var(--color-primary);
@@ -247,7 +247,7 @@
 }
 
 #yjg-foundation #yjg-recruitment .recruitment-hero-description {
-  max-width: 580px;
+  max-width: 650px;
   margin-bottom: 34px;
 
   color: color-mix(in srgb, var(--color-text-light) 82%, transparent);
