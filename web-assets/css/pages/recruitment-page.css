@@ -1,0 +1,1376 @@
+
+/* =========================================================
+   OPEN RECRUITMENT
+   ST. JOHN GABRIEL FOUNDATION
+   ========================================================= */
+
+
+/* =========================================================
+   01. BASE
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: var(--color-text-primary);
+  background: var(--color-bg-light);
+}
+
+#yjg-foundation #yjg-recruitment *,
+#yjg-foundation #yjg-recruitment *::before,
+#yjg-foundation #yjg-recruitment *::after {
+  box-sizing: border-box;
+}
+
+#yjg-foundation #yjg-recruitment h1,
+#yjg-foundation #yjg-recruitment h2,
+#yjg-foundation #yjg-recruitment h3,
+#yjg-foundation #yjg-recruitment h4,
+#yjg-foundation #yjg-recruitment p {
+  margin-top: 0;
+}
+
+#yjg-foundation #yjg-recruitment a {
+  text-decoration: none;
+}
+
+#yjg-foundation #yjg-recruitment button,
+#yjg-foundation #yjg-recruitment input,
+#yjg-foundation #yjg-recruitment select {
+  font: inherit;
+}
+
+#yjg-foundation #yjg-recruitment button {
+  cursor: pointer;
+}
+
+#yjg-foundation #yjg-recruitment svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#yjg-foundation #yjg-recruitment .container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+
+/* =========================================================
+   02. SHARED ELEMENTS
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-section-label {
+  display: inline-block;
+  margin-bottom: 18px;
+
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  min-height: 54px;
+  padding: 14px 26px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn svg {
+  width: 19px;
+  height: 19px;
+  transition: transform 0.3s ease;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn:hover svg {
+  transform: translateX(5px);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-primary {
+  color: var(--color-text-light);
+  background: var(--color-primary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-primary:hover {
+  color: var(--color-text-light);
+  background: var(--color-primary-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-light {
+  color: var(--color-primary);
+  background: var(--color-text-light);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-light:hover {
+  color: var(--color-primary);
+  background: var(--color-secondary);
+  transform: translateY(-3px);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-apply {
+  min-height: 46px;
+  padding: 11px 20px;
+
+  color: var(--color-text-light);
+  background: var(--color-primary);
+
+  font-size: 11px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-apply:hover {
+  color: var(--color-text-light);
+  background: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-btn-apply.is-disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: auto;
+}
+
+
+/* =========================================================
+   03. HERO
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  min-height: 680px;
+  padding: 110px 0 120px;
+
+  overflow: hidden;
+  background: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--color-primary-dark) 96%, transparent) 0%,
+      color-mix(in srgb, var(--color-primary-dark) 86%, transparent) 35%,
+      color-mix(in srgb, var(--color-primary-dark) 55%, transparent) 68%,
+      color-mix(in srgb, var(--color-primary-dark) 30%, transparent) 100%
+    ),
+    linear-gradient(
+      0deg,
+      color-mix(in srgb, var(--color-primary-dark) 35%, transparent),
+      transparent 55%
+    );
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-inner {
+  max-width: 760px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 26px;
+
+  color: var(--color-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-eyebrow::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 1px;
+  background: var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero h1 {
+  max-width: 760px;
+  margin-bottom: 26px;
+
+  color: var(--color-text-light);
+  font-size: clamp(42px, 5.2vw, 72px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero h1 span {
+  color: var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-description {
+  max-width: 580px;
+  margin-bottom: 34px;
+
+  color: color-mix(in srgb, var(--color-text-light) 82%, transparent);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-hero-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 65px;
+
+  color: color-mix(in srgb, var(--color-text-light) 68%, transparent);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-note-line {
+  width: 38px;
+  height: 1px;
+  background: var(--color-secondary);
+}
+
+
+/* =========================================================
+   04. INTRODUCTION
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-intro {
+  padding: 105px 0;
+  background: var(--color-text-light);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  align-items: center;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-heading h2 {
+  margin-bottom: 0;
+
+  color: var(--color-primary);
+  font-size: clamp(34px, 4vw, 52px);
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-heading h2 span {
+  color: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-text {
+  padding-left: 30px;
+  border-left: 2px solid var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-text p {
+  margin-bottom: 16px;
+
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   05. VACANCY SECTION
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancies {
+  padding: 110px 0 120px;
+  background: var(--color-bg-light);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-section-heading {
+  max-width: 720px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-section-heading h2 {
+  margin-bottom: 20px;
+
+  color: var(--color-primary);
+  font-size: clamp(34px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-section-heading h2 span {
+  color: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-section-heading p {
+  max-width: 600px;
+  margin: 0 auto;
+
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   06. FILTER PANEL
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-panel {
+  padding: 32px 36px;
+  margin-bottom: 34px;
+
+  background: var(--color-text-light);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 12%, transparent);
+  box-shadow: 0 12px 40px color-mix(in srgb, var(--color-primary) 4.5%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  margin-bottom: 26px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-label {
+  display: block;
+  margin-bottom: 5px;
+
+  color: var(--color-secondary-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-heading h3 {
+  margin-bottom: 0;
+
+  color: var(--color-primary);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 46px;
+  height: 46px;
+
+  color: var(--color-primary);
+  background: var(--color-bg-light-gold);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-controls {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 20px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-field label {
+  display: block;
+  margin-bottom: 9px;
+
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-field select,
+#yjg-foundation #yjg-recruitment .recruitment-field input {
+  width: 100%;
+  height: 54px;
+  padding: 0 16px;
+
+  color: var(--color-primary);
+  background: var(--color-bg-light);
+
+  border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+  border-radius: 3px;
+  outline: none;
+
+  font-size: 13px;
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-field select:focus,
+#yjg-foundation #yjg-recruitment .recruitment-field input:focus {
+  border-color: var(--color-primary);
+  background: var(--color-text-light);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 6%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-search-wrap {
+  position: relative;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-search-wrap svg {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  z-index: 1;
+
+  width: 18px;
+  height: 18px;
+
+  color: var(--color-text-secondary);
+  transform: translateY(-50%);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-search-wrap input {
+  padding-left: 45px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding-top: 20px;
+  margin-top: 24px;
+
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 8%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-filter-footer p {
+  margin: 0;
+
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-reset-btn {
+  padding: 7px 0;
+
+  color: var(--color-primary);
+  background: transparent;
+
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-reset-btn:hover {
+  color: var(--color-secondary-dark);
+}
+
+
+/* =========================================================
+   07. REGION INFORMATION
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-region-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 22px 28px;
+  margin-bottom: 38px;
+
+  border-left: 3px solid var(--color-secondary);
+  background: var(--color-bg-light-gold);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-region-info[hidden] {
+  display: none;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-region-info-label {
+  color: var(--color-secondary-dark);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-region-info h3 {
+  margin-bottom: 2px;
+
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-region-info-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   08. VACANCY LIST
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-list-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  margin-bottom: 22px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-list-heading .recruitment-section-label {
+  margin-bottom: 7px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-list-heading h3 {
+  margin-bottom: 0;
+
+  color: var(--color-primary);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-card {
+  overflow: hidden;
+
+  background: var(--color-text-light);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 12%, transparent);
+
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-card:hover {
+  border-color: color-mix(in srgb, var(--color-primary) 28%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-card.is-open {
+  border-color: var(--color-primary);
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--color-primary) 7%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  width: 100%;
+  min-height: 100px;
+  padding: 22px 28px;
+
+  color: var(--color-primary);
+  background: transparent;
+  border: 0;
+
+  text-align: left;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-main {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  min-width: 0;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 43px;
+  height: 43px;
+
+  color: var(--color-secondary-dark);
+  background: var(--color-bg-light-gold);
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-title-wrap {
+  min-width: 0;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-title {
+  margin-bottom: 6px;
+
+  color: var(--color-primary);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 16px;
+
+  color: var(--color-text-secondary);
+  font-size: 12px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-meta span {
+  position: relative;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-meta span + span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -9px;
+
+  width: 3px;
+  height: 3px;
+
+  border-radius: 50%;
+  background: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-status {
+  padding: 5px 11px;
+
+  color: var(--color-primary);
+  background: var(--color-secondary-light);
+
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-accordion-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  color: var(--color-primary);
+  background: var(--color-bg-light);
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-accordion-arrow svg {
+  width: 17px;
+  height: 17px;
+  transition: transform 0.3s ease;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-card.is-open
+.recruitment-accordion-arrow {
+  color: var(--color-text-light);
+  background: var(--color-primary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-card.is-open
+.recruitment-accordion-arrow svg {
+  transform: rotate(180deg);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-panel {
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 10%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-panel[hidden] {
+  display: none;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-panel-inner {
+  padding: 28px 35px 32px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-deadline {
+  display: inline-block;
+  margin-bottom: 28px;
+  padding: 7px 12px;
+
+  color: var(--color-secondary-dark);
+  background: var(--color-bg-light-gold);
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-group {
+  margin-bottom: 26px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-group h4 {
+  position: relative;
+
+  margin-bottom: 12px;
+  padding-left: 14px;
+
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-group h4::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 0;
+
+  width: 3px;
+  background: var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin: 0;
+  padding: 0 0 0 14px;
+  list-style: none;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-list li {
+  position: relative;
+  padding-left: 17px;
+
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-detail-list li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  background: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-vacancy-actions {
+  display: flex;
+  justify-content: flex-end;
+
+  padding-top: 20px;
+  margin-top: 24px;
+
+  border-top: 1px solid color-mix(in srgb, var(--color-primary) 9%, transparent);
+}
+
+
+/* =========================================================
+   09. LOADING / EMPTY / ERROR STATES
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 250px;
+  padding: 45px 25px;
+
+  background: var(--color-text-light);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 12%, transparent);
+
+  text-align: center;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-state h3 {
+  margin-bottom: 8px;
+
+  color: var(--color-primary);
+  font-size: 19px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-state p {
+  max-width: 470px;
+  margin-bottom: 0;
+
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  margin-bottom: 20px;
+
+  color: var(--color-secondary-dark);
+  background: var(--color-bg-light-gold);
+
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-loader {
+  display: block;
+
+  width: 36px;
+  height: 36px;
+  margin-bottom: 20px;
+
+  border: 3px solid color-mix(in srgb, var(--color-primary) 12%, transparent);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+
+  animation: recruitmentSpin 0.8s linear infinite;
+}
+
+@keyframes recruitmentSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-retry-btn {
+  margin-top: 18px;
+  padding: 10px 18px;
+
+  color: var(--color-text-light);
+  background: var(--color-primary);
+  border: 0;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-retry-btn:hover {
+  background: var(--color-primary-dark);
+}
+
+
+/* =========================================================
+   10. APPLICATION GUIDE
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-guide {
+  padding: 110px 0;
+  background: var(--color-text-light);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-header {
+  max-width: 680px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-header h2 {
+  margin-bottom: 18px;
+
+  color: var(--color-primary);
+  font-size: clamp(34px, 4vw, 46px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-header h2 span {
+  color: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-header p {
+  margin-bottom: 0;
+
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-card {
+  position: relative;
+  min-height: 280px;
+  padding: 34px 30px;
+
+  background: var(--color-bg-light);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 8%, transparent);
+
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-card:hover {
+  transform: translateY(-5px);
+  border-color: color-mix(in srgb, var(--color-primary) 60%, transparent);
+  box-shadow: 0 14px 32px color-mix(in srgb, var(--color-primary) 6%, transparent);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-number {
+  position: absolute;
+  top: 25px;
+  right: 28px;
+
+  color: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 52px;
+  height: 52px;
+  margin-bottom: 28px;
+
+  color: var(--color-primary);
+  background: var(--color-bg-light-gold);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-card h3 {
+  margin-bottom: 12px;
+
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-card p {
+  margin-bottom: 0;
+
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+
+  padding: 22px 25px;
+  margin-top: 30px;
+
+  background: var(--color-bg-light-gold);
+  border-left: 3px solid var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-note-icon {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--color-secondary-dark);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-note-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-note strong {
+  display: block;
+  margin-bottom: 4px;
+
+  color: var(--color-primary);
+  font-size: 13px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-guide-note p {
+  margin-bottom: 0;
+
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   11. FINAL CTA
+   ========================================================= */
+
+#yjg-foundation #yjg-recruitment .recruitment-final-cta {
+  position: relative;
+  padding: 110px 0;
+
+  overflow: hidden;
+  color: var(--color-text-light);
+  background: var(--color-gradient);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-final-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 760px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-final-content h2 {
+  margin-bottom: 22px;
+
+  color: var(--color-text-light);
+  font-size: clamp(38px, 4.5vw, 58px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-final-content h2 span {
+  color: var(--color-secondary);
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-final-content p {
+  max-width: 610px;
+  margin: 0 auto 32px;
+
+  color: color-mix(in srgb, var(--color-text-light) 78%, transparent);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-final-decoration {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+
+  border: 1px solid color-mix(in srgb, var(--color-secondary) 15%, transparent);
+  border-radius: 50%;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-decoration-left {
+  top: -220px;
+  left: -140px;
+}
+
+#yjg-foundation #yjg-recruitment .recruitment-decoration-right {
+  right: -160px;
+  bottom: -250px;
+  width: 480px;
+  height: 480px;
+}
+
+
+/* =========================================================
+   12. RESPONSIVE — TABLET
+   ========================================================= */
+
+@media (max-width: 992px) {
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero {
+    min-height: 620px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-intro-grid {
+    gap: 45px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-grid {
+    gap: 14px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-card {
+    padding: 28px 23px;
+  }
+
+}
+
+
+/* =========================================================
+   13. RESPONSIVE — MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  #yjg-foundation #yjg-recruitment .container {
+    padding: 0 6%;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero {
+    min-height: 590px;
+    padding: 90px 0 80px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero-bg img {
+    object-position: 58% center;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero-overlay {
+    background:
+      linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--color-primary-dark) 94%, transparent),
+        color-mix(in srgb, var(--color-primary-dark) 70%, transparent)
+      ),
+      linear-gradient(
+        0deg,
+        color-mix(in srgb, var(--color-primary-dark) 45%, transparent),
+        transparent
+      );
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero h1 {
+    font-size: clamp(39px, 9vw, 54px);
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero-description {
+    font-size: 14px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero-note {
+    margin-top: 45px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-intro,
+  #yjg-foundation #yjg-recruitment .recruitment-vacancies,
+  #yjg-foundation #yjg-recruitment .recruitment-guide {
+    padding: 75px 0;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-intro-text {
+    padding-left: 20px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-section-heading {
+    margin-bottom: 35px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-filter-panel {
+    padding: 25px 22px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-filter-controls {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-filter-footer {
+    align-items: flex-start;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-header {
+    gap: 12px;
+    min-height: 90px;
+    padding: 18px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-main {
+    gap: 13px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-title {
+    font-size: 16px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-right {
+    gap: 8px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-status {
+    display: none;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-panel-inner {
+    padding: 22px 20px 25px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-card {
+    min-height: auto;
+    padding: 28px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-icon {
+    margin-bottom: 20px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-final-cta {
+    padding: 80px 0;
+  }
+
+}
+
+
+/* =========================================================
+   14. RESPONSIVE — SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero {
+    min-height: 550px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero h1 {
+    font-size: 38px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-hero-actions .recruitment-btn {
+    width: 100%;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-filter-heading h3 {
+    font-size: 18px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-filter-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-list-heading h3 {
+    font-size: 22px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-number {
+    width: 34px;
+    height: 34px;
+    font-size: 11px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-title {
+    font-size: 14px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-meta {
+    font-size: 10px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-region-info {
+    padding: 19px 20px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-vacancy-actions {
+    justify-content: stretch;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-btn-apply {
+    width: 100%;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-guide-note {
+    padding: 19px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-final-content h2 {
+    font-size: 36px;
+  }
+
+  #yjg-foundation #yjg-recruitment .recruitment-final-content .recruitment-btn {
+    width: 100%;
+  }
+
+}
+
+
+/* =========================================================
+   15. ACCESSIBILITY
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  #yjg-foundation #yjg-recruitment *,
+  #yjg-foundation #yjg-recruitment *::before,
+  #yjg-foundation #yjg-recruitment *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+}

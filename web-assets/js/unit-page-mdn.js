@@ -21,255 +21,231 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             id: 1,
             level: "TK",
-            name: "TK Wijana Mojoagung",
-            logo: "https://i.ibb.co.com/SH942zv/TK-Mojoagung.jpg",
-            images: ["https://lh3.googleusercontent.com/pw/AP1GczPPTVV35VCdVuQJm9pbNsGYH-jXPw2dsEnHuli3LsgUU3Go1RL1McHcI6KEeOLWJKzhYFxnxv_OndLvyzeivp_FZxp21P4jFwk9_0j9shXs3EZgIlsQgr0tB11ZhXwOS77OCCoHS-FJ0-n9DelAeGGgPQ=w1366-h768-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AP1GczOGyA5y-XhtXaaJcoteIon_41NQxsB_vm2EN9xCTI8EH_nutfquWV-Vqv1DnFUc-DJzQcwmg5tAcZzkvUgswZEtxZ4VaJtHmhRc-O9vHQ_tUi8ybHu4QNhjRtCTkzzQCuepjOAKD4ThRdm2QyT-4egO8A=w1366-h768-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AP1GczPMSyil7ywgjMxExiZjUGZr9lgx8yXbxJ1XHVfz-VbihbTN0SIGoHT-VOKfLMrzlQQZCeVo-rPjiph9opG5STjhIxXbXvGygtjBvOm56MoUhvfELmJ9PF7MTW482LlCJuTOzlbKaNHDMEkGnBexUjbIog=w1366-h768-s-no?authuser=0"],
-            description: "TK Wijana Mojoagung merupakan salah satu sekolah Katolik di bawah naungan St. John Gabriel Foundation Keuskupan Surabaya yang telah berdiri sejak tahun 1973 dan melayani jenjang Preschool dan TK. Pendidikan di TK Wijana Mojoagung berfokus pada pembentukan mental, spiritual, karakter, dan intelektual anak secara utuh. Berlandaskan spiritualitas “Engkau Berharga di Mata-Ku” (Yes. 43:4), sekolah memandang setiap anak sebagai pribadi yang berharga, unik, dan memiliki potensi. Keyakinan tersebut menjadi dasar bagi pendidik dan orang tua untuk menghadirkan lingkungan belajar yang aman, penuh penghargaan, dan mendukung setiap anak untuk berkembang secara optimal.<br/><br/>Semangat tersebut diwujudkan melalui motto “Grow with Love and Care”, yang menempatkan kasih dan kepedulian sebagai fondasi dalam mendampingi anak selama masa pertumbuhan. Melalui suasana pendidikan yang penuh kasih, perhatian, dan penerimaan, TK Wijana Mojoagung berkomitmen membantu setiap anak membangun rasa percaya diri, karakter, dan kesadaran akan nilai dirinya. Dengan demikian, pendidikan tidak hanya berorientasi pada kemampuan akademik, tetapi juga membentuk pribadi yang cerdas, berkarakter, dan siap menjalani kehidupan dengan penuh makna.",
-            programs: "Untuk mendukung pertumbuhan anak secara utuh melalui semangat Grow with Love and Care, TK Wijana Mojoagung menghadirkan berbagai program unggulan yang mengembangkan kemandirian, kreativitas, kepedulian, dan pengalaman belajar nyata. Melalui <b>WiTRANS, Outing Class, Self Service,</b> dan <b>Kelas Inspirasi,</b> anak diajak belajar dari pengalaman dan lingkungan sekitar, sementara <b>WiCARE, Family Day,</b> serta kegiatan berbagi lainnya memperkuat kepedulian dan kebersamaan. Pembiasaan hidup sehat dan keterampilan praktis juga dikembangkan melalui Juice Day, Cooking Day, dan Vege Day, sehingga anak tumbuh menjadi pribadi yang mandiri, aktif, sehat, peduli, dan percaya diri.",
-            address: "Jl. Raya 226 Mojoagung, Jombang",
-            phone: "(0321) 495330",
-            email: "tkwijanamojoagung@gmail.com",
-            website: "https://www.wijanamojoagung.sch.id",
+            name: "TK Bavo Madiun",
+            logo: "https://i.ibb.co.com/rKdmRH8W/TK-St-Bavo.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "TK Katolik Santo Bavo Madiun berdiri melalui prakarsa dan semangat pelayanan para Romo yang mengajukan permohonan izin pendirian pada 25 November 1996. Berawal dari Desa Rejomulyo, Jalan Bumi Jaya No. 3, dengan satu ruang kelas sederhana dan bahasa Jawa sebagai pengantar, sekolah ini terus berkembang hingga kini beralamat di Jalan Bumi Jaya No. 60 Madiun. Memasuki usia 75 tahun, TKK Santo Bavo tetap berkomitmen mendidik anak-anak dengan kasih, iman, dan semangat pelayanan melalui pengembangan kualitas pendidikan serta penyediaan lingkungan belajar yang nyaman dan menyenangkan.<br/><br/>Dalam upaya meningkatkan kualitas pendidikan, sekolah terus mendorong penguatan kemitraan dengan orang tua, sebagaimana tercermin dalam indikator E6 Rapor Pendidikan yang masih berada pada kategori sedang. Selain itu, penerapan pembelajaran yang sesuai dengan karakteristik anak usia dini (indikator D2) perlu terus dikembangkan melalui inovasi pembelajaran berbasis bermain yang menyenangkan, aktif, bermakna, dan berpusat pada anak. Dengan demikian, sinergi antara sekolah dan keluarga diharapkan semakin kuat dalam mendukung tumbuh kembang peserta didik secara optimal.",
+            programs: "Sebagai wujud komitmen dalam mendidik anak secara utuh, TK Katolik Santo Bavo mengembangkan dua fokus utama, yaitu Jalan Iman dan Pengembangan Bakat dan Minat. Melalui Jalan Iman, anak-anak dibimbing untuk membangun karakter dan nilai-nilai spiritual sejak dini melalui doa sederhana, lagu rohani, cerita Kitab Suci, serta devosi anak. Sementara itu, pengembangan bakat dan minat diwujudkan melalui berbagai kegiatan ekstrakurikuler yang memberikan kesempatan kepada setiap anak untuk mengenali potensi, mengembangkan kreativitas, serta menumbuhkan rasa percaya diri sesuai dengan keunikan masing-masing.",
+            address: "Jl. Bumi Jaya No. 60 Rejo Mulyo Madiun",
+            phone: "(0351) 482244",
+            whatsapp: "",
+            email: "tkksantobavo60@gmail.com",
+            website: "",
             // Data Sosmed Baru:
-            instagram: "https://instagram.com/wijanamojoagung",
-            facebook: "https://facebook.com/wijanamojoagung",
-            youtube: "https://youtube.com/@wijanamojoagung",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            instagram: "https://www.instagram.com/tkksantobavo60",
+            facebook: "",
+            youtube: "https://www.youtube.com/@SantoBavo",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4732.155791684265!2d111.5390458!3d-7.616276899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bee3d9f1ffa9%3A0x1242719f6cff298e!2sTK%20Santo%20Bavo!5e1!3m2!1sid!2sid!4v1793801899264!5m2!1sid!2sid"
         },
-                {
+        {
             id: 2,
-            level: "SD",
-            name: "SD Katolik Wijana Mojoagung",
-            logo: "https://i.ibb.co.com/C3YsD4XM/SDK-Mojoagung.jpg",
-            images: ["https://lh3.googleusercontent.com/pw/AP1GczOgkUouczIvJvGRKPVPLGoyuurVFVpE_RImXmesSluSQ4pIXf1pnG536ddmLYMtkujHDSF9ssN_3hTfRJnbP-NMZh6CRazqVi2fyGRNkbxkeXX_SkiasTYXOWLKfRAjVPb_HYhas5haAY5hJuhj3ra7bg=w1366-h768-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AP1GczMOIKlQUVZXI2hLpP2ZzLa3oc7trpUOfWYu7d9AxqKctlU9iNEM--MR8808M9mRe9kyRGeeJMP_6We-7AiC8vHO0EIWKgu7kJc3MftU1rDeBNfzUIJoXC6FGurXu0TcqyZ26N1v067xNKOp2JsW_zBfFg=w1366-h768-s-no?authuser=0","https://lh3.googleusercontent.com/pw/AP1GczNwGgrm_fC7G6tKJOsx07BP646HQpABG4UBg9JYcf8fgPLwBMLm2XitFbBbxuxd5PY0UzQFOMWeBjm8LcYeGH30sgbIg43kx_RiFgXKqvVVmBNtFah2nKe2dsStayWQcEqHHNh-u5roMbYxfTkPk1Q2jg=w1366-h768-s-no?authuser=0"],
-            description: "SDK Wijana Mojoagung merupakan lembaga pendidikan yang sejak berdiri pada tahun 1973 berkomitmen mendampingi anak-anak bertumbuh menjadi pribadi yang utuh. Pendidikan tidak hanya diarahkan pada pencapaian akademik, tetapi juga pada pembentukan iman, karakter, kepedulian, kreativitas, dan kecakapan hidup. Semangat tersebut berakar pada spiritualitas “Engkau Berharga di Mata-Ku” (Yesaya 43:4) dan motto “Grow with Love and Care”, yang menjadi dasar dalam mendampingi setiap anak dengan kasih, kepedulian, serta penghargaan terhadap keunikan dan potensi dirinya.<br/><br/>Dalam prosesnya, SDK Wijana mengembangkan berbagai aspek kehidupan anak secara seimbang, meliputi iman, karakter, intelektual, sosial, emosional, kreativitas, fisik, persaudaraan, dan life skill. Pendidikan dipandang sebagai proses mempersiapkan anak bukan hanya untuk belajar, tetapi juga untuk mampu berpikir, berelasi, berkarya, bertanggung jawab, dan memberikan kontribusi positif. Dengan demikian, SDK Wijana berkomitmen membentuk generasi yang cerdas, berkarakter, beriman, memiliki kecakapan hidup, serta siap menghadapi kehidupan dan menjadi pribadi yang bermanfaat bagi sesama.",
-            programs: "Sejalan dengan semangat “Grow with Love and Care”, SDK Wijana menghadirkan berbagai program unggulan yang memberikan pengalaman belajar nyata dan mendukung pertumbuhan anak secara utuh. <b>Life Study Camp, Cooking Day,</b> dan berbagai kegiatan <b>Life Skill</b> melatih kemandirian dan kecakapan hidup, sementara <b>Character Building</b> memperkuat pembentukan karakter dan nilai-nilai kehidupan. Kolaborasi dengan keluarga diwujudkan melalui <b>Family Day</b>, sedangkan <b>Market Day</b> dan <b>Kelas Inspirasi</b> membuka ruang bagi anak untuk belajar berwirausaha, mengenal beragam profesi, dan membangun kepercayaan diri. Seluruh pengalaman tersebut diperkaya melalui <b>GrowFest</b> sebagai ruang untuk merayakan kreativitas, potensi, dan proses tumbuh setiap anak.",
-            address: "Jl. Raya 226 Mojoagung, Jombang",
-            phone: "(0321) 495330",
-            email: "sdkwijanamojoagung@gmail.com",
-            website: "https://www.wijanamojoagung.sch.id",
+            level: "TK",
+            name: "TK St. Melania Ponorogo",
+            logo: "https://i.ibb.co.com/Zp6ZVb2J/TK-St-Melania.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "TK Santa Melania Ponorogo merupakan lembaga pendidikan anak usia dini yang berlokasi di Jalan Raden Saleh No. 58 Ponorogo. Dengan semangat CERIA (Cekatan, Empati, Responsif, Inisiatif, dan Aktif), sekolah berkomitmen menghadirkan lingkungan belajar yang aman, menyenangkan, dan penuh kasih. Pembelajaran dirancang sesuai tahap perkembangan anak melalui pengalaman yang bermakna, mendorong keberanian bereksplorasi, kreativitas, kemandirian, serta perkembangan potensi diri secara utuh.<br/><br/>Sebagai bagian dari identitas sekolah, TK Santa Melania mengembangkan Program Katolisitas yang menanamkan nilai iman, kasih, kepedulian, dan penghargaan terhadap sesama serta ciptaan Tuhan. Melalui kolaborasi antara guru, orang tua, dan komunitas sekolah, TK Santa Melania terus berupaya membentuk pribadi yang berkarakter, bertanggung jawab, dan percaya diri sebagai bekal untuk melangkah menuju masa depan.",
+            programs: "Dalam mendukung tumbuh kembang anak secara utuh, TK Santa Melania mengembangkan berbagai program unggulan, meliputi pembiasaan doa dan meditasi untuk menumbuhkan ketenangan serta kedekatan anak dengan Tuhan, dan Program Katolisitas untuk menanamkan nilai iman, kasih, serta kepedulian terhadap sesama. Selain itu, sekolah menyediakan kegiatan ekstrakurikuler seperti Bahasa Inggris, Bahasa Mandarin, Calistung, dan Mewarnai sebagai wadah untuk memperkaya pengalaman belajar, mengembangkan kreativitas, serta menggali potensi dan bakat anak sejak dini.",
+            address: "Jl. Raden Saleh No 58 Mangkujayan Ponorogo",
+            phone: "085233582907",
+            whatsapp: "6285233582907",
+            email: "",
+            website: "",
             // Data Sosmed Baru:
-            instagram: "https://instagram.com/wijanamojoagung",
-            facebook: "https://facebook.com/wijanamojoagung",
-            youtube: "https://youtube.com/@wijanamojoagung",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0402438478272!2d112.34070647380156!3d-7.5705916747741115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e786c8785b64461%3A0xb61bec8215d0e45e!2sWijana%20Mojoagung!5e0!3m2!1sid!2sid!4v1784784577209!5m2!1sid!2sid"
+            instagram: "https://www.instagram.com/tksantamelaniaponorogo",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4729.351051733162!2d111.4641429!3d-7.866163800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799f83375f38c7%3A0xbef442c7d787671f!2sYayasan%20Yohannes%20Gabriel%20TKK%20Santa%20Melania!5e1!3m2!1sid!2sid!4v1793884301434!5m2!1sid!2sid"
         },
         {
             id: 3,
-            level: "SMP",
-            name: "SMP Katolik St. Yusup ",
-            logo: "https://i.ibb.co.com/CsW6NS05/SMPK-Mojokerto.jpg",
-            images: ["https://i.ibb.co.com/WWpwdkB0/Foto-Sekolah-1-SMPKMjk.jpg","https://i.ibb.co.com/1Ywk7P5t/Foto-Sekolah-2-SMPKMjk.jpg","https://i.ibb.co.com/84R5PvLm/Foto-Sekolah-3-SMPKMjk.jpg"],
-            description: "SMP Katolik Santo Yusup Mojokerto didirikan pada 1 Agustus 1956 dan berlokasi di Jl. Niaga No. 15, Kota Mojokerto, di bawah naungan St. John Gabriel Foundation. Dengan akreditasi A, sekolah berkomitmen menghadirkan pendidikan yang menjunjung keberagaman dan toleransi, sekaligus mendampingi peserta didik untuk bertumbuh menjadi pribadi yang beriman, berkarakter, kreatif, dan mampu membawa kebaikan bagi sesama. Sejalan dengan visi “Terwujudnya pribadi yang menjadi garam dan terang dunia, cerdas, kreatif, inovatif, dan berbudaya lingkungan”, proses pendidikan diarahkan pada perkembangan peserta didik secara utuh.<br/><br/>Komitmen tersebut diwujudkan melalui pengalaman pembelajaran, pelayanan, pengembangan kepemimpinan, dan pembinaan spiritual yang berkelanjutan. Berlandaskan motto Compassion, Competence, dan Conviction, SMPK St. Yusup Mojokerto menanamkan kepedulian dan empati, mengembangkan kompetensi akademik serta keterampilan hidup, dan membentuk pribadi yang berintegritas, bertanggung jawab, serta teguh dalam memperjuangkan nilai-nilai kebaikan. Dengan demikian, sekolah menjadi ruang bagi siswa untuk menemukan potensi terbaiknya dan mempersiapkan masa depan yang penuh makna.",
-            programs: "Sejalan dengan komitmen SMP Katolik Santo Yusup Mojokerto untuk membentuk pribadi yang beriman, berkarakter, kompeten, dan peduli terhadap sesama, sekolah menghadirkan program unggulan yang mendampingi siswa sesuai tahap perkembangannya. <b>Stronger Together</b> bagi siswa kelas VII memperkuat relasi dan komunikasi antara anak dan orang tua, <b>Live In</b> bagi kelas VIII menumbuhkan kemandirian, empati, kepedulian, dan rasa syukur melalui pengalaman hidup bersama masyarakat, sedangkan <b>Catholic Breakthrough Camp</b> bagi kelas IX memperkuat spiritualitas, karakter, dan kesiapan mental dalam menghadapi masa depan. Ketiga program ini menjadi pengalaman pembelajaran yang menghidupkan nilai <b>Compassion, Competence, dan Conviction</b> secara nyata dalam kehidupan siswa.",
-            address: "Jln. Niaga 15 RT. 01 RW I Kelurahan Sentanan, Kota Mojokerto 61312",
-            phone: "(0321) 321064",
-            email: "smpk.santoyusupmoker24@gmail.com",
-            website: "https://www.smpksantoyusupmr.sch.id", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://instagram.com/smpkstyusupofficial",
-            facebook: "", 
-            youtube: "https://www.youtube.com/@SMPKSantoYusup",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.6712684059457!2d112.434376!3d-7.4667908999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d8bc55db745%3A0x9358912e6afa82c8!2sSMP%20Katolik%20Santo%20Yusuf!5e1!3m2!1sid!2sid!4v1789004612011!5m2!1sid!2sid"
+            level: "TK",
+            name: "TK Pancasila Klepu",
+            logo: "https://i.ibb.co.com/fdR2J6c0/TK-Pancasil-Klepu.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "",
+            programs: "",
+            address: "Desa Klepu Kec. Sooko Ponorogo",
+            phone: "",
+            whatsapp: "",
+            email: "",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "",
+            facebook: "",
+            youtube: "",
+            maps: ""
         },
         {
             id: 4,
-            level: "SMA",
-            name: "SMAS Thomas Aquino",
-            logo: "https://i.ibb.co.com/k23jwLg9/SMAK-Mojokerto.jpg",
-            images: ["https://i.ibb.co.com/sdkpF0xS/Foto-Sekolah-1-SMAKMjk.jpg","https://i.ibb.co.com/TDVqQVLF/Foto-Sekolah-2-SMAKMjk.jpg","https://i.ibb.co.com/LDLw00jp/Foto-Sekolah-3-SMAKMjk.jpg"],
-            description: "SMAK St. Thomas Aquino Mojokerto merupakan lembaga pendidikan Katolik yang berkomitmen membentuk generasi unggul, berintegritas, dan tangguh melalui visi “Berakar dalam Iman, Cerdas dalam Pikir, Peduli dalam Aksi.” Meneladani semangat analitis Santo Thomas Aquino dan kasih pengabdian Santo Yohannes Gabriel, sekolah menghidupi motto Veritas, Caritas, Innovatio serta spiritualitas Omnia Ad Maiorem Dei Gloriam. Pendidikan rohani, karakter, dan akademik dipadukan melalui berbagai pembiasaan seperti Daily Core dan Refleksi Harian untuk membentuk peserta didik yang beriman, kritis, reflektif, peduli, dan mampu menghadapi tantangan zaman.<br/><br/>Dalam pengembangan potensi dan kesiapan menghadapi dunia global, SMAK St. Thomas Aquino menghadirkan berbagai program berbasis pengalaman nyata dan Deep Learning, seperti Core Clarity Retreat, The Learning Crucible, Career Immersion Program, sertifikasi TOEFL dan kompetensi IT, serta Santhom’s Festival dan September’s Festival. Sekolah juga memperkuat pembelajaran dan pengembangan karier melalui jejaring kemitraan nasional dan internasional, termasuk dengan lembaga pendidikan, dunia profesional, serta berbagai perguruan tinggi. Dengan ekosistem pendidikan yang mengintegrasikan iman, karakter, kompetensi, pengalaman, dan jejaring global, SMAK St. Thomas Aquino mendampingi peserta didik untuk tumbuh menjadi pribadi yang cerdas, peduli, berdaya saing, dan siap menjadi pemimpin masa depan.",
-            programs: "Program unggulan SMAK St. Thomas Aquino Mojokerto dirancang untuk memperkuat pembentukan iman, karakter, kompetensi, dan kesiapan peserta didik menghadapi dunia nyata serta tantangan global. Melalui <b>Core Clarity Retreat (CCR)</b>, <b>Daily Core</b>, dan <b>Point Value</b>, siswa didampingi untuk mengenali diri, membangun karakter, serta menghidupi nilai-nilai positif dalam keseharian. Pengalaman belajar autentik dikembangkan melalui <b>Hunt For Hire (HFH)</b>, <b>The Learning Crucible (TLC)</b> atau <b>Magang Sekolah</b>, dan <b>Career Immersion Program (CIP)</b> atau <b>Magang Kerja</b> yang memberikan kesempatan kepada siswa untuk mengenal dunia pendidikan, pekerjaan, dan karier secara langsung. Sebagai penguatan daya saing, sekolah juga membekali siswa dengan <b>Sertifikat TOEFL</b> dan <b>IT berstandar nasional</b>, serta menyediakan ruang ekspresi melalui <b>September Festival</b> dan memperluas wawasan melalui kerja sama dengan berbagai lembaga pembelajaran nasional maupun internasional.",
-            address: "Jl. Niaga No. 15 Mojokerto ",
-            phone: "0321-390382",
-            email: "smasstthomasaquino@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/smaksanthomofficial",
-            facebook: "", 
-            youtube: "https://www.youtube.com/@smakthomasaquinomojokerto",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.986151578542!2d112.43433999999999!3d-7.46678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d8b70018227%3A0x8134106f5d25ac7!2sSMA%20Katolik%20Santo%20Thomas%20Aquino!5e0!3m2!1sid!2sid!4v1789006454242!5m2!1sid!2sid"
+            level: "SD",
+            name: "SDK Santa Maria Madiun",
+            logo: "",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SDK Santa Maria Madiun merupakan lembaga pendidikan yang berdiri sejak tahun 1933 dan berada di bawah naungan St. John Gabriel Foundation. Dengan identitas sebagai sekolah Katolik, SDK Santa Maria senantiasa mengintegrasikan nilai-nilai iman dan katolisitas dalam kehidupan sekolah melalui berbagai kegiatan yang menanamkan spiritualitas, kasih, kepedulian, dan pembentukan karakter peserta didik.<br/><br/>Selain berfokus pada pendidikan dan pembentukan karakter, SDK Santa Maria Madiun juga mengembangkan hubungan serta kolaborasi sosial dengan masyarakat sekitar, lembaga sosial, dan dunia usaha. Sinergi ini menjadi bagian dari upaya memperluas pengalaman belajar peserta didik sekaligus menumbuhkan kepedulian sosial dan kemampuan berinteraksi dengan lingkungan masyarakat.",
+            programs: "Sebagai upaya meningkatkan kemampuan literasi dan numerasi peserta didik, SDK Santa Maria Madiun mengembangkan program SARI SARI MATA (Satu Hari Satu Cerita Matematika) yang diintegrasikan melalui kegiatan Cerita Alkitab pada pagi hari. Program ini mengajak peserta didik belajar memahami cerita, menemukan informasi, serta mengenali konsep dan keterampilan matematika melalui aktivitas yang kontekstual dan menyenangkan. Selain mengembangkan kemampuan akademis, program ini juga menjadi sarana menanamkan nilai-nilai iman dan karakter dalam kehidupan sehari-hari.",
+            address: "Jl. Cokroaminoto No. 127 Taman Madiun",
+            phone: "(0351)464083",
+            whatsapp: "",
+            email: "stmaria12ae@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "",
+            facebook: "",
+            youtube: "https://www.youtube.com/@sdksantamariamadiun",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4731.926517263992!2d111.5197975!3d-7.637009000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79be60fbe4becb%3A0x8fc1402823a65c43!2sSDK%20SANTA%20MARIA%201!5e1!3m2!1sid!2sid!4v1793884570247!5m2!1sid!2sid"
         },
         {
             id: 5,
-            level: "SMK",
-            name: "SMKS Farmasi Katolik Wiyata Farma Kertosono",
-            logo: "https://i.ibb.co.com/XrKs5J5h/SMK-Kertosono.jpg",
-            images: ["https://i.ibb.co.com/Jjv2cyMQ/Foto-Sekolah-1-SMKKertsn.jpg","https://i.ibb.co.com/gMztnPsk/Foto-Sekolah-2-SMKKertsn.jpg","https://i.ibb.co.com/DHxRrqZh/Foto-Sekolah-3-SMKKertsn.jpg"],
-            description: "SMKS Farmasi Katolik Wiyata Farma Kertosono merupakan lembaga pendidikan menengah kejuruan swasta yang berlokasi di Jalan Puntodewo No. 12, Kepuh, Kertosono, Nganjuk, dan berada di bawah naungan St. John Gabriel Foundation. Sekolah ini memiliki NPSN 20570615 dan akreditasi B. Dengan fokus pada bidang kesehatan, khususnya kefarmasian, sekolah menyelenggarakan pendidikan pada bidang keahlian Teknologi Farmasi serta Farmasi Klinis dan Komunitas. Secara administratif, sekolah memiliki izin operasional sejak 24 Januari 2020 dan SK pendirian bertanggal 18 Oktober 2021.<br/><br/>Sebagai sekolah Katolik berbasis kejuruan, SMKS Farmasi Katolik Wiyata Farma Kertosono memadukan penguasaan pengetahuan dan keterampilan kefarmasian dengan pembentukan karakter dan etika pelayanan. Peserta didik dibentuk menjadi pribadi yang disiplin, bertanggung jawab, berintegritas, peduli, serta mampu memberikan pelayanan yang baik kepada sesama. Pembelajaran juga menekankan pengalaman praktik dan kesiapan memasuki dunia kerja melalui pengembangan kompetensi kefarmasian klinis dan komunitas. Dengan demikian, sekolah berkomitmen menghasilkan lulusan yang kompeten secara profesional sekaligus memiliki karakter, nilai kemanusiaan, dan semangat pelayanan yang kuat.",
-            programs: "Program unggulan bidang Farmasi menjadi kekhasan utama SMKS Farmasi Katolik Wiyata Farma Kertosono dalam mempersiapkan peserta didik memiliki kompetensi profesional sekaligus karakter pelayanan. Melalui pembelajaran teori dan praktik kefarmasian yang terarah, siswa dibekali pengetahuan, keterampilan, ketelitian, kedisiplinan, tanggung jawab, serta etika dalam memberikan pelayanan di bidang kesehatan. Program ini diharapkan mampu menghasilkan lulusan yang kompeten, siap memasuki dunia kerja, serta mampu menghayati nilai kepedulian dan pelayanan kepada sesama sebagai bagian dari identitas pendidikan Katolik.",
-            address: "Jl. Puntodewo No.12 Kertosono-Nganjuk",
-            phone: "(0358) 5501184",
-            email: "smkwiyatafarma@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/wiyatafarma.id",
-            facebook: "", 
-            youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.68362534006!2d112.0957999!3d-7.6036337000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7846f55b98c06f%3A0xa2a149eef2a14d89!2sSMK%20Farmasi%20Katolik%20%22wiyata%20Farma%22%20Kertosono!5e1!3m2!1sid!2sid!4v1789007005641!5m2!1sid!2sid"
+            level: "SD",
+            name: "SDK Santo Bavo",
+            logo: "https://i.ibb.co.com/SwGZYjbk/SD-St-Bavo.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SDK Santo Bavo Madiun merupakan lembaga pendidikan dasar Katolik di bawah naungan St. John Gabriel Foundation yang berlokasi di Jalan Bumijaya No. 60, Rejomulyo, Kecamatan Kartoharjo, Kota Madiun. Sekolah hadir sebagai bagian dari karya pelayanan pendidikan yang berkomitmen mendampingi peserta didik untuk berkembang secara utuh, baik dalam aspek akademik maupun nonakademik. Melalui pembelajaran, pembiasaan, kegiatan keagamaan, serta pengembangan minat dan bakat, sekolah berupaya menciptakan lingkungan belajar yang mendukung potensi dan keunikan setiap anak.<br/><br/>Dengan kekhasan pendidikan karakter berlandaskan nilai-nilai Kristiani, SDK Santo Bavo Madiun menanamkan nilai iman, kasih, kejujuran, tanggung jawab, kedisiplinan, kepedulian, dan kerja sama dalam kehidupan sehari-hari. Sekolah berkomitmen memadukan pengetahuan, keterampilan, iman, dan pembentukan karakter agar peserta didik tumbuh menjadi pribadi yang mandiri, berintegritas, peduli terhadap sesama dan lingkungan, serta siap menghadapi tantangan kehidupan di masa depan.",
+            programs: "Dalam mendukung pengembangan potensi peserta didik secara menyeluruh, SDK Santo Bavo Madiun menyelenggarakan berbagai program unggulan, meliputi ekstrakurikuler Drum Band, literasi digital, pembinaan Olimpiade Sains, serta pengembangan karakter dan keagamaan berlandaskan nilai-nilai Kristiani. Selain itu, sekolah juga membekali peserta didik dengan kemampuan berbahasa asing melalui pembelajaran Bahasa Inggris serta keterampilan hidup (life skills) agar tumbuh menjadi pribadi yang kreatif, kompeten, mandiri, dan siap menghadapi tantangan kehidupan.",
+            address: "Jl. Bumijaya No. 60 Kertoharjo Madiun",
+            phone: "(0351)485149",
+            whatsapp: "",
+            email: "",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/sdksantobavomadiun60",
+            facebook: "",
+            youtube: "https://www.youtube.com/@sdksantobavomadiun",
+            maps: ""
         },
         {
             id: 6,
-            level: "TK",
-            name: "TK Katolik Wijana Jombang",
-            logo: "https://i.ibb.co.com/DHbLLnTM/TK-Jombang.jpg",
-            images: ["https://i.ibb.co.com/BHwBWsFG/Foto-Sekolah-1-TKWijana-Jbg.jpg","https://i.ibb.co.com/r2gBPzrr/Foto-Sekolah-2-TKWijana-Jbg.jpg","https://i.ibb.co.com/fdQ5k4nf/Foto-Sekolah-3-TKWijana-Jbg.jpg"],
-            description: "TK Katolik Wijana Jombang didirikan pada 8 Januari 1968 atas prakarsa sekelompok ibu-ibu WKRI (Wanita Katolik Republik Indonesia) GOW Jombang, dengan dukungan Suster Lidwina dari Mojokerto dan Romo J. Mensvoort. Untuk mewujudkan pendirian sekolah, mereka menggalang dana melalui bazar dan donasi dari berbagai pihak. TK Katolik Wijana kemudian didirikan di Jl. KH. Wahid Hasyim 38–40, lokasi strategis di pusat Kota Jombang yang berdekatan dengan kantor pemerintahan Kabupaten Jombang.<br/><br/>Dalam perkembangannya, atas saran Bapak Uskup Sutikno, sekolah dipindahkan ke lokasi pasturan lama dan dibangun gedung baru di Jl. Cak Durasim No. 01, Jombang. Gedung tersebut diberkati pada 6 Desember 2019 oleh RD. Albertus Widya Rahmadi Putra selaku Romo Paroki Gereja Katolik Santa Maria Jombang. Hingga kini, TK Katolik Wijana terus menjadi bagian dari karya pendidikan Katolik yang melayani dan mendampingi pertumbuhan anak-anak di Jombang.",
-            programs: "Sebagai bagian dari karya pendidikan Katolik yang mendampingi pertumbuhan anak secara utuh, TK Katolik Wijana Jombang mengembangkan berbagai program unggulan yang memadukan pembiasaan iman dan Katolisitas dengan penguatan literasi, STEAM, dan eksperimen sains. Anak juga diajak menumbuhkan kepedulian terhadap lingkungan serta kemandirian melalui berbagai kegiatan yang sesuai dengan tahap perkembangannya. Program-program tersebut dirancang dalam suasana belajar yang aktif, menyenangkan, dan bermakna agar anak tumbuh menjadi pribadi yang beriman, kreatif, mandiri, peduli, dan siap menghadapi perkembangan zaman.",
-            address: "Jln. Cak Durasim, No. 1 Kepanjen, Jombang",
-            phone: "(0321) 871132",
-            email: "tkkatolikwijanajombang@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/tkkwijanajombang19",
-            facebook: "https://www.facebook.com/tkk.wijana", 
-            youtube: "https://www.youtube.com/@tkkatolikwijana-jombang-ja6086",
-            maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d195.377885887551!2d112.2360657!3d-7.5536871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7841e7a9387895%3A0x1dbecde30e6664e1!2sTK%20Katolik%20Wijana!5e1!3m2!1sid!2sid!4v1788487738301!5m2!1sid!2sid"
+            level: "SD",
+            name: "SD Santa Maria",
+            logo: "https://i.ibb.co.com/4ZbjbzpW/SD-St-Maria-Ponorogo.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SD Santa Maria Ponorogo merupakan lembaga pendidikan dasar swasta di bawah naungan St. John Gabriel Foundation Perwakilan Madiun-Ponorogo yang berlokasi di Jalan Raden Saleh No. 58, Kelurahan Mangkujayan, Kabupaten Ponorogo. Dengan akreditasi B dan lingkungan sekolah yang strategis di pusat kota, SD Santa Maria didukung oleh sarana prasarana pembelajaran yang memadai, tenaga pendidik dan kependidikan yang mendukung, serta potensi lingkungan sekitar di bidang kesehatan, olahraga, seni, budaya, dan sosial. Dengan jumlah peserta didik yang relatif proporsional, sekolah memiliki peluang untuk mengembangkan pembelajaran dan pendampingan secara lebih optimal sesuai kebutuhan dan potensi setiap anak.<br/><br/>Berlandaskan visi membentuk peserta didik yang cerdas, terampil, berkarakter cinta kasih, berbudi pekerti luhur, peduli lingkungan, berwawasan IPTEK, dan nasionalis, SD Santa Maria mengusung motto “Mengasah Hati, Mengolah Budi.” Komitmen tersebut diwujudkan melalui pembelajaran bermutu, pengembangan bakat dan minat, penguatan karakter dan spiritualitas, kepedulian terhadap lingkungan melalui budaya BeRSehATi (Bersih, Rindang, Sehat, Asri, Tertib), serta pembiasaan budaya 5S dan TOMAT (Tolong, Maaf, Terima Kasih). Seluruh upaya ini diarahkan untuk membentuk generasi yang berkarakter, beriman, peduli, dan siap menjadi kader bangsa serta Gereja.",
+            programs: "Dalam mendukung pengembangan potensi peserta didik secara menyeluruh, SD Santa Maria menyelenggarakan berbagai kegiatan kokurikuler dan ekstrakurikuler. Kegiatan kokurikuler meliputi retret siswa, membaca Kitab Suci, pembinaan cinta lingkungan melalui program Jumat Bersih, tambahan pelajaran untuk pemantapan Ujian Sekolah, pembelajaran Coding dan AI, serta pembinaan Tes Kemampuan Akademik (TKA). Sementara itu, kegiatan ekstrakurikuler mencakup Pramuka, Komputer (Microsoft Word, Paint, dan Canva), Band/Ansambel, Tari, Renang, Basket, Biola, Drumband, Futsal, dan Bahasa Mandarin. Berbagai program tersebut dirancang untuk memperkuat iman dan karakter, meningkatkan kemampuan akademik dan literasi digital, serta mengembangkan kreativitas, keterampilan, kedisiplinan, kemandirian, jiwa kepemimpinan, dan bakat peserta didik di berbagai bidang.",
+            address: "Jl. Raden Saleh No. 58 Mangkujayan, Ponorogo",
+            phone: "085113181858",
+            whatsapp: "6285113181858",
+            email: "sdksantamariaponorogo@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/sd_santa_maria_ponorogo",
+            facebook: "https://www.facebook.com/sdksantamariaponorogo",
+            youtube: "https://www.youtube.com/@sdksantamariaponorogo3704",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4729.352723554681!2d111.46421!3d-7.866017200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799f833de7d659%3A0xd75dd23b4cf147ea!2sSDK%20Santa%20Maria!5e1!3m2!1sid!2sid!4v1793886379550!5m2!1sid!2sid"
         },
         {
             id: 7,
-            level: "TK",
-            name: "TK Budi Luhur Nganjuk",
-            logo: "https://i.ibb.co.com/whQHFWrK/TK-Nganjuk.jpg",
-            images: ["https://i.ibb.co.com/MD3wjJF9/Foto-Sekolah-1-TKBudi.jpg","https://i.ibb.co.com/RpZVy3cg/Foto-Sekolah-2-TKBudi.jpg","https://i.ibb.co.com/m1t30d1/Foto-Sekolah-3-TKBudi.jpg"],
-            description: "TK Katolik Budi Luhur Nganjuk merupakan lembaga pendidikan anak usia dini swasta yang berlokasi di Jl. Diponegoro No. 63–65, Ganung Kidul, Nganjuk, di bawah naungan St. John Gabriel Foundation (Pusat Surabaya/Cabang Madiun). Sekolah resmi berdiri pada 18 Juli 1988, berawal dari dorongan wali murid SD Katolik Budi Luhur dan pembubaran TK Pantakosta, dengan jumlah awal 12 peserta didik. Hingga kini, sekolah terus berkembang dengan komitmen memberikan pendidikan yang berkualitas, aman, nyaman, dan berkarakter bagi anak-anak di wilayah Nganjuk.<br/><br/>Dengan semangat nilai-nilai keutamaan Santo Yohanes Gabriel Perboyre, TK Katolik Budi Luhur berkomitmen membentuk anak yang beriman, cerdas, mandiri, berkarakter Kristiani, serta mencintai Tuhan dan sesama. Nilai keteguhan, kedisiplinan, kepedulian, jiwa misioner, dan semangat communio ditanamkan sejak dini melalui pembelajaran yang mendukung perkembangan akademik, sosial, emosional, dan spiritual. Didukung tenaga pendidik yang berdedikasi, sarana-prasarana yang memadai, serta media pembelajaran interaktif, sekolah mendampingi anak agar tumbuh menjadi pribadi yang adaptif, kreatif, dan siap melanjutkan pendidikan ke jenjang berikutnya.",
-            programs: "Sebagai bagian dari upaya mendampingi anak tumbuh secara utuh, TK Katolik Budi Luhur menghadirkan berbagai program unggulan yang melibatkan anak, orang tua, dan lingkungan sekolah. <b>Parenting Class</b> memperkuat kolaborasi orang tua dalam mendampingi tumbuh kembang anak, sementara kegiatan renang dan cooking class mengembangkan kemandirian serta keterampilan praktis. <b>Gelar Karya</b> dan program literasi menjadi ruang bagi anak untuk mengekspresikan kreativitas dan potensi, sedangkan kegiatan <b>Katolisitas</b> menanamkan iman serta nilai-nilai Kristiani sejak dini.", 
-            address: "Jl. Diponegoro No. 63-65 Nganjuk",
-            phone: "",
-            email: "tkkbudiluhurnganjuk@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/tkkbudiluhurnganjuk",
-            facebook: "https://www.facebook.com/tkkbudi.luhur.7", 
-            youtube: "https://www.youtube.com/@pg-tkkatolikbudiluhurnganj3686",
-            maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d781.4208990525046!2d111.9047214!3d-7.6036377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784ba821154147%3A0x8bea91e94e262e23!2sGereja%20Katolik%20Paroki%20Santo%20Paulus%2C%20Nganjuk!5e1!3m2!1sid!2sid!4v1788487044587!5m2!1sid!2sid"
+            level: "SMP",
+            name: "SMPK Santo Realino Saradan",
+            logo: "https://i.ibb.co.com/FLZq1mzX/SMPK-St-Realino.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SMPK Santo Realino berdiri pada 14 April 1964 di bawah naungan Yayasan Wiyata Dharma. Awalnya, sekolah ini didirikan sebagai sekolah persiapan bagi masyarakat di Kecamatan Saradan sebelum akhirnya SMP Negeri 1 Saradan dibangun. Dalam perkembangannya, SMPK Santo Realino kemudian diambil alih oleh Keuskupan Surabaya. Berlokasi di Desa Bandungan, Kecamatan Saradan, Kabupaten Madiun, sekolah ini melayani peserta didik dari berbagai wilayah sekitar, termasuk Desa Bandungan dan Kecamatan Wilangan, Kabupaten Nganjuk. Dengan latar belakang keluarga yang beragam dan mayoritas berasal dari kalangan sederhana, sekolah menjunjung tinggi nilai toleransi dan keberagaman. Hal ini tercermin dari kehidupan sekolah yang terdiri atas peserta didik beragama Katolik, Kristen, dan Islam.<br/><br/>Dalam penyelenggaraan pendidikan, SMPK Santo Realino didukung oleh tenaga pendidik dan kependidikan yang berkomitmen mendampingi perkembangan peserta didik. Sekolah juga menyediakan berbagai kegiatan ekstrakurikuler, seperti Pramuka, Seni Tari, dan English Club, serta pengembangan minat di bidang jurnalistik, teater, dan Smart News. Salah satu program unggulannya adalah jurnalistik yang menjadi wadah bagi peserta didik untuk mengembangkan kreativitas, kemampuan berkomunikasi, berpikir kritis, dan keterampilan literasi.",
+            programs: "Program ekstrakurikuler Jurnalistik menjadi salah satu kegiatan unggulan SMPK Santo Realino yang bertujuan mengembangkan kemampuan literasi, kreativitas, dan komunikasi peserta didik. Melalui kegiatan ini, siswa diajak untuk mengenal proses jurnalistik, mulai dari mencari dan mengolah informasi, melakukan wawancara, menulis berita, hingga menyajikan informasi secara menarik dan bertanggung jawab. Program ini juga melatih kemampuan berpikir kritis, keberanian menyampaikan gagasan, kerja sama, serta kepekaan terhadap berbagai peristiwa di lingkungan sekitar. Dengan demikian, peserta didik diharapkan mampu menjadi pribadi yang kreatif, komunikatif, dan bijak dalam menyampaikan informasi.",
+            address: "Desa Bandungan Saradan Madiun",
+            phone: "081393753542",
+            whatsapp: "6281393753542",
+            email: "sarirealino@gmail.com",
+            website: "https://observersmartchannel.blogspot.com/",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/smpksantorealino",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4732.960239632317!2d111.8328525!3d-7.543086799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79ca961d9475ad%3A0xa48c7f208f5d5e6d!2sSMPK%20Santo%20Realino%20Saradan!5e1!3m2!1sid!2sid!4v1793886785556!5m2!1sid!2sid"
         },
         {
             id: 8,
-            level: "TK",
-            name: "TK Katolik Yos Sudarso Pelem",
-            logo: "https://i.ibb.co.com/7BDSdnj/TK-Yos-Kertosono.jpg",
-            images: ["https://i.ibb.co.com/whqW9jhv/Foto-Sekolah-1-TKKertosono.jpg","https://i.ibb.co.com/tPTL27Bp/Foto-Sekolah-2-TKKertosono.jpg","https://i.ibb.co.com/MkwKXFgB/Foto-Sekolah-3-TKKertosono.jpg"],
-            description: "TK Katolik Yos Sudarso didirikan pada 1 Januari 1975 dan berada di bawah naungan St. John Gabriel Foundation. Awalnya berlokasi di Jl. Jambu No. 1, Pelem, Kertosono, sekolah kemudian berpindah ke Jl. Panglima Sudirman No. 139 karena keterbatasan ruang serta sarana prasarana. Menempati bekas gedung SMPK Xaverius, TK Katolik Yos Sudarso kini memiliki tiga kelas, yaitu A1, A2, dan B, dengan jumlah 31 peserta didik. Didukung ruang bermain indoor dan outdoor yang memadai, lahan parkir, aula, serta berbagai ekstrakurikuler seperti seni tari, menggambar, pantomim, dan musik pianika, sekolah berkomitmen menciptakan lingkungan belajar yang nyaman dan menyenangkan bagi anak usia dini.<br/><br/>Sebagai satu-satunya TK di wilayah sekitar yang bernafaskan pendidikan Kristiani, TK Katolik Yos Sudarso menjadi pilihan bagi keluarga dari Kertosono maupun wilayah sekitarnya. Pembelajaran diperkaya melalui kegiatan outing class yang rutin dilaksanakan sesuai tema, seperti mengunjungi pasar, stasiun, kantor pos, serta berbagai tempat ibadah untuk mengenalkan anak pada lingkungan dan keberagaman. Melalui pengalaman belajar yang nyata, sekolah mendampingi anak untuk berkembang secara utuh, mengenal dunia di sekitarnya, serta bertumbuh dalam nilai-nilai Kristiani.",
-            programs: "Sebagai bagian dari upaya mengembangkan potensi anak secara utuh, TK Katolik Yos Sudarso menghadirkan program unggulan melalui <b>ekstrakurikuler</b> pantomim dan pianika untuk menumbuhkan kreativitas, ekspresi, serta keberanian anak. Nilai kepedulian dan kasih diwujudkan melalui aksi sosial Natal, sementara kegiatan outing class memberikan pengalaman belajar langsung di lingkungan sekitar. Berbagai program tersebut dirancang untuk mendukung tumbuh kembang anak dalam suasana yang menyenangkan sekaligus menanamkan nilai-nilai Kristiani, kemandirian, dan kepedulian terhadap sesama.",
-            address: "Jl. Panglima Sudirman No. 139 Kertosono-Nganjuk ",
-            phone: "(0358) 5501363",
-            email: "tkkyossudarsokertosono@gmail.com",
-            website: "https://website-sekolah.my.canva.site/#tentang-kami", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/tkk.yossudarso139",
-            facebook: "https://www.facebook.com/tkkyossudarso.kertosono", 
-            youtube: "https://www.youtube.com/@tkkyossudarsopelemkertoson5630",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15819.037768565146!2d112.09224420580968!3d-7.601137815896016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7847650a38b069%3A0xc07327c4a1cc0c3d!2sTK%20Katolik%20Yos%20Sudarso%20Kertosono!5e0!3m2!1sid!2sid!4v1788792664274!5m2!1sid!2sid"
+            level: "SMP",
+            name: "SMP Katolik Slamet Riyadi",
+            logo: "https://i.ibb.co.com/dwHP4C8B/SMPK-Slamet-Riyadi.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SMP Katolik Slamet Riyadi Ponorogo, yang dikenal dengan sebutan SMPK Slamet Riyadi atau SLARIPO, berdiri pada 1 Agustus 1956 atas prakarsa Pastor J. Van Steen, CM. Nama sekolah diambil dari tokoh pahlawan nasional Ignatius Slamet Riyadi (1927–1950) sebagai bentuk penghormatan terhadap semangat perjuangan dan nasionalisme. Sebagai sekolah menengah pertama swasta pertama di Kabupaten Ponorogo, SMPK Slamet Riyadi berlokasi di Jalan Gajah Mada Nomor 12, Surodikraman, Kecamatan Ponorogo, Kabupaten Ponorogo, Jawa Timur.<br/><br/>Dalam penyelenggaraan pendidikan, SMPK Slamet Riyadi memiliki visi mewujudkan insan pendidikan yang penuh kasih, unggul dalam prestasi, berbudaya disiplin, kreatif, mandiri, mampu berkolaborasi, berkebinekaan global, serta berjiwa nasionalis. Visi tersebut menjadi landasan sekolah dalam mengembangkan potensi dan karakter peserta didik secara utuh. Dengan motto “Age Quod Agis” (Lakukan yang Terbaik), sekolah mendorong seluruh warga sekolah untuk senantiasa memberikan kemampuan terbaik dalam setiap karya dan tanggung jawab.",
+            programs: "Dalam mendukung pengembangan peserta didik secara utuh, SMPK Slamet Riyadi mengembangkan tiga fokus program utama, yaitu Character Building, Pengembangan Akademik, dan Life Skill. Pembentukan karakter diwujudkan melalui Latihan Dasar Kepemimpinan Siswa (LDKS), pembiasaan pagi, serta kegiatan rohani. Dalam bidang akademik, sekolah menyediakan pembelajaran Bahasa Mandarin secara rutin bagi seluruh siswa, English Club, pembinaan intensif Sains untuk persiapan olimpiade, serta pendampingan potensi akademik bekerja sama dengan Biro Psikologi Universitas Widya Mandala Surabaya Kampus Kota Madiun. Sementara itu, pengembangan keterampilan hidup dilakukan melalui pembelajaran teknologi, informasi, dan komunikasi (TIK), program kewirausahaan berbasis proyek seperti Fun Cooking dan Bazaar, serta pendampingan perencanaan karier melalui kerja sama dengan Universitas Widya Mandala Surabaya Kampus Kota Madiun. Berbagai program tersebut dirancang untuk membentuk peserta didik yang berkarakter, berprestasi, mandiri, kreatif, dan siap menghadapi tantangan masa depan.",
+            address: "Jl. Gajah Mada 12 Ponorogo",
+            phone: "0352-481348",
+            whatsapp: "6285648921525",
+            email: "smpkatolikpo@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/smpkslametriyadi.png",
+            facebook: "",
+            youtube: "https://www.youtube.com/@smpkslametriyadiponorogo8716",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4729.288127236185!2d111.47166910000001!3d-7.871679599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799f862fcb1c09%3A0x14c9e212c83bb7d7!2sSMP%20Katolik%20Slamet%20Riyadi!5e1!3m2!1sid!2sid!4v1793887069049!5m2!1sid!2sid"
         },
         {
             id: 9,
-            level: "TK",
-            name: "TK Santa Maria Macanan",
-            logo: "https://i.ibb.co.com/C3CncQ6C/TK-Macanan.jpg",
-            images: ["https://i.ibb.co.com/DPVnk9kV/Foto-Sekolah-1-TKMacanan.jpg","https://i.ibb.co.com/4gnc739k/Foto-Sekolah-2-TKMacanan.jpg","https://i.ibb.co.com/4nL9dD86/Foto-Sekolah-3-TKMacanan.jpg"],
-            description: "TK Santa Maria merupakan satu-satunya sekolah Katolik di Kecamatan Loceret, Kabupaten Nganjuk, yang berdiri sejak tahun 1987 dalam lingkup Gereja Stasi St. Robertus Macanan. Sekolah berada di kawasan padat penduduk dan jalur utama menuju wisata Roro Kuning dan Jolotundo, serta dekat dengan sentra pembuatan jamu. Masyarakat sekitar sebagian besar bekerja sebagai petani dengan latar belakang pendidikan orang tua mayoritas SMA/sederajat dan sebagian sarjana. Dalam kehidupan sehari-hari, masyarakat menggunakan Bahasa Jawa dan Bahasa Indonesia serta menjunjung nilai religius dan semangat gotong royong.<br/><br/>Lingkungan TK Santa Maria juga memiliki kekayaan budaya lokal yang tercermin dalam tradisi nyadranan dan wiwitan yang masih dikenal masyarakat. Kehidupan sosial masyarakat turut diwarnai oleh tradisi keagamaan dan warisan leluhur, seperti peringatan hari besar keagamaan, tumpengan, selamatan, dan tedhak siten. Keberagaman tersebut menjadi bagian dari konteks lingkungan pendidikan TK Santa Maria dalam mendampingi anak untuk mengenal budaya, menghargai keberagaman, serta bertumbuh dalam nilai kebersamaan dan kehidupan sosial yang harmonis.",
-            programs: "Sebagai bagian dari upaya mendampingi anak dalam lingkungan masyarakat yang religius, menjunjung gotong royong, dan kaya akan budaya lokal, TK Santa Maria mengembangkan program unggulan berupa pembiasaan Katolisitas dan budi pekerti untuk menanamkan nilai kasih, kepedulian, dan sikap menghargai sesama. Pembelajaran juga diperkaya melalui outing class dan cooking class yang memberikan pengalaman nyata, melatih kemandirian, kreativitas, serta kemampuan bekerja sama dalam suasana belajar yang menyenangkan.",
-            address: "Jl. Panglima Sudirman RT 02 RW 03 Macanan Loceret-Nganjuk ",
+            level: "SMA",
+            name: "SMAS Santo Bonaventura",
+            logo: "https://i.ibb.co.com/NgHT7fMZ/SMAK-Bona.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "",
+            programs: "",
+            address: "Jl. Diponegoro No. 45 Mangunharjo Madiun",
             phone: "",
-            email: "tksantamariamacanan@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
+            whatsapp: "",
+            email: "",
+            website: "",
+            // Data Sosmed Baru:
             instagram: "",
-            facebook: "", 
+            facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.7876184122315!2d111.8777124!3d-7.7256953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78532b05250d3f%3A0x6bb0fe5c89eb54cc!2sTK%20Santa%20Maria%20Macanan!5e1!3m2!1sid!2sid!4v1788502272557!5m2!1sid!2sid"
+            maps: ""
         },
         {
             id: 10,
-            level: "SD",
-            name: "SD Katolik Wijana",
-            logo: "https://i.ibb.co.com/gFVv6nBy/SDK-Jombang.jpg",
-            images: ["https://i.ibb.co.com/Z6N1y0YB/Foto-Sekolah-1-SDKWijana-Jb.jpg","https://i.ibb.co.com/jvqJJQPL/Foto-Sekolah-2-SDKWijana-Jb.jpg","https://i.ibb.co.com/hFXwmRW4/Foto-Sekolah-3-SDKWijana-Jb.jpg"],
-            description: "SD Katolik Wijana Jombang yang berlokasi di Jl. KH. Wahid Hasyim 38 didirikan pada 8 Januari 1968 atas prakarsa para aktivis Gereja dengan dukungan Romo J. Mensvoort. Berawal dari lahan rawa yang dibangun melalui swadaya umat, donatur, dan bantuan hibah, sekolah memulai pelayanan dengan 40 peserta didik. Pada 6 Januari 1970, gedung sekolah bersama TKK Wijana dan Balai Pengobatan Santa Maria diberkati oleh Uskup Surabaya Mgr. Yohannes Klooster, C.M. Dalam perkembangannya, kelembagaan sekolah semakin kokoh hingga pada tahun 2002 resmi bernaung di bawah Yayasan Pendidikan Yohanes Gabriel.<br/><br/>Sejak awal, SD Katolik Wijana Jombang memiliki kekhasan dalam semangat keterbukaan, gotong royong, serta penerimaan peserta didik dari beragam latar belakang. Nilai-nilai Kristiani dan pembentukan karakter terus menjadi bagian penting dalam kehidupan sekolah melalui pendampingan paroki dan yayasan. Sejalan dengan perkembangan zaman, sekolah juga secara berkelanjutan meningkatkan kualitas SDM serta mengembangkan dan memperbarui sarana-prasarana untuk menciptakan layanan pendidikan yang relevan, berkualitas, dan tetap berakar pada nilai-nilai luhur yang telah diwariskan sejak awal berdirinya.",
-            programs: "Sejalan dengan semangat keterbukaan, gotong royong, pembentukan karakter, dan nilai-nilai Kristiani yang menjadi kekhasan SD Katolik Wijana Jombang, sekolah menghadirkan beragam program unggulan yang mengembangkan peserta didik secara utuh. <b>Dies Familiaritas, Faith Camp, dan Sharing and Caring Day</b> memperkuat iman, persaudaraan, serta kepedulian terhadap sesama; <b>Market Day dan Math Fun</b> mengembangkan kemandirian, kreativitas, serta kemampuan akademik; sementara <b>Basket Talent dan Wijana Scout Camp</b> menumbuhkan sportivitas, kedisiplinan, dan semangat berprestasi. Kepedulian terhadap budaya dan lingkungan diwujudkan melalui <b>Wijana Dolanan, Veggie Fun Day, dan Jumat Resik</b>, sehingga setiap kegiatan menjadi ruang bagi siswa untuk belajar, bertumbuh, berkarya, dan menghidupi nilai kasih dalam kehidupan sehari-hari.",
-            address: "Jl. KH. Wahid Hasyim No. 38 Kepanjen-Jombang ",
-            phone: "(0321) 8490558",
-            email: "sdkatolikwijanajombang@gmail.com",
-            website: "https://s.id/sdkwijana", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/wijanajombang",
-            facebook: "https://www.facebook.com/sdkwijanajombang", 
-            youtube: "https://www.youtube.com/@SDKWijana",
-            maps: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3126.054407680334!2d112.23629899999999!3d-7.552549000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMzMnMDkuMiJTIDExMsKwMTQnMTAuNyJF!5e1!3m2!1sid!2sid!4v1788848248183!5m2!1sid!2sid"
+            level: "SMK",
+            name: "SMKS St Bonaventura 1 Madiun",
+            logo: "",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SMK St. Bonaventura 1 Madiun merupakan sekolah terakreditasi A yang berkomitmen membentuk generasi berkarakter, kompeten, dan siap bersaing di dunia kerja. Dengan tiga program keahlian unggulan, yaitu Manajemen Perkantoran dan Layanan Bisnis, Marketing, serta Akuntansi dan Keuangan, sekolah menghadirkan pendidikan yang relevan dengan kebutuhan dunia usaha dan dunia industri. Lulusan dipersiapkan untuk memasuki dunia kerja, baik di dalam maupun luar negeri, termasuk melalui kesempatan magang internasional di Jepang, Turki, dan Jerman. Untuk mendukung akses pendidikan, sekolah menyediakan fasilitas bebas uang gedung, SPP gratis selama tiga tahun, asrama putra dan putri gratis, serta pilihan kelas online bagi siswa yang memiliki keterbatasan jarak maupun waktu.<br/><br/>Selain mengembangkan kompetensi akademik dan keterampilan kerja, SMK St. Bonaventura 1 Madiun juga menanamkan nilai toleransi, kedisiplinan, kemandirian, tanggung jawab, dan akhlak mulia melalui berbagai kegiatan pembentukan karakter. Pembelajaran agama diberikan sesuai keyakinan masing-masing peserta didik dalam semangat saling menghormati. Keberagaman siswa yang berasal dari berbagai provinsi di Indonesia hingga Malaysia turut menciptakan lingkungan belajar yang inklusif dan penuh persaudaraan. Dengan semangat “Belajar Berkualitas, Berkarakter, Siap Kerja, Siap Mendunia,” sekolah hadir bukan sekadar sebagai tempat belajar, melainkan sebagai ruang untuk membangun karakter, mengembangkan kompetensi, dan mempersiapkan masa depan.",
+            programs: "Sebagai bentuk komitmen dalam mempersiapkan peserta didik menghadapi masa depan, SMK St. Bonaventura 1 Madiun menghadirkan berbagai program unggulan, mulai dari pendidikan berbudaya nasional yang terbuka bagi semua agama dan budaya, beragam kelas kewirausahaan, hingga kemitraan dengan berbagai perusahaan dan perguruan tinggi. Sekolah juga membuka peluang penempatan tenaga kerja di dalam maupun luar negeri, khususnya kawasan Asia, serta program Kuliah Kerja di Jerman. Untuk memperluas akses pendidikan yang berkualitas, tersedia pula beasiswa afirmasi bagi peserta didik dari keluarga kurang mampu. Berbagai program ini menjadi wujud upaya sekolah dalam memberikan kesempatan berkembang, berkarier, dan meraih masa depan yang lebih baik bagi setiap peserta didik.",
+            address: "Jl. P. Sudirman 83B Taman Madiun",
+            phone: "(0351) 454237",
+            whatsapp: "",
+            email: "smkbonaventura1@gmail.com",
+            website: "https://bovensa.sch.id/",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/smk_bona_1",
+            facebook: "https://www.facebook.com/bovensa.madiun.9",
+            youtube: "https://www.youtube.com/@smkst.bonaventura1madiun177",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4731.983003099826!2d111.5207985757814!3d-7.631906475478168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bef58e974a57%3A0xb178d511a0bc586!2sSMK%20St.%20Bonaventura%201%20Madiun!5e1!3m2!1sid!2sid!4v1793887558629!5m2!1sid!2sid"
         },
         {
             id: 11,
-            level: "SD",
-            name: "SD Katolik Budi Luhur",
-            logo: "https://i.ibb.co.com/0Rj6MKqZ/SDK-Nganjuk.jpg",
-            images: ["https://i.ibb.co.com/6zxW5sP/Foto-Sekolah-1-SDKBudi-Ngjk.jpg","https://i.ibb.co.com/Pzfq33BH/Foto-Sekolah-2-SDKBudi-Ngjk.jpg","https://i.ibb.co.com/HDj2PbhJ/Foto-Sekolah-3-SDKBudi-Ngjk.jpg"],
-            description: "SD Katolik Budi Luhur Nganjuk yang berlokasi di Jl. RA Kartini No. 58, Mangundikaran, Nganjuk, berdiri sejak 2 Januari 1974 dan berada di bawah naungan St. John Gabriel Foundation. Sebagai sekolah Katolik yang terbuka bagi peserta didik dari berbagai latar belakang agama, sekolah memiliki lokasi strategis di pusat kota dan dekat dengan berbagai fasilitas umum yang mendukung kegiatan pembelajaran. Berlandaskan visi “Terwujudnya Insan Beriman, Berkarakter, dan Berdaya Saing Global Melalui Pembelajaran Mendalam dan Inovatif”, sekolah mengembangkan pendidikan yang berpusat pada siswa melalui penguatan pembelajaran, karakter, profesionalitas SDM, dan kemitraan.<br/><br/>Pada tahun ajaran 2026–2027, SD Katolik Budi Luhur mengembangkan pembelajaran intrakurikuler berbasis Kurikulum Merdeka dengan pendekatan deep learning serta berbagai metode dan media inovatif. Pembelajaran diperkaya melalui kegiatan kokurikuler seperti outing class, outbond, kunjungan ke perpustakaan daerah, pemadam kebakaran, dan kegiatan renang, serta ekstrakurikuler akademik seperti Sains, Math Club, English Club, dan Bahasa Mandarin untuk mengembangkan bakat, minat, dan prestasi siswa. Didukung oleh tenaga pendidik dan kependidikan yang terus meningkatkan kompetensinya melalui berbagai pelatihan, sekolah berkomitmen memberikan layanan pendidikan yang relevan, berkualitas, dan mempersiapkan peserta didik menghadapi tantangan masa depan.",
-            programs: "Sejalan dengan komitmen membentuk insan yang beriman, berkarakter, dan berdaya saing global, SD Katolik Budi Luhur Nganjuk menghadirkan berbagai program yang mengembangkan peserta didik secara utuh. Pembinaan iman diwujudkan melalui rangkaian Misa, ibadat, dan rekoleksi sepanjang tahun liturgi, mulai dari Misa Awal Tahun Ajaran, BKSN, Bulan Rosario, Adven, Natal, Prapaskah, Paskah, Bulan Maria, hingga ibadat syukur akhir tahun ajaran. Pengembangan akademik dan bakat difasilitasi melalui Math Club, Sains, English Club, Bahasa Mandarin, serta kegiatan seni dan kreativitas seperti vokal, musik, tari, lukis, multimedia, dan Pramuka. Pembelajaran juga diperkaya dengan berbagai outing class, seperti nobar film pendidikan, belajar di alam dan outbond, renang, serta kunjungan edukatif bersama Pemadam Kebakaran, sehingga siswa memperoleh pengalaman belajar yang nyata, menyenangkan, dan bermakna.",
-            address: "Jl. R. A. Kartini 58 Nganjuk ",
-            phone: "0358-322085",
-            email: "sdkbudi@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/sdkbudiluhur.nganjuk",
-            facebook: "", 
+            level: "SMK",
+            name: "SMKS St Bonaventura 2 Madiun",
+            logo: "https://i.ibb.co.com/PzMKM7by/SMK-St-Bona.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SMK St. Bonaventura 2 Madiun merupakan lembaga pendidikan kejuruan yang berkomitmen membekali peserta didik dengan kompetensi sesuai kebutuhan dunia kerja melalui dua program keahlian, yaitu Teknik Kendaraan Ringan dan Teknik Pemesinan. Kedua program tersebut dirancang untuk mengembangkan keterampilan teknis, mulai dari perawatan dan perbaikan kendaraan hingga pengoperasian mesin dan pembuatan komponen industri. Melalui pembelajaran teori dan praktik, sekolah berupaya menghasilkan lulusan yang kompeten, terampil, disiplin, mandiri, serta siap bekerja maupun melanjutkan pendidikan.<br/><br/>Untuk memperluas akses pendidikan bagi peserta didik dari luar Kota Madiun, SMK St. Bonaventura 2 menyediakan fasilitas asrama yang berada dalam satu lokasi dengan sekolah di Jalan Borobudur No. 70, Kota Madiun. Asrama ini menjadi solusi bagi siswa yang menghadapi kendala jarak, tempat tinggal, maupun kondisi sosial ekonomi keluarga. Selain sebagai tempat tinggal, asrama juga menjadi bagian dari lingkungan pembinaan yang menanamkan kedisiplinan, kemandirian, tanggung jawab, dan karakter positif. Melalui dukungan fasilitas dan program pendidikan tersebut, sekolah berkomitmen menjangkau lebih banyak peserta didik serta mempersiapkan lulusan yang terampil, berkarakter, dan siap menghadapi dunia kerja.",
+            programs: "Sebagai upaya memperluas kompetensi dan kesiapan kerja peserta didik, SMK St. Bonaventura 2 Madiun mengembangkan berbagai kelas keterampilan tambahan, meliputi Japanese Class untuk membekali siswa dengan kemampuan berbahasa Jepang, Welding Class untuk mengembangkan keterampilan pengelasan, Driver Class untuk memberikan pengetahuan dan keterampilan dasar mengemudi, serta Coding & AI Class untuk mengenalkan teknologi pemrograman dan kecerdasan buatan. Berbagai program ini dirancang untuk memperkaya keterampilan praktis, meningkatkan daya saing, serta membuka peluang karier peserta didik di dunia kerja yang semakin berkembang.",
+            address: "Jl. Borobudur No. 70 Madiun",
+            phone: "(0351)462072",
+            whatsapp: "",
+            email: "smksbonaventura2madiun@gmail.com",
+            website: "",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/smksbonaventura2madiun",
+            facebook: "",
             youtube: "",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.694623754806!2d111.90589329999999!3d-7.602123300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784ba84c4eda33%3A0xa191c3245eaabde1!2sTK%20-%20SD%20Katolik%20%22Budi%20Luhur%22!5e1!3m2!1sid!2sid!4v1788848726391!5m2!1sid!2sid"
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4732.194676284669!2d111.5238532!3d-7.6127552000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bf006dc7924d%3A0xdbf87b413ed0b06a!2sSMK%20St.%20Bonaventura%202%20Madiun!5e1!3m2!1sid!2sid!4v1793887789958!5m2!1sid!2sid"
         },
         {
             id: 12,
-            level: "SD",
-            name: "SDK Yos Sudarso",
-            logo: "https://i.ibb.co.com/bgYK9ZwZ/SD-Yos-Kertosono.jpg",
-            images: ["https://i.ibb.co.com/cccHr3Wm/Foto-Sekolah-1-SDKYos-Krtsn.jpg","https://i.ibb.co.com/s9n47gBZ/Foto-Sekolah-2-SDKYos-Krtsn.jpg","https://i.ibb.co.com/70yxXBn/Foto-Sekolah-3-SDKYos-Krtsn.jpg"],
-            description: "SDK Yos Sudarso Kertosono merupakan lembaga pendidikan dasar Katolik di Jl. Rambutan No. 20, Pelem, Kertosono, Nganjuk, yang berada di bawah naungan St. John Gabriel Foundation. Sekolah ini resmi berdiri pada 1 Januari 1967, dipelopori Pemuda Katolik bersama tokoh masyarakat dan umat Katolik setempat sebagai bentuk kepedulian terhadap pendidikan anak setelah peristiwa G30S. Berawal dari 19 peserta didik, sekolah terus berkembang dan pada tahun 1978 berpindah ke lokasi Jalan Rambutan yang ditempati hingga kini. Secara kelembagaan, SDK Yos Sudarso tercatat dengan NPSN 20514039, SK Pendirian Nomor 0/6249/IV/79, serta memiliki akreditasi B.<br/><br/>Dalam perjalanannya, SDK Yos Sudarso Kertosono berkomitmen memberikan pendidikan yang menyeluruh dengan mengembangkan kemampuan akademik sekaligus karakter, kedisiplinan, tanggung jawab, kepedulian, dan nilai-nilai iman serta kemanusiaan. Sebagai bagian dari karya pendidikan Katolik, sekolah terus berupaya meningkatkan mutu pembelajaran sesuai perkembangan zaman tanpa meninggalkan nilai-nilai luhur yang menjadi dasar penyelenggaraan pendidikan. Dengan semangat tersebut, SDK Yos Sudarso mendampingi peserta didik agar tumbuh menjadi pribadi yang beriman, berkarakter, berpengetahuan, mandiri, dan mampu memberikan kontribusi positif bagi masyarakat.",
-            programs: "Sejalan dengan komitmennya memberikan pendidikan yang utuh dan adaptif terhadap perkembangan zaman, SDK Yos Sudarso Kertosono mengembangkan berbagai program unggulan yang mendukung kemampuan akademik, karakter, dan spiritualitas peserta didik. <b>Program Digital Learning</b> memperkaya pengalaman belajar dengan pemanfaatan teknologi, sementara <b>kelas tambahan</b> membantu peserta didik yang masih membutuhkan pendampingan dalam kemampuan membaca dan menulis. <b>Pembiasaan pagi dan meditasi pagi</b> menjadi sarana membangun kedisiplinan, ketenangan, serta kesiapan belajar, yang diperkuat melalui kegiatan <b>bina iman</b> setiap minggu untuk menumbuhkan nilai-nilai Kristiani dalam kehidupan sehari-hari.",
-            address: "Jl. Rambutan No. 20 Kertosono-Nganjuk",
-            phone: "0358-552089",
-            email: "sdkyossudarso1122@gmail.com",
-            website: "", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/sdkyossudarsokertosono",
-            facebook: "https://www.facebook.com/yos.sudarso.712161", 
-            youtube: "https://www.youtube.com/@sdkyossudarsokertosono4399",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.8123834714074!2d112.1038384!3d-7.595388099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7846f0f3a745f7%3A0x2e3c284a370b9e0f!2sSDK%20Yos%20Sudarso%20Kertosono!5e0!3m2!1sid!2sid!4v1788793352686!5m2!1sid!2sid"
+            level: "SMK",
+            name: "SMKS Farmasi Katolik Bina Farma Madiun",
+            logo: "https://i.ibb.co.com/bMm1Ywjd/SMK-Farmasi-Madiun.jpg",
+            images: ["https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg","https://i.imgur.com/DTdWWV8.jpeg"],
+            description: "SMK Farmasi Katolik Bina Farma Madiun merupakan lembaga pendidikan kejuruan swasta di bawah naungan St. John Gabriel Foundation yang berlokasi di Kota Madiun, Jawa Timur. Sekolah ini memiliki sejarah panjang dalam pendidikan kesehatan yang dimulai pada 11 Juli 1969 dengan nama Sekolah Asisten Apoteker (SAA), kemudian berkembang menjadi Sekolah Menengah Farmasi (SMF), hingga bertransformasi menjadi SMK pada tahun 2006. Dengan kekhasan di bidang Teknologi Farmasi, khususnya Farmasi Klinis dan Komunitas, sekolah mengembangkan pendidikan vokasi yang memadukan penguasaan ilmu pengetahuan, teknologi, serta keterampilan praktik untuk mempersiapkan peserta didik menghadapi dunia kerja di bidang kefarmasian dan kesehatan.<br/><br/>Sebagai lembaga pendidikan Katolik, SMK Farmasi Bina Farma Madiun juga mengintegrasikan nilai-nilai kasih, kepedulian, kejujuran, tanggung jawab, pelayanan, dan penghargaan terhadap keberagaman dalam kehidupan sekolah. Pembentukan karakter diperkuat melalui pembiasaan sikap positif, nasionalisme, gotong royong, kepedulian sosial, pengembangan kreativitas, literasi, dan kemampuan bernalar kritis. Dengan demikian, sekolah berkomitmen menghasilkan lulusan yang tidak hanya kompeten secara profesional, tetapi juga berintegritas, santun, peduli terhadap sesama, dan memiliki semangat melayani.",
+            programs: "Dalam mendukung pendidikan vokasi yang unggul dan relevan dengan perkembangan dunia kesehatan, SMK Farmasi Bina Farma Madiun mengembangkan berbagai program unggulan yang mencakup penguatan kompetensi, karakter, inovasi, dan kesiapan karier peserta didik. Program tersebut meliputi BINA FARMA CARE untuk pembinaan karakter dan pelayanan sosial, BINA LAB untuk penguatan keterampilan laboratorium farmasi, PHARMA GOES TO COMMUNITY untuk edukasi kesehatan masyarakat, PHARMA ENGLISH CLUB untuk pengembangan komunikasi bahasa Inggris, serta FARMA-PRENEUR untuk menumbuhkan jiwa kewirausahaan. Sekolah juga menghadirkan program BINA FARMA AWARD, sertifikasi kompetensi melalui LSP BINA FARMA, kemitraan industri dan rumah sakit, pembelajaran mendalam (Deep Learning for Pharmacy), penguatan kompetensi 6C, serta pengembangan sekolah ramah lingkungan melalui GREEN PHARMACY SCHOOL. Selain itu, terdapat DIGITAL PHARMACY CLASS, PHARMA RESEARCH & INNOVATION, BINA FARMA CHARACTER HABIT, serta ALUMNI & CAREER CENTER yang mendukung penguasaan teknologi, budaya riset, pembentukan karakter, dan pendampingan karier. Keseluruhan program ini dirancang untuk menghasilkan lulusan yang kompeten di bidang kefarmasian, berkarakter, inovatif, adaptif terhadap perkembangan teknologi, serta siap memasuki dunia kerja dan memberikan pelayanan kesehatan yang berhati nurani.",
+            address: "Jl. Tulus Bakti No.5A Taman Madiun",
+            phone: "(0351)452261",
+            whatsapp: "",
+            email: "binafarma@gmail.com",
+            website: "https://smkfbinafarma.blogspot.com/",
+            // Data Sosmed Baru:
+            instagram: "https://www.instagram.com/smkfbinafarmamadiun/",
+            facebook: "",
+            youtube: "",
+            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4731.893904329441!2d111.52914597578194!3d-7.639953475570595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79be8e63256f65%3A0xa9fbbf2940952cfc!2sSMK%20Farmasi%20Bina%20Farma!5e1!3m2!1sid!2sid!4v1793888045652!5m2!1sid!2sid"
         },
-        {
-            id: 13,
-            level: "SMP",
-            name: "SMP Katolik Wijana",
-            logo: "https://i.ibb.co.com/B5YcCJQz/SMPK-Jombang.jpg",
-            images: ["https://i.ibb.co.com/cpTmDxQ/Foto-Sekolah-1-SMPKWijana.jpg","https://i.ibb.co.com/SwTbGY1g/Foto-Sekolah-2-SMPKWijana.jpg","https://i.ibb.co.com/6JJwX6Vv/Foto-Sekolah-3-SMPKWijana.jpg"],
-            description: "SMP Katolik Wijana Jombang merupakan sekolah menengah pertama swasta yang berlokasi di Jl. KH. Wachid Hasyim No. 40, Kepanjen, Jombang, dan berada di bawah naungan St. John Gabriel Foundation Keuskupan Surabaya. Didirikan pada 7 Juli 1958, sekolah ini telah lebih dari enam dekade melayani pendidikan masyarakat Jombang. Sebagai sekolah Katolik, SMP Katolik Wijana memadukan pendidikan akademik, pembentukan iman, dan penguatan karakter untuk membentuk peserta didik yang beriman, berkarakter luhur, bertanggung jawab, peduli terhadap sesama, serta mampu hidup dalam keberagaman. Sekolah juga mengembangkan semangat pelayanan dan kepedulian lingkungan dengan menciptakan suasana belajar yang aman, humanis, dan inklusif.<br/><br/>Dalam menghadapi perkembangan zaman, SMP Katolik Wijana Jombang terus mengembangkan pembelajaran yang adaptif, kreatif, dan berbasis teknologi melalui penguatan literasi, bahasa, sains, matematika, serta bimbingan olimpiade. Pengembangan potensi peserta didik didukung melalui berbagai kegiatan olahraga, pramuka, seni, fotografi dan video, robotika, coding, hingga pengembangan konten digital. Dengan mengintegrasikan iman, karakter, akademik, teknologi, kreativitas, keterampilan abad ke-21, dan kepedulian lingkungan, sekolah berkomitmen mendampingi peserta didik agar tumbuh menjadi pribadi yang cerdas, terampil, mandiri, berintegritas, dan siap menghadapi masa depan.",
-            programs: "Program unggulan SMP Katolik Wijana Jombang dirancang untuk memperkuat pendidikan yang mengintegrasikan iman, karakter, akademik, kepemimpinan, kesehatan, dan kepedulian lingkungan. Melalui <b>Gerakan Literasi Wijana (GLW)</b>, siswa dibiasakan membaca, menulis, dan berpikir kritis; sementara <b>Ibadah Pagi</b> menjadi sarana pembentukan karakter dan penghayatan nilai Katolisitas dalam kehidupan sehari-hari. Penguatan prestasi akademik diwujudkan melalui <b>Pendampingan TKA</b> serta <b>Pendampingan OSN</b> bidang Matematika, IPA, dan IPS. Sejalan dengan komitmen terhadap wawasan lingkungan, program <b>Healthy and Green School</b> membangun budaya hidup bersih, sehat, dan bertanggung jawab. Sementara itu, <b>Student Leadership Academy</b> mengembangkan kepemimpinan, komunikasi, manajemen kegiatan, dan kewirausahaan siswa, yang diperkuat melalui <b>Parent Partnership Program</b> sebagai wadah kolaborasi antara sekolah, orang tua, dan St. John Gabriel Foundation dalam mendampingi perkembangan peserta didik secara utuh.",
-            address: "Jl. KH. Wachid Hasyim No. 40 Jombang ",
-            phone: "(0321) 495331",
-            email: "smpkwijana@gmail.com",
-            website: "https://smpkatolikwijana.sch.id/", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/smpk.wijanajombang",
-            facebook: "https://www.facebook.com/smpk.w.jombang", 
-            youtube: "https://www.youtube.com/@officialsmpkatolikwijanajo3911",
-            maps: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d390.7575384130826!2d112.2365216!3d-7.5517334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78401e7afa7c23%3A0xd4502ecb5eac073a!2sSMPK%20WIJANA%20JOMBANG!5e1!3m2!1sid!2sid!4v1789005347803!5m2!1sid!2sid"
-        },
-        {
-            id: 14,
-            level: "SMP",
-            name: "SMP Katolik Budi Luhur Nganjuk",
-            logo: "https://i.ibb.co.com/d0DMxBBX/SMPK-Nganjuk.jpg",
-            images: ["https://i.ibb.co.com/7xzWX3ZK/Foto-Sekolah-1-SMPKBudi.jpg","https://i.ibb.co.com/zV0Jmrc9/Foto-Sekolah-2-SMPKBudi.jpg","https://i.ibb.co.com/v4LMfk9Q/Foto-Sekolah-3-SMPKBudi.jpg"],
-            description: "SMP Katolik Budi Luhur Nganjuk didirikan pada 20 Agustus 1957 oleh Yayasan Yohanes Gabriel sebagai bagian dari karya pendidikan Katolik di Nganjuk. Pada awalnya, sekolah menempati kompleks Gereja Katolik di kawasan alun-alun Nganjuk dan menjadi salah satu sekolah swasta yang turut melayani peserta didik dari berbagai latar belakang, termasuk anak-anak Tionghoa dan keluarga Kristen. Dalam perkembangannya, sekolah menjadi bagian penting dari kehidupan umat Katolik Nganjuk dan turut melahirkan lulusan yang melanjutkan pendidikan ke berbagai sekolah menengah di Nganjuk maupun kota-kota sekitar. SMPK Budi Luhur dikenal memiliki kekhasan dalam kedisiplinan serta prestasi akademik dan nonakademik, khususnya olahraga basket.<br/><br/>Memasuki tahun 1991–1992, SMPK Budi Luhur sempat menghadapi krisis jumlah peserta didik akibat berkembangnya sekolah negeri dan sekolah kejuruan. Kondisi tersebut direspons melalui gerakan pelayanan dan kepedulian umat, antara lain Gerakan Anak Asuh, pembangunan asrama, pelibatan guru Katolik dari sekolah negeri, penugasan tenaga pendidik, pemberian beasiswa, serta penggalangan dukungan bagi keberlangsungan sekolah. Upaya tersebut menjadi bagian dari perjalanan sekolah dalam mempertahankan karya pendidikan Katolik di Nganjuk. Hingga kini, SMPK Budi Luhur terus berkembang dan berdasarkan penilaian Badan Akreditasi Nasional tahun 2023 memperoleh akreditasi A.",
-            programs: "Program unggulan <b>Solo Vocal</b> menjadi salah satu wadah pengembangan bakat dan kreativitas peserta didik di bidang seni sekaligus sarana membangun kepercayaan diri, kedisiplinan, keberanian tampil, dan kemampuan mengekspresikan diri secara positif. Melalui latihan yang terarah dan kesempatan mengikuti berbagai kegiatan maupun kompetisi, siswa didampingi untuk mengembangkan potensi vokalnya secara optimal sekaligus menumbuhkan sikap tanggung jawab, ketekunan, sportivitas, dan semangat berprestasi yang sejalan dengan komitmen sekolah dalam membentuk pribadi yang berkarakter dan mampu mengembangkan talenta yang dimiliki.",
-            address: "Jl. Jendral Basuki Rahmad No. 2 Nganjuk ",
-            phone: "(0358) 321669",
-            email: "smpknganjuk@gmail.com",
-            website: "http://smpkbudiluhurnganjuk.sch.id/", 
-            // Contoh jika ada sosmed yang kosong:
-            instagram: "https://www.instagram.com/smpknganjuk/",
-            facebook: "", 
-            youtube: "https://www.youtube.com/@smpkatolikbudiluhurnganjuk5373",
-            maps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.69841196684!2d111.9015552!3d-7.601603000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784b0652542d03%3A0xd389a99f52568131!2sSMP%20Katolik%20Budi%20Luhur!5e1!3m2!1sid!2sid!4v1789006012695!5m2!1sid!2sid"
-        }
     ];
 
 
@@ -343,18 +319,17 @@ document.addEventListener("DOMContentLoaded", () => {
     let currentSlide = 0;
     
     // Fungsi Render Konten Sekolah
-    function renderSchool(id) {
+function renderSchool(id) {
         const school = schools.find(item => item.id == id);
         if (!school) return;
 
-        currentSlide = 0; // Reset slide ke gambar pertama setiap ganti sekolah
-
+        currentSlide = 0; 
         const hasSocialMedia = school.instagram || school.facebook || school.youtube;
 
         // --- SCRIPT BARU UNTUK SLIDER ---
+        // (Biarkan script slider sama seperti kode asli Anda)
         let sliderHTML = "";
         if (school.images && school.images.length > 0) {
-            // Tambahkan atribut onload pada tag img
             const imagesHTML = school.images.map((img, index) => `
                 <img 
                     src="${img}" 
@@ -363,7 +338,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 >
             `).join('');
 
-            // Tambahkan class 'skeleton' pada div slider-container
             sliderHTML = `
                 <div class="slider-container skeleton">
                     <div class="slides-wrapper">
@@ -376,7 +350,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             `;
         }
-        // --------------------------------
+
+        // ==========================================
+        // TEMPLATE PESAN SPMB & LINK WHATSAPP
+        // ==========================================
+        const waNumber = school.whatsapp || "6280000000000"; // Fallback jika nomor WA belum diisi
+        const waTemplateMessage = encodeURIComponent(`Halo Admin ${school.name}, saya ingin menanyakan informasi mengenai pendaftaran siswa baru (SPMB). Apakah ada brosur atau informasi persyaratannya? Terima kasih.`);
+        const waLink = `https://wa.me/${waNumber}?text=${waTemplateMessage}`;
 
         content.innerHTML = `
             <article class="school-card">
@@ -392,11 +372,20 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2>${school.name}</h2>
                         </div>
                     </div>
+                    
+                    <!-- TOMBOL HIGHLIGHT SPMB -->
+                    <a href="${waLink}" target="_blank" rel="noopener noreferrer" class="btn-highlight wa-btn" title="Tanya Informasi SPMB">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                        </svg>
+                        TANYA INFO SPMB
+                    </a>
                 </div>
 
-                <!-- MASUKKAN SLIDER DISINI MENGGANTIKAN <figure> -->
+                <!-- MASUKKAN SLIDER DISINI -->
                 ${sliderHTML}
 
+                <!-- Sisa kode description, program, map sama seperti sebelumnya... -->
                 <div class="school-description">
                     <p>${school.description}</p>
                 </div>
@@ -454,33 +443,42 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function changeSchool(id) {
-        const currentActive = navigation.querySelector("button.active");
-        if (currentActive && Number(currentActive.dataset.id) === id) return;
+            const currentActive = navigation.querySelector("button.active");
+            if (currentActive && Number(currentActive.dataset.id) === id) return;
 
-        activateButton(id);
+            activateButton(id);
 
-        // Tambahkan baris ini untuk autoscroll ke bagian atas dari konten
-        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // --- PERBAIKAN SCROLL DENGAN OFFSET ---
+            // Hitung jarak elemen dari atas layar, dikurangi jarak navbar (misal 110px)
+            const headerOffset = 110; // Sesuaikan angka ini dengan tinggi navbar website Anda
+            const elementPosition = content.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        content.animate([
-            { opacity: 1, transform: "translateY(0)" },
-            { opacity: 0, transform: "translateY(15px)" }
-        ], {
-            duration: 200,
-            fill: "forwards",
-            easing: "ease-in"
-        }).onfinish = () => {
-            renderSchool(id);
-            content.animate([
-                { opacity: 0, transform: "translateY(15px)" },
-                { opacity: 1, transform: "translateY(0)" }
-            ], {
-                duration: 400,
-                fill: "forwards",
-                easing: "cubic-bezier(.22, 1, .36, 1)"
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
             });
-        };
-    }
+            // --------------------------------------
+
+            content.animate([
+                { opacity: 1, transform: "translateY(0)" },
+                { opacity: 0, transform: "translateY(15px)" }
+            ], {
+                duration: 200,
+                fill: "forwards",
+                easing: "ease-in"
+            }).onfinish = () => {
+                renderSchool(id);
+                content.animate([
+                    { opacity: 0, transform: "translateY(15px)" },
+                    { opacity: 1, transform: "translateY(0)" }
+                ], {
+                    duration: 400,
+                    fill: "forwards",
+                    easing: "cubic-bezier(.22, 1, .36, 1)"
+                });
+            };
+        }
 
     navigation.addEventListener("click", (e) => {
         const button = e.target.closest("button");
