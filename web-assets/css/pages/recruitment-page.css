@@ -1041,6 +1041,13 @@
   height: 480px;
 }
 
+@media (max-width:1440px) {
+  #yjg-foundation #yjg-recruitment .recruitment-hero {
+  min-height: 500px;
+  padding: 130px 0 110px;
+}
+}
+
 /* =========================================================
    12. RESPONSIVE — TABLET
    ========================================================= */
