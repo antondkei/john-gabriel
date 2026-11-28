@@ -1,4 +1,3 @@
-
 /* =========================================
    BULLETIN PUBLICATION
 ========================================= */
@@ -22,7 +21,7 @@
 
 #yjg-foundation .bulletin-heading {
   max-width: 720px;
-  margin-bottom: 48px;
+  margin-bottom: 52px;
 }
 
 #yjg-foundation .bulletin-label {
@@ -31,6 +30,7 @@
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.14em;
+  text-transform: uppercase;
   margin-bottom: 16px;
 }
 
@@ -38,7 +38,8 @@
   font-family: var(--font-header);
   color: var(--color-primary);
   font-size: var(--fs-h1);
-  line-height: 1.2;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
   font-weight: 700;
   margin-bottom: 16px;
 }
@@ -77,12 +78,13 @@
   background: var(--color-white);
   border: 1px solid rgba(25, 26, 83, 0.09);
   border-radius: var(--radius-sm);
+  box-shadow: 0 2px 12px rgba(25, 26, 83, 0.03);
 
   transition: var(--transition-premium);
 }
 
 #yjg-foundation .bulletin-card:hover {
-  border-color: rgba(25, 26, 83, 0.25);
+  border-color: rgba(25, 26, 83, 0.24);
   transform: translateY(-3px);
   box-shadow: var(--shadow-premium);
 }
@@ -93,12 +95,22 @@
 ========================================= */
 
 #yjg-foundation .bulletin-cover {
+  position: relative;
   width: 100%;
   aspect-ratio: 21.5 / 33;
   overflow: hidden;
   background: var(--color-bg-light-gold);
   border-radius: 3px;
-  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+#yjg-foundation .bulletin-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+  pointer-events: none;
+  border-radius: inherit;
 }
 
 #yjg-foundation .bulletin-cover img {
@@ -107,11 +119,10 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transition: transform 0.6s ease;
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-#yjg-foundation .bulletin-card:hover
-.bulletin-cover img {
+#yjg-foundation .bulletin-card:hover .bulletin-cover img {
   transform: scale(1.035);
 }
 
@@ -129,7 +140,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 #yjg-foundation .bulletin-edition {
@@ -149,7 +160,7 @@
 
   font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 
   border-radius: 3px;
@@ -158,7 +169,8 @@
 #yjg-foundation .bulletin-content h2 {
   font-family: var(--font-header);
   font-size: clamp(21px, 2.2vw, 28px);
-  line-height: 1.3;
+  line-height: 1.28;
+  letter-spacing: -0.015em;
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 12px;
@@ -180,15 +192,17 @@
 #yjg-foundation .bulletin-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
+  gap: 8px 22px;
 
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   margin-bottom: 20px;
 
   border-bottom: 1px solid rgba(25, 26, 83, 0.1);
 
   color: #777;
   font-size: 12px;
+  letter-spacing: 0.01em;
 }
 
 
@@ -210,6 +224,16 @@
   font-size: 12px;
   gap: 9px;
   border-radius: 4px;
+  transition: var(--transition-premium);
+}
+
+#yjg-foundation .bulletin-actions svg {
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+#yjg-foundation .bulletin-actions .btn:hover svg {
+  transform: translateX(2px);
 }
 
 
@@ -264,6 +288,7 @@
 
   #yjg-foundation .bulletin-card {
     grid-template-columns: 105px minmax(0, 1fr);
+    align-items: start;
     gap: 15px;
     padding: 14px;
   }
@@ -318,6 +343,31 @@
   #yjg-foundation .bulletin-actions svg {
     width: 14px;
     height: 14px;
+  }
+
+}
+
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  #yjg-foundation .bulletin-card,
+  #yjg-foundation .bulletin-cover img,
+  #yjg-foundation .bulletin-actions .btn,
+  #yjg-foundation .bulletin-actions svg {
+    transition: none;
+  }
+
+  #yjg-foundation .bulletin-card:hover {
+    transform: none;
+  }
+
+  #yjg-foundation .bulletin-card:hover .bulletin-cover img,
+  #yjg-foundation .bulletin-actions .btn:hover svg {
+    transform: none;
   }
 
 }
